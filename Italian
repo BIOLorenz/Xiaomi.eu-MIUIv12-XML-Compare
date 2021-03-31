@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="auth_activity_label">Codici di verifica</string>
+    <string name="auth_fingerprint_content">Lettura dell\'impronta\u2026</string>
+    <string name="auth_fingerprint_content_message">Posiziona il dito sul sensore</string>
+    <string name="auth_fingerprint_content_message_error">"Impossibile scansionare, riprova"</string>
+    <string name="auth_fingerprint_title">Posiziona il dito sul lettore di impronta</string>
+    <string name="autofill_hint_email_address">E-mail</string>
+    <string name="autofill_hint_name">Nome</string>
+    <string name="autofill_hint_password">Password</string>
+    <string name="autofill_hint_phone">Numero di telefono</string>
+    <string name="autofill_hint_username">Nome utente</string>
+    <string name="autofill_list_title">Gestisci password</string>
+    <string name="autofill_password_activity_label">Codici di verifica</string>
+    <string name="autofill_service_label">Gestisci password</string>
+    <string name="autofill_setting_activity_label">Gestisci password</string>
+    <string name="back_button_label">Indietro</string>
+    <string name="cancel">Annulla</string>
+    <string name="delete">Elimina</string>
+    <string name="login_mi_account_alert">Avvisa</string>
+    <string name="ok">OK</string>
+    <string name="search">Cerca</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="xiaomi_account_type">com.xiaomi</string>
+</resources>
