@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Finestre fluttuanti</string>
-    <string name="contentDescription">Spostamento della finestra</string>
-    <string name="freeform_demo_back">Indietro</string>
-    <string name="freeform_demo_final_over">Fatto</string>
-    <string name="freeform_demo_final_restart">Riavvia</string>
-    <string name="freeform_demo_final_title">"Studio terminato"</string>
-    <string name="freeform_demo_go_on">Successivo</string>
-    <string name="freeform_demo_title_finish">Ottimo!</string>
-    <string name="freeform_demo_title_skip">Salta</string>
-    <string name="how_to_close_or_fullscreen_freeform">Chiudere finestre fluttuanti o passare alla modalità schermo intero</string>
-    <string name="how_to_drop_down_to_fullscreen">Passa alla modalità schermo intero</string>
-    <string name="how_to_drop_down_to_fullscreen_summary">Premere e tenere premuto e poi tirare giù la barra azione di una finestra fluttuante</string>
-    <string name="how_to_hang_freeform">Minimizzare le finestre fluttuanti</string>
-    <string name="how_to_hang_to_small_freeform">Minimizza la finestra fluttuante</string>
-    <string name="how_to_hang_to_small_freeform_summary">Trascina la finestra fluttuante nell\'angolo dello schermo</string>
-    <string name="how_to_move_freeform">Spostamento delle finestre fluttuanti</string>
-    <string name="how_to_move_freeform_window">Sposta la finestra fluttuante</string>
-    <string name="how_to_move_freeform_window_summary">Tieni premuta la barra azione di una finestra fluttuante per trascinarla</string>
-    <string name="how_to_notification_drop_down">Aprire una finestra fluttuante</string>
-    <string name="how_to_notification_drop_down_summary">Premere e tenere premuto e quindi tirare giù la barra azione di una notifica</string>
-    <string name="how_to_open_freeform">Apertura delle notifiche in una finestra fluttuante</string>
-    <string name="how_to_slide_up_to_close">Chiude la finestra fluttuante</string>
-    <string name="how_to_slide_up_to_close_summary">Scorri verso l\'alto dalla barra azione di una finestra fluttuante</string>
-    <string name="how_to_use_freeform">Come utilizzare finestre fluttuanti</string>
+    <string-array name="default_phrases">
+        <item>Invoice header: *** Inc.</item>
+        <item>Address: Street, Apt, City, Country/Region, Province, Postal code</item>
+        <item>Please leave the package by the door. Thanks!</item>
+        <item>"Wait a minute, I'll be right back."</item>
+        <item>"I'm in a meeting. Please send a text message."</item>
+        <item>"I can't talk now. I'll call you back as soon as possible."</item>
+        <item>Grazie.</item>
+    </string-array>
 </resources>
