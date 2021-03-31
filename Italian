@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="config_locationProviderPackageNames">
-        <item>com.android.location.fused</item>
-        <item>com.google.android.gms</item>
-        <item>com.qualcomm.location</item>
-        <item>com.xiaomi.location.fused</item>
-        <item>com.xiaomi.metoknlp</item>
-        <item>com.google.android.location</item>
-    </string-array>
+    <plurals name="file_type_detail_count">
+        <item quantity="other">%1$d file</item>
+        <item quantity="one">%1$d file</item>
+    </plurals>
 </resources>
