@@ -1,2313 +1,391 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="agps_apn_entries">
-        <item>CMWAP</item>
-        <item>CMNET</item>
-    </string-array>
-    <string-array name="agps_apn_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="agps_network_entries">
-        <item>Home network</item>
-        <item>Tutte le reti</item>
-    </string-array>
-    <string-array name="agps_network_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="agps_reset_type_entries">
-        <item>SCOTTANTI</item>
-        <item>WARM</item>
-        <item>COLD</item>
-    </string-array>
-    <string-array name="agps_reset_type_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="agps_si_mode_entries">
-        <item>MSB</item>
-        <item>MSA</item>
-    </string-array>
-    <string-array name="agps_si_mode_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="ai_item_action_array">
-        <item>Nessuno</item>
-        <item>Activate Google Assistant</item>
-    </string-array>
-    <string-array name="ai_key_item_name">
-        <item>Talk to Google Assistant</item>
-        <item>Open Google search</item>
-        <item>Open rear camera</item>
-        <item>Open front camera</item>
-        <item>Open previous app</item>
-        <item>Turn on flashlight</item>
-        <item>Turn on Reading mode</item>
-        <item>Nessuno</item>
-    </string-array>
-    <string-array name="alarm_repeat_type">
-        <item>Ogni giorno</item>
-        <item>Giorni feriali</item>
-        <item>Fine settimana</item>
-        <item>Personalizza</item>
-    </string-array>
-    <string-array name="alarm_repeat_type_no_workdays">
-        <item>Ogni giorno</item>
-        <item>Giorni feriali</item>
-        <item>Fine settimana</item>
-        <item>Personalizza</item>
-    </string-array>
-    <string-array name="animator_duration_scale_values">
-        <item>0</item>
-        <item>.5</item>
-        <item>1</item>
-        <item>1.5</item>
-        <item>2</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
-    <string-array name="aod_show_style_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="ap_identify">
-        <item>Predefinita</item>
-        <item>Hotspot</item>
-    </string-array>
-    <string-array name="apn_auth_entries">
-        <item>Nessuno</item>
-        <item>PAP</item>
-        <item>CHAP</item>
-        <item>PAP o CHAP</item>
-    </string-array>
-    <string-array name="apn_auth_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="app_install_location_values">
-        <item>dispositivo</item>
-        <item>sdcard</item>
-        <item>auto</item>
-    </string-array>
-    <string-array name="app_ops_categories">
-        <item>Piattaforma</item>
-        <item>Personale</item>
-        <item>Messaggi</item>
-        <item>MEDIA</item>
-        <item>Dispositivo</item>
-    </string-array>
-    <string-array name="app_ops_labels">
-        <item>Piattaforma</item>
-        <item>Piattaforma</item>
-        <item>Piattaforma</item>
-        <item>Vibrazione</item>
-        <item>Visualizza contatti</item>
-        <item>Modify contacts</item>
-        <item>Read call log</item>
-        <item>Modify call log</item>
-        <item>Read calendar</item>
-        <item>Modify calendar</item>
-        <item>Piattaforma</item>
-        <item>Post notification</item>
-        <item>Piattaforma</item>
-        <item>Call phone</item>
-        <item>Read SMS/MMS</item>
-        <item>Write SMS/MMS</item>
-        <item>Receive SMS/MMS</item>
-        <item>Receive SMS/MMS</item>
-        <item>Receive SMS/MMS</item>
-        <item>Receive SMS/MMS</item>
-        <item>Send SMS/MMS</item>
-        <item>Read SMS/MMS</item>
-        <item>Write SMS/MMS</item>
-        <item>Modify settings</item>
-        <item>Draw on top</item>
-        <item>Access notifications</item>
-        <item>Fotocamera</item>
-        <item>Registra audio</item>
-        <item>Play audio</item>
-        <item>Read clipboard</item>
-        <item>Modify clipboard</item>
-        <item>Media buttons</item>
-        <item>Messa a Fuoco Audio</item>
-        <item>Master volume</item>
-        <item>Voice volume</item>
-        <item>Ring volume</item>
-        <item>Volume contenuti multimediali</item>
-        <item>Volume sveglia</item>
-        <item>Volume notifiche</item>
-        <item>Bluetooth volume</item>
-        <item>Mantieni attivo</item>
-        <item>Piattaforma</item>
-        <item>Piattaforma</item>
-        <item>Get usage stats</item>
-        <item>Mute/unmute microphone</item>
-        <item>Show toast</item>
-        <item>Project media</item>
-        <item>Activate VPN</item>
-        <item>Write wallpaper</item>
-        <item>Assist structure</item>
-        <item>Assist screenshot</item>
-        <item>Read phone state</item>
-        <item>Add voicemail</item>
-        <item>Use sip</item>
-        <item>Process outgoing call</item>
-        <item>Impronta digitale</item>
-        <item>Sensori biometrici</item>
-        <item>Read cell broadcasts</item>
-        <item>Mock location</item>
-        <item>Read storage</item>
-        <item>Write storage</item>
-        <item>Turn on screen</item>
-        <item>Get accounts</item>
-        <item>Run in background</item>
-        <item>Accessibility volume</item>
-    </string-array>
-    <string-array name="app_ops_summaries">
-        <item>coarse location</item>
-        <item>fine location</item>
-        <item>Test GPS</item>
-        <item>vibra</item>
-        <item>read contacts</item>
-        <item>modify contacts</item>
-        <item>lettura del registro chiamate</item>
-        <item>modify call log</item>
-        <item>read calendar</item>
-        <item>modify calendar</item>
-        <item>wi-fi scan</item>
-        <item>notification</item>
-        <item>cell scan</item>
-        <item>call phone</item>
-        <item>read SMS</item>
-        <item>write SMS</item>
-        <item>receive SMS</item>
-        <item>receive emergency SMS</item>
-        <item>receive MMS</item>
-        <item>receive WAP push</item>
-        <item>send SMS</item>
-        <item>read ICC SMS</item>
-        <item>write ICC SMS</item>
-        <item>modify settings</item>
-        <item>draw on top</item>
-        <item>accesso a notifiche</item>
-        <item>camera</item>
-        <item>accesso diretto al microfono per registrare audio</item>
-        <item>riproduci audio</item>
-        <item>read clipboard</item>
-        <item>modify clipboard</item>
-        <item>media buttons</item>
-        <item>audio focus</item>
-        <item>master volume</item>
-        <item>voice volume</item>
-        <item>ring volume</item>
-        <item>media volume</item>
-        <item>alarm volume</item>
-        <item>notification volume</item>
-        <item>bluetooth volume</item>
-        <item>keep awake</item>
-        <item>monitor location</item>
-        <item>monitor high power location</item>
-        <item>get usage stats</item>
-        <item>mute/unmute microphone</item>
-        <item>show toast</item>
-        <item>project media</item>
-        <item>activate VPN</item>
-        <item>write wallpaper</item>
-        <item>assist structure</item>
-        <item>assist screenshot</item>
-        <item>read phone state</item>
-        <item>aggiunta di un messaggio vocale</item>
-        <item>use sip</item>
-        <item>process outgoing call</item>
-        <item>fingerprint</item>
-        <item>body sensors</item>
-        <item>read cell broadcasts</item>
-        <item>mock location</item>
-        <item>read storage</item>
-        <item>write storage</item>
-        <item>turn on screen</item>
-        <item>get accounts</item>
-        <item>run in background</item>
-        <item>accessibility volume</item>
-    </string-array>
-    <string-array name="app_process_limit_values">
-        <item>-1</item>
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-    <string-array name="autofill_logging_level_entries">
-        <item>Spenta</item>
-        <item>Debug</item>
-        <item>Verbose</item>
-    </string-array>
-    <string-array name="autofill_logging_level_values">
-        <item>0</item>
-        <item>2</item>
-        <item>4</item>
-    </string-array>
-    <string-array name="automatic_storage_management_days_values">
-        <item>30</item>
-        <item>60</item>
-        <item>90</item>
-    </string-array>
-    <string-array name="battery_indicator_style_entries">
-        <item>Grafico</item>
-        <item>Percentage (in the icon)</item>
-        <item>Percentage (next to the icon)</item>
-        <item>Barra in alto</item>
-    </string-array>
-    <string-array name="battery_indicator_style_values">
-        <item>0</item>
-        <item>1</item>
-        <item>3</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="bearer_entries">
-        <item>Unspecified</item>
-        <item>LTE</item>
-        <item>HSPAP</item>
-        <item>HSPA</item>
-        <item>HSUPA</item>
-        <item>HSDPA</item>
-        <item>UMTS</item>
-        <item>EDGE</item>
-        <item>GPRS</item>
-        <item>eHRPD</item>
-        <item>EVDO_B</item>
-        <item>EVDO_A</item>
-        <item>EVDO_0</item>
-        <item>1xRTT</item>
-        <item>IS95B</item>
-        <item>IS95A</item>
-        <item>NR</item>
-    </string-array>
-    <string-array name="bearer_values">
-        <item>0</item>
-        <item>14</item>
-        <item>15</item>
-        <item>11</item>
-        <item>10</item>
-        <item>9</item>
-        <item>3</item>
-        <item>2</item>
-        <item>1</item>
-        <item>13s</item>
-        <item>12</item>
-        <item>8</item>
-        <item>7</item>
-        <item>6</item>
-        <item>5</item>
-        <item>4</item>
-        <item>20</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_bits_per_sample_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>4</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Use system preference (Default)</item>
-        <item>Mono</item>
-        <item>Stereo</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Use system preference (Default)</item>
-        <item>Mono</item>
-        <item>Stereo</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_channel_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_values">
-        <item>ISO 1000</item>
-        <item>1001</item>
-        <item>1002</item>
-        <item>1003</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_sample_rate_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>4</item>
-        <item>8</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Use system preference (Default)</item>
-        <item>SBC</item>
-        <item>AAC</item>
-        <item>Qualcomm® aptX™ audio</item>
-        <item>Qualcomm® aptX™ HD audio</item>
-        <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC_V3</item>
-        <item>LHDC_V2</item>
-        <item>LHDC_V1</item>
-        <item>Enable optional codecs</item>
-        <item>Disable optional codecs</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Use system preference (Default)</item>
-        <item>SBC</item>
-        <item>AAC</item>
-        <item>Qualcomm® aptX™ audio</item>
-        <item>Qualcomm® aptX™ HD audio</item>
-        <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC_V3</item>
-        <item>LHDC_V2</item>
-        <item>LHDC_V1</item>
-        <item>Enable optional codecs</item>
-        <item>Disable optional codecs</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_values">
-        <item>1000000</item>
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-    </string-array>
-    <string-array name="bluetooth_max_connected_audio_devices">
-        <item>Use System Default: %1$d</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
-    <string-array name="bluetooth_max_connected_audio_devices_values">
-        <item></item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
-    <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 minuti</item>
-        <item>5 minutes</item>
-        <item>1 ora</item>
-        <item>Never time out</item>
-    </string-array>
-    <string-array name="broadcast_locales">
-        <item>AE</item>
-        <item>AG</item>
-        <item>AR</item>
-        <item>BH</item>
-        <item>BO</item>
-        <item>BS</item>
-        <item>BB</item>
-        <item>BZ</item>
-        <item>BR</item>
-        <item>CL</item>
-        <item>CO</item>
-        <item>CR</item>
-        <item>CU</item>
-        <item>DO</item>
-        <item>EC</item>
-        <item>EG</item>
-        <item>GF</item>
-        <item>GD</item>
-        <item>GQ</item>
-        <item>GT</item>
-        <item>GY</item>
-        <item>HT</item>
-        <item>HN</item>
-        <item>IN</item>
-        <item>IL</item>
-        <item>IR</item>
-        <item>JM</item>
-        <item>JO</item>
-        <item>KR</item>
-        <item>KW</item>
-        <item>MX</item>
-        <item>NI</item>
-        <item>OM</item>
-        <item>PA</item>
-        <item>PY</item>
-        <item>PE</item>
-        <item>QA</item>
-        <item>SA</item>
-        <item>SR</item>
-        <item>SV</item>
-        <item>KN</item>
-        <item>LC</item>
-        <item>VC</item>
-        <item>TW</item>
-        <item>TT</item>
-        <item>UY</item>
-        <item>VE</item>
-        <item>PL</item>
-        <item>GR</item>
-        <item>ME</item>
-        <item>CZ</item>
-        <item>HU</item>
-        <item>SK</item>
-        <item>AT</item>
-        <item>HR</item>
-        <item>RS</item>
-        <item>EE</item>
-        <item>ES</item>
-        <item>IT</item>
-        <item>PT</item>
-        <item>FR</item>
-    </string-array>
-    <string-array name="bt_hci_snoop_log_entries">
-        <item>Disabilitato</item>
-        <item>Filtered</item>
-        <item>Attivato</item>
-        <item>Headers filtered</item>
-        <item>Media packets filtered</item>
-    </string-array>
-    <string-array name="button_light_timeout_entries">
-        <item>1 secondo</item>
-        <item>2 seconds</item>
-        <item>5 seconds</item>
-        <item>10 secondi</item>
-        <item>20 seconds</item>
-        <item>Sempre</item>
-    </string-array>
-    <string-array name="button_light_timeout_value">
-        <item>ISO 1000</item>
-        <item>ISO 2000</item>
-        <item>ISO 5000</item>
-        <item>10000</item>
-        <item>20000</item>
-        <item>-1</item>
-    </string-array>
-    <string-array name="captioning_edge_type_selector_titles">
-        <item>Predefinita</item>
-        <item>Nessuno</item>
-        <item>Outline</item>
-        <item>Drop shadow</item>
-        <item>Raised</item>
-        <item>Depressed</item>
-    </string-array>
-    <string-array name="captioning_font_size_selector_summaries">
-        <item>Very small text size</item>
-        <item>Small text size</item>
-        <item>Dimensione testo predefinita</item>
-        <item>Large text size</item>
-        <item>Very large text size</item>
-    </string-array>
-    <string-array name="captioning_font_size_selector_titles">
-        <item>Very small</item>
-        <item>Piccolo</item>
-        <item>Predefinita</item>
-        <item>Largo</item>
-        <item>Very large</item>
-    </string-array>
-    <string-array name="captioning_font_size_selector_values">
-        <item>0.25</item>
-        <item>0.5s</item>
-        <item>1.0</item>
-        <item>1.5</item>
-        <item>2.0</item>
-    </string-array>
-    <string-array name="captioning_preset_selector_titles">
-        <item>Set by app</item>
-        <item>White on black</item>
-        <item>Black on white</item>
-        <item>Yellow on black</item>
-        <item>Yellow on blue</item>
-        <item>Personalizza</item>
-    </string-array>
-    <string-array name="captioning_typeface_selector_titles">
-        <item>Predefinita</item>
-        <item>Sans-serif</item>
-        <item>Sans-serif condensed</item>
-        <item>Sans-serif monospace</item>
-        <item>Serif</item>
-        <item>Serif monospace</item>
-        <item>Casual</item>
-        <item>Cursive</item>
-        <item>Small capitals</item>
-    </string-array>
-    <string-array name="cdma_subscription_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="cdma_system_select_choices">
-        <item>Home only</item>
-        <item>Automatico</item>
-    </string-array>
-    <string-array name="cdma_system_select_values">
-        <item>0</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="change_security_lock_picker">
-        <item>Sblocco con il volto</item>
-        <item>Sequenza</item>
-        <item>PIN</item>
-        <item>Password</item>
-    </string-array>
-    <string-array name="charge_animation_style_entries">
-        <item>Spenta</item>
-        <item>Flow</item>
-        <item>Splendore</item>
-        <item>Onda</item>
-    </string-array>
-    <string-array name="charge_animation_style_values">
-        <item>-1</item>
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="city_name">
-        <item>Abidjan</item>
-        <item>Accra</item>
-        <item>Addis Ababa</item>
-        <item>Algiers</item>
-        <item>Blantyre</item>
-        <item>Brazzaville</item>
-        <item>Cairo</item>
-        <item>Casablanca</item>
-        <item>Conakry</item>
-        <item>Dakar</item>
-        <item>Dar es Salaam</item>
-        <item>Djibouti</item>
-        <item>Freetown</item>
-        <item>Gaborone</item>
-        <item>Harare</item>
-        <item>Johannesburg</item>
-        <item>Kampala</item>
-        <item>Khartoum</item>
-        <item>Kigali</item>
-        <item>Kinshasa</item>
-        <item>Lagos</item>
-        <item>Maseru</item>
-        <item>Mogadishu</item>
-        <item>Nairobi</item>
-        <item>São Tomé</item>
-        <item>Timbuktu</item>
-        <item>Tripoli</item>
-        <item>Tunis</item>
-        <item>Anchorage</item>
-        <item>Mendoza</item>
-        <item>Aruba</item>
-        <item>Asunción</item>
-        <item>Barbados</item>
-        <item>Belize</item>
-        <item>Bogotá</item>
-        <item>Buenos Aires</item>
-        <item>Cancun</item>
-        <item>Caracas</item>
-        <item>Cayman Islands</item>
-        <item>Chicago</item>
-        <item>Costa Rica</item>
-        <item>Curaçao</item>
-        <item>Dawson Creek</item>
-        <item>Denver</item>
-        <item>Detroit</item>
-        <item>Dominica</item>
-        <item>Edmonton</item>
-        <item>El Salvador</item>
-        <item>Fortaleza</item>
-        <item>Grand Turk</item>
-        <item>Grenada</item>
-        <item>Guatemala</item>
-        <item>Guyana</item>
-        <item>Halifax</item>
-        <item>Havana</item>
-        <item>Indianapolis</item>
-        <item>Knox City</item>
-        <item>Petersburg</item>
-        <item>Tell City</item>
-        <item>Vevay</item>
-        <item>Vincennes</item>
-        <item>Winamac</item>
-        <item>Kingston</item>
-        <item>Nuestra Señora de La Paz</item>
-        <item>Lima</item>
-        <item>Los Angeles</item>
-        <item>Louisville</item>
-        <item>Managua</item>
-        <item>Martinique</item>
-        <item>Metlakatla</item>
-        <item>Mexico City</item>
-        <item>Monterrey</item>
-        <item>Montevideo</item>
-        <item>Montreal</item>
-        <item>Nassau</item>
-        <item>New York</item>
-        <item>Beulah</item>
-        <item>New Salem</item>
-        <item>Panama</item>
-        <item>Phoenix</item>
-        <item>Port of Spain</item>
-        <item>Port-au-Prince</item>
-        <item>Puerto Rico</item>
-        <item>Santo Domingo</item>
-        <item>São Paulo</item>
-        <item>St. Johns</item>
-        <item>St. Kitts</item>
-        <item>St. Lucia</item>
-        <item>St. Thomas</item>
-        <item>Tijuana</item>
-        <item>Toronto</item>
-        <item>Vancouver</item>
-        <item>Winnipeg</item>
-        <item>South Pole</item>
-        <item>Longyearbyen</item>
-        <item>Almaty</item>
-        <item>Amman</item>
-        <item>Anadyr</item>
-        <item>Aqtau</item>
-        <item>Baghdad</item>
-        <item>Bahrain</item>
-        <item>Baku</item>
-        <item>Bangkok</item>
-        <item>Beirut</item>
-        <item>Calcutta</item>
-        <item>Damascus</item>
-        <item>Dhaka</item>
-        <item>Dubai</item>
-        <item>Gaza</item>
-        <item>Hebron</item>
-        <item>Ho Chi Minh</item>
-        <item>Hong Kong</item>
-        <item>Jakarta</item>
-        <item>Jerusalem</item>
-        <item>Kabul</item>
-        <item>Karachi</item>
-        <item>Kathmandu</item>
-        <item>Kuala Lumpur</item>
-        <item>Kuwait</item>
-        <item>Macau</item>
-        <item>Manila</item>
-        <item>Muscat</item>
-        <item>Phnom Penh</item>
-        <item>Pyongyang</item>
-        <item>Qatar</item>
-        <item>Yangon</item>
-        <item>Riyadh</item>
-        <item>Seoul</item>
-        <item>Shanghai</item>
-        <item>Singapore</item>
-        <item>Taipei</item>
-        <item>Tehran</item>
-        <item>Tel Aviv</item>
-        <item>Tokyo</item>
-        <item>Ulaanbaatar</item>
-        <item>Bermuda</item>
-        <item>Canary Islands</item>
-        <item>Cape Verde</item>
-        <item>Reykjavik</item>
-        <item>Adelaide</item>
-        <item>Brisbane</item>
-        <item>Canberra</item>
-        <item>Darwin</item>
-        <item>Melbourne</item>
-        <item>New South Wales</item>
-        <item>Perth</item>
-        <item>Queensland</item>
-        <item>Sydney</item>
-        <item>Victoria</item>
-        <item>Newfoundland</item>
-        <item>Saskatchewan</item>
-        <item>Easter Island</item>
-        <item>Amsterdam</item>
-        <item>Andorra</item>
-        <item>Athens</item>
-        <item>Belfast</item>
-        <item>Belgrade</item>
-        <item>Berlin</item>
-        <item>Bratislava</item>
-        <item>Brussels</item>
-        <item>Bucharest</item>
-        <item>Budapest</item>
-        <item>Chisinau</item>
-        <item>Copenhagen</item>
-        <item>Dublin</item>
-        <item>Gibraltar</item>
-        <item>Helsinki</item>
-        <item>Isle of Man</item>
-        <item>Istanbul</item>
-        <item>Lisbon</item>
-        <item>London</item>
-        <item>Luxembourg</item>
-        <item>Madrid</item>
-        <item>Malta</item>
-        <item>Minsk</item>
-        <item>Monaco</item>
-        <item>Moscow</item>
-        <item>Oslo</item>
-        <item>Paris</item>
-        <item>Prague</item>
-        <item>Riga</item>
-        <item>Roma</item>
-        <item>San Marino</item>
-        <item>Sarajevo</item>
-        <item>Simferopol</item>
-        <item>Skopje</item>
-        <item>Sofia</item>
-        <item>Stockholm</item>
-        <item>Tallinn</item>
-        <item>Vatican City</item>
-        <item>Vienna</item>
-        <item>Vilnius</item>
-        <item>Warsaw</item>
-        <item>Zagreb</item>
-        <item>Zurich</item>
-        <item>Antananarivo</item>
-        <item>Maldives</item>
-        <item>Mauritius</item>
-        <item>Auckland</item>
-        <item>Fiji</item>
-        <item>Guam</item>
-        <item>Honolulu</item>
-        <item>Kiritimati</item>
-        <item>Noumea</item>
-        <item>Samoa</item>
-        <item>Tahiti</item>
-        <item>Antigua</item>
-        <item>Austin</item>
-        <item>Boston</item>
-        <item>Calgary</item>
-        <item>Columbus</item>
-        <item>Dallas</item>
-        <item>Knoxville</item>
-        <item>Memphis</item>
-        <item>Miami</item>
-        <item>Minneapolis</item>
-        <item>Ottawa</item>
-        <item>Philadelphia</item>
-        <item>Portland</item>
-        <item>San Diego</item>
-        <item>San Francisco</item>
-        <item>Salt Lake City</item>
-        <item>San Jose</item>
-        <item>Seattle</item>
-        <item>St. Louis</item>
-        <item>Washington D.C.</item>
-        <item>Houston</item>
-        <item>San Antonio</item>
-        <item>Jacksonville</item>
-        <item>Baltimore</item>
-        <item>Nashville</item>
-        <item>Milwaukee</item>
-        <item>Oklahoma City</item>
-        <item>Las Vegas</item>
-        <item>Albuquerque</item>
-        <item>Tucson</item>
-        <item>Sacramento</item>
-        <item>Atlanta</item>
-        <item>Cleveland</item>
-        <item>New Orleans</item>
-        <item>Tampa</item>
-        <item>Pittsburgh</item>
-        <item>Cincinnati</item>
-        <item>Mountain View</item>
-        <item>Reno</item>
-        <item>Doha</item>
-        <item>Pechino</item>
-        <item>Mumbai</item>
-        <item>Delhi</item>
-        <item>Osaka</item>
-        <item>Lahore</item>
-        <item>"Sana'a"</item>
-        <item>Barcelona</item>
-        <item>Munich</item>
-        <item>Milan</item>
-        <item>Frankfurt</item>
-        <item>Hanoi</item>
-        <item>Ankara</item>
-        <item>Bengaluru</item>
-        <item>Brasília</item>
-        <item>Cape Town</item>
-        <item>Islamabad</item>
-        <item>Rio de Janeiro</item>
-        <item>Ann Arbor</item>
-        <item>Boulder</item>
-        <item>Cambridge</item>
-        <item>Kirkland</item>
-        <item>Madison</item>
-        <item>Guangzhou</item>
-        <item>Hyderabad</item>
-        <item>Reston</item>
-        <item>Belo Horizonte</item>
-        <item>Santiago</item>
-        <item>Monrovia</item>
-        <item>Colombo</item>
-        <item>Chihuahua</item>
-        <item>Gurugram</item>
-        <item>Manchester</item>
-        <item>Kyiv</item>
-        <item>St. Petersburg</item>
-        <item>Kraków</item>
-        <item>Wroclaw</item>
-        <item>Hamburg</item>
-        <item>Oulu</item>
-        <item>Haifa</item>
-        <item>San Juan</item>
-        <item>Tegucigalpa</item>
-        <item>Paramaribo</item>
-        <item>Quito</item>
-    </string-array>
-    <string-array name="color_mode_descriptions">
-        <item>Colori migliorati</item>
-        <item>Natural colors as seen by the eye</item>
-        <item>Colors optimized for digital content</item>
-    </string-array>
-    <string-array name="color_mode_names">
-        <item>Vibrant (default)</item>
-        <item>Naturale</item>
-        <item>Normale</item>
-    </string-array>
-    <string-array name="color_picker">
-        <item>Teal</item>
-        <item>Blu</item>
-        <item>Indigo</item>
-        <item>Viola</item>
-        <item>Rosa</item>
-        <item>Rosso</item>
-    </string-array>
-    <string-array name="common_password_business_clickable_default">
-        <item>vero</item>
-        <item>vero</item>
-        <item>vero</item>
-        <item>false</item>
-        <item>vero</item>
-        <item>false</item>
-    </string-array>
-    <string-array name="common_password_business_names">
-        <item>Schemata di blocco</item>
-        <item>Privacy password</item>
-        <item>Child mode</item>
-        <item>Gestore file</item>
-        <item>Blocco app</item>
-        <item>Secondo spazio</item>
-    </string-array>
-    <string-array name="connect_mode_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="dark_ui_mode_entries">
-        <item>Scuro</item>
-        <item>Leggero</item>
-    </string-array>
-    <string-array name="dark_ui_mode_values">
-        <item>Si</item>
-        <item>no</item>
-    </string-array>
-    <string-array name="data_network_type_name_default">
-        <item>4G</item>
-        <item>4G+</item>
-        <item>5G</item>
-    </string-array>
-    <string-array name="data_usage_data_range">
-        <item>Ultimi 30 giorni</item>
-        <item>Set usage cycle...</item>
-    </string-array>
-    <string-array name="debug_hw_overdraw_entries">
-        <item>Spenta</item>
-        <item>Show overdraw areas</item>
-        <item>Show areas for Deuteranomaly</item>
-    </string-array>
-    <string-array name="default_vol_stream_entries">
-        <item>Suoneria</item>
-        <item>MEDIA</item>
-    </string-array>
-    <string-array name="default_vol_stream_values">
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="double_tone_entry_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="double_tone_entry_values_TWS01">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="dream_timeout_entries">
-        <item>Mai</item>
-        <item>15 seconds</item>
-        <item>30 secondi</item>
-        <item>1 minuto</item>
-        <item>2 minuti</item>
-        <item>5 minutes</item>
-        <item>10 minuti</item>
-        <item>30 minuti</item>
-    </string-array>
-    <string-array name="dream_timeout_values">
-        <item>0</item>
-        <item>15000</item>
-        <item>30000</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>1800000</item>
-    </string-array>
-    <string-array name="eap_ocsp_type">
-        <item>Non convalidare</item>
-        <item>Request certificate status</item>
-        <item>Require certificate status</item>
-        <item>Require all non-trusted certificate statuses</item>
-    </string-array>
-    <string-array name="enable_opengl_traces_entries">
-        <item>Nessuno</item>
-        <item>Logcat</item>
-        <item>Systrace (Graphics)</item>
-        <item>Call stack on glGetError</item>
-    </string-array>
-    <string-array name="enable_opengl_traces_values">
-        <item>0</item>
-        <item>1</item>
-        <item>systrace</item>
-        <item>error</item>
-    </string-array>
-    <string-array name="enabled_networks_cdma_no_lte_values">
-        <item>4</item>
-        <item>5</item>
-    </string-array>
-    <string-array name="enabled_networks_cdma_only_lte_values">
-        <item>8</item>
-        <item>10</item>
-    </string-array>
-    <string-array name="enabled_networks_cdma_values">
-        <item>8</item>
-        <item>4</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
-    <string-array name="enabled_networks_except_gsm_lte_values">
-        <item>0</item>
-    </string-array>
-    <string-array name="enabled_networks_except_gsm_values">
-        <item>9</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="enabled_networks_except_lte_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="enabled_networks_gsm_wcdma_values">
-        <item>1</item>
-        <item>2</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="enabled_networks_subsidy_locked_values">
-        <item>11</item>
-        <item>9</item>
-    </string-array>
-    <string-array name="enabled_networks_tdscdma_values">
-        <item>22</item>
-        <item>18</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="enabled_networks_values">
-        <item>9</item>
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="entries_color_calibration">
-        <item>sRGB</item>
-        <item>Nativo</item>
-    </string-array>
-    <string-array name="entries_font_size">
-        <item>Piccolo</item>
-        <item>Predefinita</item>
-        <item>Largo</item>
-        <item>Larghissimo</item>
-    </string-array>
-    <string-array name="entryvalues_font_size">
-        <item>0.85</item>
-        <item>1.0</item>
-        <item>1.15</item>
-        <item>1.30</item>
-    </string-array>
-    <string-array name="fingerprint_unlock_type_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="fps_list_values">
-        <item>120</item>
-        <item>60</item>
-    </string-array>
-    <string-array name="gesture_prevent_ringing_values">
-        <item>1</item>
-        <item>2</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="haptic_feedback_level_texts">
-        <item>Spenta</item>
-        <item>Leggero</item>
-        <item>Medio</item>
-        <item>forte</item>
-    </string-array>
-    <string-array name="haptic_feedback_level_values">
-        <item>-1</item>
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="hdcp_checking_values">
-        <item>never</item>
-        <item>drm-only</item>
-        <item>always</item>
-    </string-array>
-    <string-array name="keyguard_notification_status_entries">
-        <item>"Don't wake screen"</item>
-        <item>Attivazione schermo</item>
-        <item>Show animation</item>
-    </string-array>
-    <string-array name="keyguard_notification_status_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="led_color_entries">
-        <item>Blu</item>
-        <item>Rosso</item>
-        <item>Giallo</item>
-        <item>Verde</item>
-        <item>Ciano</item>
-        <item>Bianco</item>
-        <item>Viola</item>
-    </string-array>
-    <string-array name="led_freq_values">
-        <item>ISO 2000</item>
-        <item>3000</item>
-        <item>ISO 4000</item>
-        <item>ISO 5000</item>
-        <item>6000</item>
-        <item>7000</item>
-        <item>ISO 8000</item>
-        <item>9000</item>
-    </string-array>
-    <string-array name="left_tone_entry_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="lock_after_timeout_entries">
-        <item>Immediately</item>
-        <item>5 seconds</item>
-        <item>15 seconds</item>
-        <item>30 secondi</item>
-        <item>1 minuto</item>
-        <item>2 minuti</item>
-        <item>5 minutes</item>
-        <item>10 minuti</item>
-        <item>30 minuti</item>
-    </string-array>
-    <string-array name="lock_after_timeout_values">
-        <item>0</item>
-        <item>ISO 5000</item>
-        <item>15000</item>
-        <item>30000</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>1800000</item>
-    </string-array>
-    <string-array name="lock_screen_secure_after_timeout_entries">
-        <item>Immediately</item>
-        <item>After 30 seconds</item>
-        <item>After 1 minute</item>
-        <item>After 2 minutes</item>
-        <item>After 5 minutes</item>
-        <item>Mai</item>
-    </string-array>
-    <string-array name="lock_screen_secure_after_timeout_values">
-        <item>0</item>
-        <item>30000</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>300000</item>
-        <item>2147483647</item>
-    </string-array>
-    <string-array name="long_press_timeout_selector_titles">
-        <item>Breve</item>
-        <item>Medio</item>
-        <item>Lungo</item>
-    </string-array>
-    <string-array name="long_press_timeout_selector_values">
-        <item>ISO 400</item>
-        <item>ISO 1000</item>
-        <item>1500</item>
-    </string-array>
-    <string-array name="long_press_volume_down_action">
-        <item>Nessuno</item>
-        <item>Foto</item>
-        <item>Video</item>
-        <item>Public transportation shortcuts</item>
-    </string-array>
-    <string-array name="long_press_volume_down_action_value">
-        <item>smart</item>
-        <item>Street-snap-picture</item>
-        <item>Street-snap-movie</item>
-        <item>public_transportation_shortcuts</item>
-    </string-array>
-    <string-array name="max_number_titles">
-        <item>6</item>
-        <item>5</item>
-        <item>4</item>
-        <item>3</item>
-        <item>2</item>
-        <item>1</item>
-        <item>Illimitato</item>
-    </string-array>
-    <string-array name="max_number_values">
-        <item>6</item>
-        <item>5</item>
-        <item>4</item>
-        <item>3</item>
-        <item>2</item>
-        <item>1</item>
-        <item>2007</item>
-    </string-array>
-    <string-array name="media_feedback_level_entries">
-        <item>forte</item>
-        <item>Medio</item>
-        <item>Leggero</item>
-    </string-array>
-    <string-array name="media_feedback_level_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="mi1_led_color_entries">
-        <item>Blu</item>
-        <item>Rosso</item>
-        <item>Verde</item>
-        <item>Rosa</item>
-        <item>Viola</item>
-        <item>Viola</item>
-    </string-array>
-    <string-array name="mi2_wifi_security">
-        <item>@string/wifi_security_none</item>
-        <item>@string/wifi_security_wep</item>
-        <item>@string/wifi_security_psk_generic</item>
-        <item>@string/wifi_security_eap</item>
-        <item>WAPI PSK</item>
-        <item>WAPI CERT</item>
-    </string-array>
-    <string-array name="miui_entries_font_size">
-        <item>XS</item>
-        <item>S</item>
-        <item>M</item>
-        <item>L</item>
-        <item>XL</item>
-        <item>XXL</item>
-    </string-array>
-    <string-array name="miui_entryvalues_font_size">
-        <item>small</item>
-        <item>normale</item>
-        <item>medium</item>
-        <item>large</item>
-        <item>huge</item>
-        <item>godzilla</item>
-    </string-array>
-    <string-array name="msd_pc_system_retry_linux">
-        <item>Install tool: sudo aptitude install mtpfs libfuse-dev libmad0-dev</item>
-        <item>Create a directory: mkdir /media/mtp</item>
-        <item>Confirm user group permissions in the current fuse user group</item>
-        <item>Accedi di nuovo</item>
-        <item>Access mounted device: mtpfs /media/mtp via File Manager; same as local folder.</item>
-        <item>"Uninstall device: fusermount -u /media/mtp
-Note: Only for Ubuntu 8.04!"</item>
-    </string-array>
-    <string-array name="mvno_type_entries">
-        <item>Nessuno</item>
-        <item>SPN</item>
-        <item>IMSI</item>
-        <item>GID</item>
-        <item>ICCID</item>
-    </string-array>
-    <string-array name="network_speed_slow_summary">
-        <item>Network is slow due to too much traffic</item>
-        <item>Network is slow due to weak signal strength</item>
-        <item>Spostamento…</item>
-    </string-array>
-    <string-array name="nfc_se_route_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-    <string-array name="notch_battery_indicator_style_entries">
-        <item>Grafico</item>
-        <item>Percentage (in the icon)</item>
-        <item>Percentage (next to the icon)</item>
-    </string-array>
-    <string-array name="notch_battery_indicator_style_values">
-        <item>0</item>
-        <item>1</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="notifi_importance_values">
-        <item>4</item>
-        <item>3</item>
-        <item>2</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="notification_shade_shortcut_entries">
-        <item>Cerca</item>
-        <item>Impostazioni</item>
-    </string-array>
-    <string-array name="notification_shade_shortcut_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="notification_style_entries">
-        <item>MIUI</item>
-        <item>Dispositivo MIUI</item>
-    </string-array>
-    <string-array name="notification_style_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="organized_locales">
-        <item>af</item>
-        <item>al</item>
-        <item>dz</item>
-        <item>as</item>
-        <item>ad</item>
-        <item>ao</item>
-        <item>ai</item>
-        <item>ag</item>
-        <item>ar</item>
-        <item>am</item>
-        <item>aw</item>
-        <item>au</item>
-        <item>a</item>
-        <item>az</item>
-        <item>bs</item>
-        <item>bh</item>
-        <item>bd</item>
-        <item>bb</item>
-        <item>by</item>
-        <item>be</item>
-        <item>bz</item>
-        <item>bj</item>
-        <item>bt</item>
-        <item>bo</item>
-        <item>ba</item>
-        <item>bw</item>
-        <item>br</item>
-        <item>vg</item>
-        <item>bn</item>
-        <item>bg</item>
-        <item>bf</item>
-        <item>bi</item>
-        <item>kh</item>
-        <item>cm</item>
-        <item>ca</item>
-        <item>cv</item>
-        <item>bq</item>
-        <item>ky</item>
-        <item>td</item>
-        <item>cl</item>
-        <item>co</item>
-        <item>Km</item>
-        <item>cd</item>
-        <item>ck</item>
-        <item>cr</item>
-        <item>ci</item>
-        <item>hr</item>
-        <item>cu</item>
-        <item>cy</item>
-        <item>cz</item>
-        <item>dk</item>
-        <item>dj</item>
-        <item>dm</item>
-        <item>do</item>
-        <item>ec</item>
-        <item>eg</item>
-        <item>sv</item>
-        <item>gq</item>
-        <item>er</item>
-        <item>ee</item>
-        <item>et</item>
-        <item>fk</item>
-        <item>fo</item>
-        <item>fj</item>
-        <item>fi</item>
-        <item>fr</item>
-        <item>gf</item>
-        <item>pf</item>
-        <item>ga</item>
-        <item>gm</item>
-        <item>ge</item>
-        <item>de</item>
-        <item>gh</item>
-        <item>gi</item>
-        <item>gr</item>
-        <item>gl</item>
-        <item>gd</item>
-        <item>gu</item>
-        <item>gt</item>
-        <item>gg</item>
-        <item>gn</item>
-        <item>gw</item>
-        <item>gy</item>
-        <item>ht</item>
-        <item>hn</item>
-        <item>hk</item>
-        <item>hu</item>
-        <item>is</item>
-        <item>in</item>
-        <item>id</item>
-        <item>ir</item>
-        <item>iq</item>
-        <item>ie</item>
-        <item>im</item>
-        <item>il</item>
-        <item>it</item>
-        <item>jm</item>
-        <item>jp</item>
-        <item>je</item>
-        <item>jo</item>
-        <item>kz</item>
-        <item>ke</item>
-        <item>ki</item>
-        <item>kw</item>
-        <item>kg</item>
-        <item>la</item>
-        <item>lv</item>
-        <item>lb</item>
-        <item>ls</item>
-        <item>lr</item>
-        <item>ly</item>
-        <item>li</item>
-        <item>lt</item>
-        <item>lu</item>
-        <item>mo</item>
-        <item>mk</item>
-        <item>mg</item>
-        <item>mw</item>
-        <item>my</item>
-        <item>mv</item>
-        <item>ml</item>
-        <item>mt</item>
-        <item>mh</item>
-        <item>mr</item>
-        <item>mu</item>
-        <item>yt</item>
-        <item>mx</item>
-        <item>fm</item>
-        <item>md</item>
-        <item>mn</item>
-        <item>Io</item>
-        <item>ms</item>
-        <item>ma</item>
-        <item>mz</item>
-        <item>mm</item>
-        <item>na</item>
-        <item>nr</item>
-        <item>np</item>
-        <item>nl</item>
-        <item>nc</item>
-        <item>nz</item>
-        <item>ni</item>
-        <item>ng</item>
-        <item>nu</item>
-        <item>nf</item>
-        <item>kp</item>
-        <item>mp</item>
-        <item>no</item>
-        <item>om</item>
-        <item>pk</item>
-        <item>pw</item>
-        <item>ps</item>
-        <item>pa</item>
-        <item>pg</item>
-        <item>py</item>
-        <item>pe</item>
-        <item>ph</item>
-        <item>pl</item>
-        <item>pt</item>
-        <item>pr</item>
-        <item>qa</item>
-        <item>ro</item>
-        <item>ru</item>
-        <item>rw</item>
-        <item>sh</item>
-        <item>nm/h</item>
-        <item>lc</item>
-        <item>pm</item>
-        <item>vc</item>
-        <item>ws</item>
-        <item>sm</item>
-        <item>st</item>
-        <item>sa</item>
-        <item>sn</item>
-        <item>rs</item>
-        <item>sc</item>
-        <item>sl</item>
-        <item>sg</item>
-        <item>sk</item>
-        <item>si</item>
-        <item>sb</item>
-        <item>so</item>
-        <item>za</item>
-        <item>gs</item>
-        <item>kr</item>
-        <item>ss</item>
-        <item>es</item>
-        <item>lk</item>
-        <item>sd</item>
-        <item>sr</item>
-        <item>sz</item>
-        <item>se</item>
-        <item>ch</item>
-        <item>sy</item>
-        <item>tw</item>
-        <item>tj</item>
-        <item>tz</item>
-        <item>th</item>
-        <item>tl</item>
-        <item>tg</item>
-        <item>tk</item>
-        <item>a</item>
-        <item>tt</item>
-        <item>tn</item>
-        <item>tr</item>
-        <item>tm</item>
-        <item>tv</item>
-        <item>ug</item>
-        <item>ua</item>
-        <item>ae</item>
-        <item>gb</item>
-        <item>us</item>
-        <item>uy</item>
-        <item>uz</item>
-        <item>vu</item>
-        <item>ve</item>
-        <item>vn</item>
-        <item>ye</item>
-        <item>zm</item>
-        <item>zw</item>
-    </string-array>
-    <string-array name="overlay_display_devices_entries">
-        <item>Nessuno</item>
-        <item>480p</item>
-        <item>480p (secure)</item>
-        <item>720p</item>
-        <item>720p (secure)</item>
-        <item>1080p</item>
-        <item>1080p (secure)</item>
-        <item>4K</item>
-        <item>4K (secure)</item>
-        <item>4K (upscaled)</item>
-        <item>4K (upscaled, secure)</item>
-        <item>720p, 1080p (dual screen)</item>
-    </string-array>
-    <string-array name="paper_color_index">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="paper_color_values">
-        <item>Full colors</item>
-        <item>Light colors</item>
-        <item>Bianco e nero</item>
-    </string-array>
-    <string-array name="perm_hips_action">
-        <item>Consenti</item>
-        <item>Chiedi</item>
-        <item>Nega</item>
-    </string-array>
-    <string-array name="perms_hips_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="phone_call_noise_suppression_values">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="power_mode_entries">
-        <item>Prestazioni</item>
-        <item>Bilanciato</item>
-    </string-array>
-    <string-array name="preferred_app_entries">
-        <item>App Home</item>
-        <item>Chiama</item>
-        <item>Messaggi</item>
-        <item>Browser</item>
-        <item>Fotocamera</item>
-        <item>Galleria</item>
-        <item>Musica</item>
-        <item>E-mail</item>
-        <item>Riproduci video</item>
-    </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>GSM/WCDMA preferred</item>
-        <item>Solo reti GSM</item>
-        <item>Solo reti WCDMA</item>
-        <item>GSM/WCDMA auto</item>
-        <item>CDMA/EvDo auto</item>
-        <item>CDMA w/o EvDo</item>
-        <item>EvDo only</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>Globale</item>
-        <item>LTE</item>
-        <item>LTE / WCDMA</item>
-        <item>TDSCDMA only</item>
-        <item>TDSCDMA/WCDMA</item>
-        <item>LTE/TDSCDMA</item>
-        <item>TDSCDMA/GSM</item>
-        <item>LTE/TDSCDMA/GSM</item>
-        <item>TDSCDMA/GSM/WCDMA</item>
-        <item>LTE/TDSCDMA/WCDMA</item>
-        <item>LTE/TDSCDMA/GSM/WCDMA</item>
-        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
-        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
-        <item>NR only</item>
-        <item>NR/LTE</item>
-        <item>NR/LTE/CDMA/EvDo</item>
-        <item>NR/LTE/GSM/WCDMA</item>
-        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
-        <item>NR/LTE/WCDMA</item>
-        <item>NR/LTE/TDSCDMA</item>
-        <item>NR/LTE/TDSCDMA/GSM</item>
-        <item>NR/LTE/TDSCDMA/WCDMA</item>
-        <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
-        <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
-    </string-array>
-    <string-array name="preferred_network_mode_choices_world_mode">
-        <item>Globale</item>
-        <item>LTE / CDMA</item>
-        <item>LTE / GSM / UMTS</item>
-    </string-array>
-    <string-array name="preferred_network_mode_gsm_wcdma_choices">
-        <item>Solo reti GSM</item>
-        <item>Solo reti WCDMA</item>
-        <item>GSM/WCDMA preferred</item>
-    </string-array>
-    <string-array name="preferred_network_mode_gsm_wcdma_values">
-        <item>1</item>
-        <item>2</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="preferred_network_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13s</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-        <item>21</item>
-        <item>22</item>
-        <item>23</item>
-        <item>24</item>
-        <item>25</item>
-        <item>26</item>
-        <item>27</item>
-        <item>28</item>
-        <item>29</item>
-        <item>30</item>
-        <item>31</item>
-        <item>32s</item>
-        <item>33</item>
-    </string-array>
-    <string-array name="preferred_network_mode_values_world_mode">
-        <item>10</item>
-        <item>8</item>
-        <item>9</item>
-    </string-array>
-    <string-array name="press_key_entry_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="priority_storage_entries">
-        <item>Memoria interna</item>
-        <item>Memoria esterna</item>
-    </string-array>
-    <string-array name="priority_storage_value">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="privacy_password_function_specfication_names">
-        <item>SMS</item>
-        <item>Foto</item>
-        <item>File</item>
-        <item>Note</item>
-    </string-array>
-    <string-array name="proc_stats_memory_states">
-        <item>Normale</item>
-        <item>Moderato</item>
-        <item>Bassa</item>
-        <item>Critical</item>
-    </string-array>
-    <string-array name="proc_stats_process_states">
-        <item>Persistent</item>
-        <item>Top activity</item>
-        <item>Important (foreground)</item>
-        <item>Important (background)</item>
-        <item>Backup e ripristino</item>
-        <item>Heavy weight</item>
-        <item>Service (running)</item>
-        <item>Service (restarting)</item>
-        <item>Ricevitore</item>
-        <item>Home</item>
-        <item>Last activity</item>
-        <item>Cached (activity)</item>
-        <item>Cached (activity client)</item>
-        <item>Cached (empty)</item>
-    </string-array>
-    <string-array name="ram_states">
-        <item>Normale</item>
-        <item>Moderato</item>
-        <item>Bassa</item>
-        <item>Critical</item>
-        <item>\?</item>
-    </string-array>
-    <string-array name="right_tone_entry_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="screen_color_title">
-        <item>Caldo</item>
-        <item>Normale</item>
-        <item>Freddo</item>
-    </string-array>
-    <string-array name="screen_key_long_press_action_value">
-        <item>smart</item>
-        <item>recent_panel</item>
-        <item>voice_assistant</item>
-        <item>google_now</item>
-        <item>close_app</item>
-        <item>quick_search</item>
-        <item>show_menu</item>
-    </string-array>
-    <string-array name="screen_key_long_press_timeout">
-        <item>0.5 seconds</item>
-        <item>1 secondo</item>
-        <item>1.5 seconds</item>
-        <item>2 seconds</item>
-    </string-array>
-    <string-array name="screen_key_long_press_timeout_value">
-        <item>ISO 500</item>
-        <item>ISO 1000</item>
-        <item>1500</item>
-        <item>ISO 2000</item>
-    </string-array>
-    <string-array name="screen_key_position_action_value">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="screen_key_press_action">
-        <item>Show recent apps tray</item>
-        <item>Mostra menù</item>
-    </string-array>
-    <string-array name="screen_optimize_title">
-        <item>Auto (consigliato)</item>
-        <item>Saturo</item>
-        <item>Normale</item>
-    </string-array>
-    <string-array name="screen_resolution_text">
-        <item>2K</item>
-        <item>1080p</item>
-        <item>720p</item>
-    </string-array>
-    <string-array name="screen_saturation_title">
-        <item>Brilliant</item>
-        <item>Normale</item>
-    </string-array>
-    <string-array name="screen_timeout_entries">
-        <item>15 seconds</item>
-        <item>30 secondi</item>
-        <item>1 minuto</item>
-        <item>2 minuti</item>
-        <item>5 minutes</item>
-        <item>10 minuti</item>
-        <item>Mai</item>
-    </string-array>
-    <string-array name="screen_timeout_values">
-        <item>15000</item>
-        <item>30000</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>2147483647</item>
-    </string-array>
-    <string-array name="screen_zoom_level">
-        <item>XS</item>
-        <item>S</item>
-        <item>L</item>
-    </string-array>
-    <string-array name="security_settings_premium_sms_values">
-        <item>Chiedi</item>
-        <item>Non consentire mai</item>
-        <item>Consenti sempre</item>
-    </string-array>
-    <string-array name="select_logd_size_lowram_titles">
-        <item>Spenta</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
-    </string-array>
-    <string-array name="select_logd_size_summaries">
-        <item>Spenta</item>
-        <item>64 KB per log buffer</item>
-        <item>256 KB per log buffer</item>
-        <item>1 MB per log buffer</item>
-        <item>4 MB per log buffer</item>
-        <item>16 MB per log buffer</item>
-    </string-array>
-    <string-array name="select_logd_size_titles">
-        <item>Spenta</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
-        <item>4 MB</item>
-        <item>16 MB</item>
-    </string-array>
-    <string-array name="select_logd_system_levels">
-        <item>Spenta</item>
-        <item>Errore</item>
-        <item>Avviso</item>
-        <item>Info</item>
-        <item>Debug</item>
-        <item>Verbose</item>
-    </string-array>
-    <string-array name="select_logpersist_summaries">
-        <item>Spenta</item>
-        <item>All log buffers</item>
-        <item>All but radio log buffers</item>
-        <item>Kernel log buffer only</item>
-    </string-array>
-    <string-array name="select_logpersist_titles">
-        <item>Spenta</item>
-        <item>Tutto</item>
-        <item>All but radio</item>
-        <item>Kernel only</item>
-    </string-array>
-    <string-array name="show_non_rect_clip_entries">
-        <item>Spenta</item>
-        <item>Draw non-rectangular clip region in blue</item>
-        <item>Highlight tested drawing commands in green</item>
-    </string-array>
-    <string-array name="silent_mode_duration_text">
-        <item>Sempre</item>
-        <item>30 minuti</item>
-        <item>1 ora</item>
-        <item>2 ore</item>
-        <item>8 ore</item>
-    </string-array>
-    <string-array name="silent_mode_duration_value">
-        <item>0</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>480</item>
-    </string-array>
-    <string-array name="silent_values">
-        <item>4</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="simulate_color_space_values">
-        <item>-1</item>
-        <item>0</item>
-        <item>2</item>
-        <item>1</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="startup_hips_action">
-        <item>Consenti</item>
-        <item>Nega</item>
-    </string-array>
-    <string-array name="startup_hips_values">
-        <item>2</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="status_bar_settings_qs_layout_entries">
-        <item>Predefinita</item>
-        <item>Compact</item>
-    </string-array>
-    <string-array name="status_bar_settings_qs_layout_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="support_settings_haptic_device_list">
-        <item>apollo</item>
-        <item>cas</item>
-        <item>cmi</item>
-        <item>umi</item>
-        <item>alioth</item>
-        <item>aliothin</item>
-        <item>ares</item>
-        <item>chopin</item>
-        <item>haydn</item>
-        <item>thyme</item>
-        <item>asterisco</item>
-        <item>mars</item>
-    </string-array>
-    <string-array name="swipe_direction_values">
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="tabs_taptic_detail">
-        <item>Crisp</item>
-        <item>Base</item>
-        <item>Pop</item>
-    </string-array>
-    <string-array name="time_format_values">
-        <item>12</item>
-        <item>24</item>
-        <item>null</item>
-    </string-array>
-    <string-array name="timezone_filters">
-        <item>America</item>
-        <item>Europe</item>
-        <item>Africa</item>
-        <item>Asia</item>
-        <item>Australia</item>
-        <item>Pacific</item>
-        <item>Tutto</item>
-    </string-array>
-    <string-array name="track_frame_time_entries">
-        <item>Spenta</item>
-        <item>On screen as bars</item>
-        <item>In adb shell dumpsys gfxinfo</item>
-    </string-array>
-    <string-array name="track_frame_time_values">
-        <item>false</item>
-        <item>visual_bars</item>
-        <item>vero</item>
-    </string-array>
-    <string-array name="traffic_balance_entries">
-        <item>Spenta</item>
-        <item>Normale</item>
-        <item>Estrema</item>
-    </string-array>
-    <string-array name="traffic_balance_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="transition_animation_scale_values">
-        <item>0</item>
-        <item>.5</item>
-        <item>1</item>
-        <item>1.5</item>
-        <item>2</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
-    <string-array name="triple_tone_entry_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="triple_tone_entry_values_TWS01">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="true_color_screen_optimize_title">
-        <item>Auto (consigliato)</item>
-        <item>Saturo</item>
-        <item>Original color</item>
-    </string-array>
-    <string-array name="tts_rate_entries">
-        <item>Molto lento</item>
-        <item>Lento</item>
-        <item>Normale</item>
-        <item>Veloce</item>
-        <item>Faster</item>
-        <item>Molto veloce</item>
-        <item>Rapid</item>
-        <item>Very rapid</item>
-        <item>Fastest</item>
-    </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>ISO 80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>ISO 200</item>
-        <item>ISO 250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>ISO 400</item>
-    </string-array>
-    <string-array name="tts_rate_xunfei_entries">
-        <item>Molto lento</item>
-        <item>Lento</item>
-        <item>Normale</item>
-        <item>Veloce</item>
-        <item>Faster</item>
-    </string-array>
-    <string-array name="tts_rate_xunfei_values">
-        <item>60</item>
-        <item>ISO 80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>ISO 200</item>
-    </string-array>
-    <string-array name="uplmn_prefer_network_mode_td_choices">
-        <item>GSM</item>
-        <item>TDSCDMA</item>
-        <item>LTE</item>
-        <item>Triple mode</item>
-    </string-array>
-    <string-array name="uplmn_prefer_network_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="uplmn_prefer_network_mode_w_choices">
-        <item>GSM</item>
-        <item>WCDMA</item>
-        <item>LTE</item>
-        <item>Triple mode</item>
-    </string-array>
-    <string-array name="usage_stats_display_order_types">
-        <item>Tempo di utilizzo</item>
-        <item>Ultimo utilizzo</item>
-        <item>Nome app</item>
-    </string-array>
-    <string-array name="usb_configuration_titles">
-        <item>Ricarica</item>
-        <item>MTP (Media Transfer Protocol)</item>
-        <item>PTP (Picture Transfer Protocol)</item>
-        <item>RNDIS (USB Ethernet)</item>
-        <item>Audio source</item>
-        <item>MIDI</item>
-    </string-array>
-    <string-array name="usb_configuration_values">
-        <item>smart</item>
-        <item>mtp</item>
-        <item>ptp</item>
-        <item>rndis</item>
-        <item>audio_source</item>
-        <item>midi</item>
-    </string-array>
-    <string-array name="usb_connection_mode_entries">
-        <item>Ask upon connection</item>
-        <item>Velocizza la ricarica</item>
-        <item>Monta scheda SD</item>
-    </string-array>
-    <string-array name="usb_connection_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="user_content_ratings_values">
-        <item>5</item>
-        <item>4</item>
-        <item>3</item>
-        <item>2</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="values_color_calibration">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="vip_mode_text">
-        <item>From anyone</item>
-        <item>From contacts only</item>
-        <item>From starred contacts only</item>
-        <item>Nessuno</item>
-    </string-array>
-    <string-array name="vip_mode_value">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="vpn_proxy_settings">
-        <item>Nessuno</item>
-        <item>Manuale</item>
-    </string-array>
-    <string-array name="vpn_states">
-        <item>Disconnesso</item>
-        <item>Inizializzazione...</item>
-        <item>Connessione…</item>
-        <item>Connesso</item>
-        <item>Timeout</item>
-        <item>Fallito</item>
-    </string-array>
-    <string-array name="when_to_start_screensaver_values">
-        <item>while_charging_only</item>
-        <item>while_docked_only</item>
-        <item>either_charging_or_docked</item>
-        <item>never</item>
-    </string-array>
-    <string-array name="whetstone_level_entries">
-        <item>Spenta</item>
-        <item>Bassa</item>
-        <item>Middle</item>
-        <item>Alta</item>
-    </string-array>
-    <string-array name="whetstone_level_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="wide_notch_battery_indicator_style_entries">
-        <item>Grafico</item>
-        <item>Percentage (in the icon)</item>
-        <item>Percentage (next to the icon in the Notification shade)</item>
-    </string-array>
-    <string-array name="wifi_ap_band">
-        <item>1</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="wifi_ap_band_vendor_config_full">
-        <item>1</item>
-        <item>3</item>
-        <item>8</item>
-    </string-array>
-    <string-array name="wifi_ap_band_vendor_config_no_dual">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_v2">
-        <item>Wi-Fi</item>
-        <item>Cellulare</item>
-        <item>Wi-Fi only</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_v2_with_ims_preferred">
-        <item>Ims Preferito</item>
-        <item>Wi-Fi</item>
-        <item>Cellulare</item>
-        <item>Wi-Fi only</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
-        <item>Wi-Fi</item>
-        <item>Cellulare</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only_with_ims_preferred">
-        <item>Ims Preferito</item>
-        <item>Wi-Fi</item>
-        <item>Cellulare</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values_with_ims_preferred">
-        <item>10</item>
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values_without_wifi_only">
-        <item>2</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values_without_wifi_only_with_ims_preferred">
-        <item>10</item>
-        <item>2</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="wifi_connect_type_entries">
-        <item>Connetti automaticamente</item>
-        <item>Connetti manualmente</item>
-        <item>Chiedi sempre</item>
-    </string-array>
-    <string-array name="wifi_connect_type_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="wifi_eap_method">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
-        <item>SIM</item>
-        <item>AKA</item>
-        <item>"AKA'"</item>
-    </string-array>
-    <string-array name="wifi_eap_method_add_sim">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
-        <item>SIM</item>
-        <item>AKA</item>
-    </string-array>
-    <string-array name="wifi_eap_method_add_sim_for_cmcc">
-        <item>PEAP</item>
-        <item>SIM</item>
-    </string-array>
-    <string-array name="wifi_frequency_band_entries">
-        <item>Automatico</item>
-        <item>5 GHz only</item>
-        <item>2.4 GHz only</item>
-    </string-array>
-    <string-array name="wifi_frequency_band_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="wifi_hidden_entries">
-        <item>No</item>
-        <item>Sì</item>
-    </string-array>
-    <string-array name="wifi_ip_settings">
-        <item>DHCP</item>
-        <item>Statico</item>
-    </string-array>
-    <string-array name="wifi_link_turbo_mode_entries">
-        <item>Ausiliaria</item>
-        <item>Completa</item>
-    </string-array>
-    <string-array name="wifi_link_turbo_mode_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="wifi_metered_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="wifi_p2p_status">
-        <item>Connesso</item>
-        <item>Invitato</item>
-        <item>Fallito</item>
-        <item>Disponibile</item>
-        <item>Out-of-range</item>
-    </string-array>
-    <string-array name="wifi_peap_phase2_entries_with_sim_auth">
-        <item>MSCHAPV2</item>
-        <item>GTC</item>
-        <item>SIM</item>
-        <item>AKA</item>
-        <item>"AKA'"</item>
-    </string-array>
-    <string-array name="wifi_privacy_values">
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="wifi_proxy_settings">
-        <item>Nessuno</item>
-        <item>Manuale</item>
-        <item>Proxy Auto-Config</item>
-    </string-array>
-    <string-array name="wifi_security_no_eap">
-        <item>@string/wifi_security_none</item>
-        <item>@string/wifi_security_wep</item>
-        <item>@string/wifi_security_psk_generic</item>
-        <item>WAPI PSK</item>
-        <item>WAPI CERT</item>
-    </string-array>
-    <string-array name="wifi_security_only_wapi_cert_entries">
-        <item>WAPI CERT</item>
-    </string-array>
-    <string-array name="wifi_signal">
-        <item>Scarsa</item>
-        <item>Scarsa</item>
-        <item>Fair</item>
-        <item>Normale</item>
-        <item>Eccellente</item>
-    </string-array>
-    <string-array name="wifi_ssid_type_entries">
-        <item>Connetti automaticamente</item>
-        <item>Connetti manualmente</item>
-    </string-array>
-    <string-array name="wifi_ssid_type_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="wifi_status">
-        <item></item>
-        <item>Scansione…</item>
-        <item>Connessione…</item>
-        <item>Authenticating…</item>
-        <item>Obtaining IP address…</item>
-        <item>Connesso</item>
-        <item>Sospeso</item>
-        <item>Disconnessione…</item>
-        <item>Disconnesso</item>
-        <item>Fallito</item>
-        <item>Filtro sconosciuti</item>
-        <item>Temporarily avoiding poor connection</item>
-    </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item></item>
-        <item>Scansione…</item>
-        <item>Connecting to %1$s…</item>
-        <item>Authenticating with %1$s…</item>
-        <item>Obtaining IP address from %1$s…</item>
-        <item>Collegato a %1$s</item>
-        <item>Sospeso</item>
-        <item>Disconnecting from %1$s…</item>
-        <item>Disconnesso</item>
-        <item>Fallito</item>
-        <item>Filtro sconosciuti</item>
-        <item>Temporarily avoiding poor connection</item>
-    </string-array>
-    <string-array name="wifi_tether_security_values">
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="wifi_ttls_phase2_entries">
-        <item>PAP</item>
-        <item>MSCHAP</item>
-        <item>MSCHAPV2</item>
-        <item>GTC</item>
-    </string-array>
-    <string-array name="window_animation_scale_values">
-        <item>0</item>
-        <item>.5</item>
-        <item>1</item>
-        <item>1.5</item>
-        <item>2</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
-    <string-array name="zen_mode_conversations_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
+    <string name="Parse_error_dlg_text">Errore durante l\'analisi del pacchetto.</string>
+    <string name="abc_action_bar_home_description">Vai alla Home</string>
+    <string name="abc_action_bar_up_description">Vai verso l\'alto</string>
+    <string name="abc_action_menu_overflow_description">Altre opzioni</string>
+    <string name="abc_action_mode_done">Fatto</string>
+    <string name="abc_activity_chooser_view_see_all">Mostra tutto</string>
+    <string name="abc_activitychooserview_choose_application">Scegli un\'app</string>
+    <string name="abc_capital_off">ATTIVATO</string>
+    <string name="abc_capital_on">DISATTIVATO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">elimina</string>
+    <string name="abc_menu_enter_shortcut_label">invio</string>
+    <string name="abc_menu_function_shortcut_label">Funzione+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">Spazio</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menù+</string>
+    <string name="abc_search_hint">Ricerca…</string>
+    <string name="abc_searchview_description_clear">Cancella campo</string>
+    <string name="abc_searchview_description_query">Cerca termine</string>
+    <string name="abc_searchview_description_search">Cerca</string>
+    <string name="abc_searchview_description_submit">Avvia ricerca</string>
+    <string name="abc_searchview_description_voice">Ricerca vocale</string>
+    <string name="abc_shareactionprovider_share_with">Condividi con</string>
+    <string name="abc_shareactionprovider_share_with_application">Condividi con %s</string>
+    <string name="abc_toolbar_collapse_description">Riduci</string>
+    <string name="action_bar_report_link_des">Avviso app</string>
+    <string name="adb_install_no_network">"Impossibile connettersi alla rete. Verifica le impostazioni di rete e riprova."</string>
+    <string name="adb_install_open">Apertura…</string>
+    <string name="adb_install_open_error">"Impossibile aprire. Controlla le impostazioni di rete e riprova."</string>
+    <string name="additional_permissions">Altre autorizzazioni</string>
+    <string name="ads">Pubblicità</string>
+    <string name="ads_install_button">Installa</string>
+    <string name="ads_install_button_installed">Apri</string>
+    <string name="ads_install_button_isDownloading">In download</string>
+    <string name="ads_install_button_isInstalling">Installazione</string>
+    <string name="ads_install_button_waiting">In attesa</string>
+    <string name="ads_summary">Chi ha installato %1$s ha guardato anche</string>
+    <string name="ads_summary_default_value">Piace alle persone che hanno installato questa app</string>
+    <string name="allPerms">Tutto</string>
+    <string name="all_permissions">Tutte le autorizzazioni</string>
+    <string name="anonymous_source_continue">Continua</string>
+    <string name="anonymous_source_warning">Il telefono e i dati personali sono più vulnerabili agli attacchi di app sconosciute. Installando questa app, l\'utente accetta di essere responsabile per eventuali danni al telefono o perdita di dati che potrebbero derivare dal suo utilizzo.</string>
+    <string name="app_install_failed_button_text">Cerca app</string>
+    <string name="app_name">Installazione pacchetti</string>
+    <string name="app_name_unknown">Sconosciuto</string>
+    <string name="app_not_found_dlg_text">"Impossibile trovare l'applicazione nell'elenco di applicazioni installate."</string>
+    <string name="app_not_found_dlg_title">Applicazione non trovata</string>
+    <string name="app_ops_clean_master_tip">Libera %s</string>
+    <string name="app_ops_install_exit">Esci</string>
+    <string name="app_permissions">Autorizzazioni app</string>
+    <string name="app_permissions_breadcrumb">Applicazioni</string>
+    <string name="app_permissions_group_summary">Sono consentite %1$d app su %2$d</string>
+    <string name="app_store_install_hint">Installa ora</string>
+    <string name="app_store_installing_message">Installazione…</string>
+    <string name="app_store_missing_message">"Sembra che tu non abbia installato il nostro App Store. Installarlo ora?"</string>
+    <string name="app_store_missing_title">"App Store non installato"</string>
+    <string name="application_detail_tips">Dettagli app e permessi richiesti</string>
+    <string name="auto_startup_dialog_msg">Questa app può avviarsi senza il tuo permesso.</string>
+    <string name="btn_text_full_scan">Scansione completa</string>
+    <string name="btn_text_install_new_version">Ultima versione</string>
+    <string name="btn_text_install_origin">Versione originale</string>
+    <string name="btn_text_install_security_version_in_appstore">Sostituisci con versione sicura</string>
+    <string name="btn_text_scaning">Scansione…</string>
+    <string name="btn_text_security_install">Sostituisci con versione sicura</string>
+    <string name="caller_app">Autorizzazione richiesta da %1$s</string>
+    <string name="cancel">Annulla</string>
+    <string name="copy">Copia</string>
+    <string name="cta_button_text_agree">OK</string>
+    <string name="cta_button_text_cancel">Esci</string>
+    <string name="cta_dialog_msg">Sicurezza richiede la connessione internet per ottenere aggiornamenti, così come l\'accesso alla posizione per funzionare correttamente.</string>
+    <string name="cta_dialog_title">Termini e Condizioni</string>
+    <string name="current_permission_template">%1$s di %2$s</string>
+    <string name="current_permissions_category">Autorizzazioni correnti</string>
+    <string name="default_permission_description">esegue un\'azione sconosciuta</string>
+    <string name="devicePerms">Accesso dispositivo</string>
+    <string name="dlg_app_replacement_statement">"L'applicazione che stai installando sostituirà un'altra applicazione. Tutti i dati utente precedenti verranno salvati."</string>
+    <string name="dlg_app_replacement_statement_with_version">%1$s (%2$s) sostituirà la versione attualmente installata (%3$s). Tutti i dati esistenti verranno salvati.</string>
+    <string name="dlg_app_replacement_title">Sostituire applicazione?</string>
+    <string name="dlg_appstore_notice">"Non possiamo verificare l'autenticità o la sicurezza delle app da fonti esterne all'&lt;u&gt;&lt;font color=#91c727&gt;App Store&lt;/font&gt;&lt;/u&gt;."</string>
+    <string name="dlg_game_center_intercept_game_center_install">Installa da Mi Games</string>
+    <string name="dlg_game_center_intercept_install">Installa comunque</string>
+    <string name="dlg_game_center_intercept_msg">L\'installazione di giochi di terze parti potrebbe comportare rischi per la sicurezza. Scarica e installa Mi Games per accedere alle versioni di app sicure.</string>
+    <string name="dlg_game_center_intercept_title">Attenzione</string>
+    <string name="dlg_mimarket_intercept_mimarket_install">Installa da Mi App Store</string>
+    <string name="dlg_mimarket_intercept_msg">L\'installazione di applicazioni di terze parti potrebbe comportare rischi per la sicurezza. Scarica e installa Mi App Store per accedere alle versioni sicure delle app.</string>
+    <string name="dlg_msg_unoffical">"Impossibile installare applicazioni di sistema da canali non ufficiali"</string>
+    <string name="dlg_msg_unoffical_ok">OK</string>
+    <string name="dlg_ok">OK</string>
+    <string name="dlg_sys_app_replacement_statement">"Questa è un applicazione di sistema. Tutti i dati utente precedenti verranno salvati."</string>
+    <string name="done">Fatto</string>
+    <string name="exit_install_button">"Non installare"</string>
+    <string name="expand_button_title">Avanzate</string>
+    <string name="external_sources_settings">Impostazioni</string>
+    <string name="external_sources_settings_negative">Limitazione</string>
+    <string name="external_sources_settings_positive">Consenti una volta</string>
+    <string name="game_center_install">Installa da Mi Games</string>
+    <string name="game_center_install_tips">Scarica e installa Mi Games per ottenere più funzionalità</string>
+    <string name="game_center_intercept_trust_app">Ho fiducia in questa app e posso affrontare eventuali rischi.</string>
+    <string name="game_center_intercept_warning_msg">"Questa app non è stata controllata da Xiaomi. Installa questa app da Giochi per evitare rischi per la sicurezza."</string>
+    <string name="game_center_lunch_error">Installa prima Mi Games</string>
+    <string name="grant_confirm_question">Vuoi concedere le autorizzazioni che seguono? Concederai l\'accesso a:</string>
+    <string name="grant_dialog_button_allow">Consenti</string>
+    <string name="grant_dialog_button_deny">Nega</string>
+    <string name="grant_dialog_button_deny_anyway">Nega comunque</string>
+    <string name="high_risk_perms">Permessi ad alto rischio</string>
+    <string name="increment_install_downloading">Download %1$s</string>
+    <string name="increment_install_network_error_cancel">Annulla</string>
+    <string name="increment_install_network_error_msg">Si è verificato un errore di rete. Puoi ancora continuare a installare l\'app non ufficiale. Continuare?</string>
+    <string name="increment_install_network_error_ok">Continua</string>
+    <string name="increment_install_network_error_title">Errore rete</string>
+    <string name="increment_install_pathing">Verifica pacchetto…</string>
+    <string name="increment_install_pause_for_wifi">In attesa di connessione Wi-Fi</string>
+    <string name="increment_preparing">Preparazione…</string>
+    <string name="install">Installa</string>
+    <string name="install_app_progress_clear_apk">Elimina APK</string>
+    <string name="install_confirm_dialog_message">Questa app è realizzata da Google. Dovresti installare i servizi Google Play per poter utilizzare questa app normalmente. L\'installazione di questa app ora potrebbe provocare anomalie. Installarla comunque?</string>
+    <string name="install_confirm_dialog_negative_button">Annulla</string>
+    <string name="install_confirm_dialog_positive_button">Installa</string>
+    <string name="install_confirm_dialog_title">Attenzione</string>
+    <string name="install_confirm_question">Vuoi installare questa applicazione? Avrà accesso a:</string>
+    <string name="install_confirm_question_des_10">"Se siete disposti a correre i rischi e volete procedere con l'installazione, autorizzare l'installazione in Sicurezza &gt; Gestione applicazioni &gt; Autorizzazioni &gt; Applicazioni con possibili rischi. Se non riesci a trovare \"Applicazioni con possibili rischi\", aggiorna l'app Sicurezza e riprova."</string>
+    <string name="install_confirm_question_no_perms">"Vuoi installare questa applicazione? Non richiede alcun accesso speciale."</string>
+    <string name="install_confirm_question_update">"Vuoi installare un aggiornamento per questa applicazione esistente? I tuoi dati esistenti non andranno persi. L'applicazione aggiornata avrà accesso a:"</string>
+    <string name="install_confirm_question_update_no_perms">"Vuoi installare un aggiornamento di questa applicazione esistente? I dati correnti verranno conservati. Non occorrono accessi speciali."</string>
+    <string name="install_confirm_question_update_system">"Vuoi installare un aggiornamento per questa applicazione integrata? I tuoi dati esistenti non andranno persi. L'applicazione aggiornata avrà accesso a:"</string>
+    <string name="install_confirm_question_update_system_no_perms">"Vuoi installare un aggiornamento di questa applicazione integrata? I dati correnti verranno conservati. Non occorrono accessi speciali."</string>
+    <string name="install_confirm_text_gms">Questa app è realizzata da Google. Installa i servizi Google Play prima di installare questa app. Senza questo framework l\'app potrebbe non funzionare correttamente.</string>
+    <string name="install_continue">Installa</string>
+    <string name="install_control_cancel_install">"Non installare"</string>
+    <string name="install_control_cancel_vip_account_install">Esci</string>
+    <string name="install_control_continue_install">Installa comunque</string>
+    <string name="install_control_lite_mode_explain_des">Questa app proviene da una sorgente sconosciuta e potrebbe non funzionare in modalità Semplificata.</string>
+    <string name="install_control_lite_mode_solution_des">"Puoi scegliere di installare questa app manualmente.
+In alternativa, puoi disattivare la modalità Semplificata e riprovare."</string>
+    <string name="install_control_normal_mode_explain_des">"Impossibile installare questa app a causa di restrizioni legali"</string>
+    <string name="install_control_vip_account_install">Registrati per la Beta</string>
+    <string name="install_done">App installata.</string>
+    <string name="install_failed">"App non installata."</string>
+    <string name="install_failed_blocked">È stata bloccata l\'installazione del pacchetto.</string>
+    <string name="install_failed_conflict">Il pacchetto è in conflitto con un pacchetto esistente che ha lo stesso nome.</string>
+    <string name="install_failed_incompatible">"Questa app non è compatibile con il tuo telefono."</string>
+    <string name="install_failed_invalid_apk">Il pacchetto potrebbe essere danneggiato.</string>
+    <string name="install_failed_msg">"Impossibile installare %1$s sul telefono."</string>
+    <string name="install_failed_system_incompatible">"Questa app non è compatibile con MIUI"</string>
+    <string name="install_finished_notification_summary">Tocca per liberare spazio di archiviazione</string>
+    <string name="install_finished_notification_title">%1$s installato con successo. È possibile liberare %2$s di spazio di archiviazione.</string>
+    <string name="install_from_appstore_hint">Ti consigliamo di installare l\'app da &lt;u&gt;&lt;font color=#91c727&gt;AppStore&lt;/font&gt;&lt;/u&gt;</string>
+    <string name="install_vip_account_mode_explain_des">Questa è una versione Beta dell\'app. Richiedi i permessi di Beta test prima di installarla.</string>
+    <string name="install_vip_account_mode_solution_des">Registrati per la Beta</string>
+    <string name="installing">Installazione…</string>
+    <string name="intercept_confirm_dialog_message">%1$s sta cercando di installare %2$s. Verifica la tua identità per continuare.</string>
+    <string name="intercept_confirm_dialog_positive">Verifica</string>
+    <string name="intercept_confirm_dialog_title">Attenzione</string>
+    <string name="intercept_install">Installa</string>
+    <string name="launch">Apri</string>
+    <string name="lift_ban">Consenti</string>
+    <string name="lift_ban_once">Consenti una volta</string>
+    <string name="loading">Caricamento…</string>
+    <string name="location_settings">Impostazioni posizione</string>
+    <string name="location_warning">%1$s è un fornitore di servizi di geolocalizzazione per questo dispositivo. È possibile modificare l\'accesso alla posizione dalle impostazioni sulla posizione.</string>
+    <string name="low_risk_perms">Permessi a basso rischio</string>
+    <string name="manage_applications">Gestisci applicazioni</string>
+    <string name="manage_device_administrators">Gestisci amministratori dispositivo</string>
+    <string name="manage_users">Gestisci utenti</string>
+    <string name="menu_hide_system">Nascondi app di sistema</string>
+    <string name="menu_show_system">Mostra app di sistema</string>
+    <string name="message_appstore_verify_has_new_version">Una versione più recente di questa app è disponibile nell\'App Store. Vuoi installarla?</string>
+    <string name="message_appstore_verify_inconsistent">"La firma di questa app è diversa da quella presente nell'App Store, sarà più sicuro installare l'app da lì."</string>
+    <string name="message_appstore_verify_ok">La versione di questa app nell\'App Store ha superato i nostri test di sicurezza, si consiglia di installare l\'app da lì.</string>
+    <string name="message_full_scanning">Scansione completa…</string>
+    <string name="message_install_in_market">Ti consigliamo di installare l\'app da AppStore</string>
+    <string name="message_quick_scanning">Scansione rapida…</string>
+    <string name="message_staging">App in preparazione…</string>
+    <string name="mimarket_install">Installa da Mi App Store</string>
+    <string name="mimarket_install_more">Cerca altre app in GetApps</string>
+    <string name="mimarket_install_tips">Scarica e installa Mi App Store per ottenere altre funzionalità</string>
+    <string name="mimarket_intercept_warning_msg">"Questa app non è stata controllata da Xiaomi. Installa questa app da Mi App Store per evitare rischi per la sicurezza."</string>
+    <string name="miui_app_danger">"Questa app non è sicura, non installarla."</string>
+    <string name="miui_app_detail">Dettagli</string>
+    <string name="miui_app_permission_detail">Permessi richiesti</string>
+    <string name="miui_app_permission_number_desc">%1$s (%2$s)</string>
+    <string name="miui_app_virus">"Questa app è un virus, non installarla."</string>
+    <string name="miui_clean">Cancella</string>
+    <string name="miui_clear_apk_desc">Pacchetto d\'installazione e dati residui eliminati (%s)</string>
+    <string name="miui_clear_apks_summary">Totale %s</string>
+    <string name="miui_clear_apks_title">Cancella automaticamente i pacchetti di installazione</string>
+    <string name="miui_compatibility_desc">"Questa app non è ottimizzata per il tuo dispositivo. Se la installi, potrebbe non funzionare correttamente. Attendi che gli sviluppatori risolvano i problemi di compatibilità esistenti e installino una nuova versione dell'app."</string>
+    <string name="miui_delete">Elimina</string>
+    <string name="miui_failed_already_exists">Questa app è già installata</string>
+    <string name="miui_failed_conflicting_provider">In conflitto con fornitori di servizi</string>
+    <string name="miui_failed_duplicate_permission">Permessi in conflitto</string>
+    <string name="miui_failed_insufficient_storage">Spazio di archiviazione insufficiente</string>
+    <string name="miui_failed_invalid_apk">Errore pacchetto installazione</string>
+    <string name="miui_failed_invalid_uri">Percorso di installazione non valido</string>
+    <string name="miui_failed_miui_system_incompatible">"Pacchetto di installazione non compatibile con MIUI"</string>
+    <string name="miui_failed_newer_sdk">"Versione SDK non ancora supportata"</string>
+    <string name="miui_failed_older_sdk">Versione SDK troppo vecchia</string>
+    <string name="miui_failed_other">Altro</string>
+    <string name="miui_failed_parse">"Impossibile analizzare il pacchetto di installazione"</string>
+    <string name="miui_failed_permission_model_downgrade">"Impossibile effettuare il downgrade dei permessi"</string>
+    <string name="miui_failed_solution_1">Disinstalla la versione attuale di quest\'app e installa nuovamente l\'applicazione.</string>
+    <string name="miui_failed_solution_2">Il pacchetto di installazione potrebbe essere corrotto. Scarica nuovamente l\'app.</string>
+    <string name="miui_failed_solution_3">Prova a salvare il pacchetto di installazione in una posizione diversa.</string>
+    <string name="miui_failed_solution_4">Libera spazio in Sicurezza &gt; Pulizia e riprova.</string>
+    <string name="miui_failed_solution_5">Prova ad utilizzare un pacchetto di installazione compatibile.</string>
+    <string name="miui_failed_solution_6">Disinstalla questa app nel Secondo Spazio e riprova.</string>
+    <string name="miui_failed_solution_7">Scarica l\'ultima versione di questa app in GetApps.</string>
+    <string name="miui_failed_solution_8">Scarica l\'app da GetApps.</string>
+    <string name="miui_failed_system_incompatible">Pacchetto di installazione incompatibile</string>
+    <string name="miui_failed_update_incompatible">Firme app in conflitto</string>
+    <string name="miui_failed_version_downgrade">"Impossibile effettuare il downgrade delle app"</string>
+    <string name="miui_failed_version_downgrade_space">"C'è una versione più recente di questa app nel Secondo Spazio."</string>
+    <string name="miui_help_feedback_label">Aiuto e segnalazione bug</string>
+    <string name="miui_install_confirm_question">Installare quest\'app?</string>
+    <string name="miui_install_confirm_question_update">Sovrascrivere l\'app esistente?</string>
+    <string name="miui_install_fail">"Impossibile installare (%d)"</string>
+    <string name="miui_install_fail_notify">"Impossibile installare"</string>
+    <string name="miui_install_fail_reason">Motivo</string>
+    <string name="miui_install_source">Da \"%s\"</string>
+    <string name="miui_install_source_unkown">Sconosciuto</string>
+    <string name="miui_install_success">App installata</string>
+    <string name="miui_install_version">Versione: %1$s | Dimensione: %2$s</string>
+    <string name="miui_install_version_3">Versione: %1$s -&gt; %2$s | Dimensione: %3$s</string>
+    <string name="miui_installing">Installazione…</string>
+    <string name="miui_installing2">Installazione…</string>
+    <string name="miui_message_staging_0">App in Anteprima   </string>
+    <string name="miui_message_staging_1">App in Anteprima.  </string>
+    <string name="miui_message_staging_2">App in Anteprima.. </string>
+    <string name="miui_message_staging_3">App in Anteprima...</string>
+    <string name="miui_no_perms">Nessun permesso richiesto</string>
+    <string name="miui_not_uninstall_system_app">"Impossibile disinstallare app di sistema"</string>
+    <string name="miui_other_permission">Altro</string>
+    <string name="miui_other_relative">Altro</string>
+    <string name="miui_permission_manage_title">Dettagli %s</string>
+    <string name="miui_please_clear">Elimina virus</string>
+    <string name="miui_privacy_relative">Privacy</string>
+    <string name="miui_recommend_clean">Cancella anche i dati dell\'app</string>
+    <string name="miui_recommend_clean_msg">"I dati delle app possono contenere download, file, ecc."</string>
+    <string name="miui_security_relative">Sicurezza</string>
+    <string name="miui_solution_clean">Svuota il cestino</string>
+    <string name="miui_solution_msg">Soluzione</string>
+    <string name="miui_solution_msg_2">Soluzione</string>
+    <string name="miui_uninstall_success">Disinstallato correttamente</string>
+    <string name="miui_uninstalling">Disinstallazione…</string>
+    <string name="miui_virus_deleted">Virus cancellati con successo</string>
+    <string name="miui_virus_install">&lt;u&gt;Installa comunque&lt;/u&gt;</string>
+    <string name="miui_virus_scanning">Scansione…</string>
+    <string name="miui_virus_scanning_0">Scansione</string>
+    <string name="miui_virus_scanning_1">Scansione.</string>
+    <string name="miui_virus_scanning_2">Scansione..</string>
+    <string name="miui_virus_scanning_3">Scansione...</string>
+    <string name="miui_virus_title">Rischio elevato</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tira in giù per aggiornare</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Aggiornato correttamente</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Aggiornamento…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Rilascia per aggiornare</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">"E' tutto per ora"</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">"E' tutto per ora"</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Attendi…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Impossibile caricare gli elementi"</string>
+    <string name="mobil_net_work_warning_cancel">Annulla</string>
+    <string name="mobil_net_work_warning_msg">"Stai utilizzando i dati mobili ora. L'installazione di questa app richiede %1$s di dati mobili. Vuoi installarla comunque?"</string>
+    <string name="mobil_net_work_warning_ok">Installa comunque</string>
+    <string name="mobil_net_work_warning_title">Avviso utilizzo dati</string>
+    <string name="never_ask_again">"Non chiedermelo più"</string>
+    <string name="newPerms">Nuovo</string>
+    <string name="new_permissions_category">Nuove autorizzazioni</string>
+    <string name="next">Successivo</string>
+    <string name="no_apps">Nessuna app</string>
+    <string name="no_new_perms">"Questo aggiornamento non richiede nuove autorizzazioni."</string>
+    <string name="no_permissions">Nessuna autorizzazione</string>
+    <string name="not_set">Non impostato</string>
+    <string name="ok">OK</string>
+    <string name="old_sdk_deny_warning">Questa app è stata sviluppata per una versione precedente di Android. Se l\'autorizzazione viene negata, l\'app potrebbe non funzionare più come previsto.</string>
+    <string name="other_permissions">Altre funzionalità dell\'app</string>
+    <string name="other_relative">Altro</string>
+    <string name="out_of_space_dlg_text">"Impossibile installare %1$s. Libera dello spazio e riprova."</string>
+    <string name="out_of_space_dlg_title">Spazio esaurito</string>
+    <string name="perm_action_accept">Consenti</string>
+    <string name="perm_action_prompt">Chiedi</string>
+    <string name="perm_action_reject">Nega</string>
+    <string name="perm_notice">Avviso</string>
+    <string name="perm_privacy_app_finish">OK</string>
+    <string name="perm_privacy_app_installed">App installata</string>
+    <string name="perm_privacy_app_launch">Esegui</string>
+    <string name="perm_privacy_app_trust">Richiedi il permesso</string>
+    <string name="perm_privacy_app_trust_summary">Avvisa quando quest\'app cerca di accedere ad altre parti del sistema</string>
+    <string name="perm_sysopt_boost_auto_start">Permesso di avvio automatico</string>
+    <string name="perm_sysopt_boost_auto_start_summary">Questa app può avviarsi automaticamente</string>
+    <string name="permdesc_togglePermissions">Consente di lanciare la UI per gestire i permessi delle app. Non dovrebbe mai essere necessario per le app normali.</string>
+    <string name="permission_action_accept">Accetta</string>
+    <string name="permission_action_prompt">Avvisa</string>
+    <string name="permission_action_reject">Nega</string>
+    <string name="permission_group_title_charges_related">Telefono</string>
+    <string name="permission_group_title_media_related">MEDIA</string>
+    <string name="permission_group_title_others">Altri</string>
+    <string name="permission_group_title_privacy_related">Privacy</string>
+    <string name="permission_group_title_settings_related">Impostazioni</string>
+    <string name="permission_request_title">Richiesta di autorizzazione</string>
+    <string name="permission_review_title_template_install">Scegli i dati a cui l\'app %1$s può accedere</string>
+    <string name="permission_review_title_template_update">L\'app %1$s è stata aggiornata. Scegli a quali dati può accedere.</string>
+    <string name="permission_review_warning_title_template_update">L\'app %1$s è stata aggiornata. Consentire all\'app %1$s di accedere ai seguenti dati?</string>
+    <string name="permission_send_sms_descx">L\'app può inviare SMS e MMS</string>
+    <string name="permission_summary_enforced_by_policy">Applicata in base alle norme</string>
+    <string name="permission_title">Autorizzazioni %1$s</string>
+    <string name="permission_warning_template">Consentire a %1$s di %2$s?</string>
+    <string name="permlab_togglePermissions">Comandi permessi</string>
+    <string name="pref_ads">Consigliati</string>
+    <string name="pref_key_about_privacy_title">Informativa sulla Privacy</string>
+    <string name="pref_key_antivirus">Controllo di sicurezza</string>
+    <string name="pref_key_antivirus_summary">Verifica le app prima di installarle</string>
+    <string name="pref_key_app_store_summary">Chiedi di scaricare le app da fonti sicure prima dell\'installazione</string>
+    <string name="pref_key_app_store_title">Consiglia versioni sicure</string>
+    <string name="preference_copied">\"%1$s\" copiato negli appunti.</string>
+    <string name="privacyPerms">Privacy</string>
+    <string name="privacy_relative">Privacy</string>
+    <string name="reboot_time">Prepararsi al riavvio… (%1$s)</string>
+    <string name="replace_app_des_text">Sostituire l\'app con questa versione?</string>
+    <string name="review_button_cancel">Annulla</string>
+    <string name="review_button_continue">Continua</string>
+    <string name="risk_warning_bottom_button">Installa da GetApps</string>
+    <string name="risk_warning_msg">"La firma di questo pacchetto di installazione non sembra autentica. Per evitare possibili rischi, installa questa app da una fonte affidabile."</string>
+    <string name="risk_warning_title">Minaccia rilevata</string>
+    <string name="risk_warning_top_button">"Non installare"</string>
+    <string name="safe_guard_support">Supporto tecnico fornito da %1$s</string>
+    <string name="safe_relative">Sicurezza</string>
+    <string name="screen_overlay_button">Apri impostazioni</string>
+    <string name="screen_overlay_message">Per modificare questa impostazione di autorizzazione, devi innanzitutto disattivare l\'overlay schermo da Impostazioni &gt; App</string>
+    <string name="screen_overlay_title">Overlay schermo rilevato</string>
+    <string name="search_menu_title">Cerca</string>
+    <string name="security_settings_desc">Consenti a questa applicazione di:</string>
+    <string name="settings">Impostazioni</string>
+    <string name="settings_warning_dialog_detail">\"Ti verrà richiesto nei seguenti casi:
+ \"&lt;li&gt;Quando un\'app contiene virus.&lt;/li&gt;\"
+ \"&lt;li&gt;Se il pacchetto di installazione proviene da una fonte sconosciuta.&lt;/li&gt;</string>
+    <string name="settings_warning_dialog_msg">"Il telefono è soggetto a rischi per la sicurezza. Non ti verrà richiesto di installare versioni sicure dell'applicazione se disattivi questa funzione. Disattivarla?"</string>
+    <string name="settings_warning_dialog_title">Attenzione</string>
+    <string name="spannable_continue_text">Capisco i rischi. Installa comunque.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="system_warning">Se neghi questa autorizzazione, le funzionalità di base del dispositivo potrebbero non funzionare più come previsto.</string>
+    <string name="toast_network_eror">"Impossibile connettersi alla rete"</string>
+    <string name="trust_switch_dialog_msg">"Non ti chiederemo quando questa applicazione accede ai tuoi contatti, messaggi, password o altre parti del sistema."</string>
+    <string name="uninstall_activity_text">%1$s fa parte della seguente applicazione:</string>
+    <string name="uninstall_all_blocked_profile_owner">L\'app è necessaria per alcuni utenti/profili ed è stata disinstallata per altri</string>
+    <string name="uninstall_application_text">Vuoi disinstallare questa applicazione?</string>
+    <string name="uninstall_application_text_all_users">Vuoi disinstallare questa applicazione per <b>tutti</b>\" gli utenti? L\'applicazione e i relativi dati verranno rimossi da \"<b>tutti</b> gli utenti configurati sul dispositivo.</string>
+    <string name="uninstall_application_text_user">Disinstallare l\'app per l\'utente %1$s?</string>
+    <string name="uninstall_application_title">Disinstalla applicazione</string>
+    <string name="uninstall_blocked_device_owner">"App richiesta dall'amministratore del dispositivo. Non può essere disinstallata."</string>
+    <string name="uninstall_blocked_profile_owner">"L'app è necessaria per il tuo profilo e non può essere disinstallata."</string>
+    <string name="uninstall_confirm_question">Disinstallare quest\'app?</string>
+    <string name="uninstall_done">Disinstallato correttamente</string>
+    <string name="uninstall_failed">"Disinstallazione non riuscita."</string>
+    <string name="uninstall_failed_device_policy_manager">"Impossibile disinstallare: il pacchetto è un amministratore dispositivo attivo."</string>
+    <string name="uninstall_failed_device_policy_manager_of_user">"Impossibile disinstallare. Il pacchetto è amministr. dispos. attivo di utente %1$s."</string>
+    <string name="uninstall_failed_msg">"Impossibile disinstallare %1$s."</string>
+    <string name="uninstall_failed_retained_app_msg">"Questa app è stata modificata e non può essere disinstallata nella sua forma attuale."</string>
+    <string name="uninstall_update_text">Sostituire questa app con la versione di fabbrica? Tutti i dati verranno rimossi.</string>
+    <string name="uninstall_update_text_multiuser">Sostituire questa app con la versione di fabbrica? Tutti i dati verranno rimossi. Saranno interessati tutti gli utenti del dispositivo, inclusi quelli che hanno profili di lavoro.</string>
+    <string name="uninstall_update_title">Disinstalla aggiornamento</string>
+    <string name="uninstalling">Disinstallazione…</string>
+    <string name="unknown">Sconosciuto</string>
+    <string name="unknown_apps_admin_dlg_text">"L'amministratore non consente l'installazione di app ottenute da origini sconosciute."</string>
+    <string name="unknown_apps_dlg_text">Il telefono è impostato per bloccare l\'installazione di applicazioni da fonti sconosciute.</string>
+    <string name="unknown_installer">Strumenti PC non identificati</string>
+    <string name="unlike">Non ora</string>
+    <string name="untrusted_external_source_always_click">Consenti sempre</string>
+    <string name="untrusted_external_source_title">Consentire a \"%1$s\" di installare applicazioni?</string>
+    <string name="untrusted_external_source_warning">"Per motivi di sicurezza, il telefono non è autorizzato a installare app sconosciute da questa fonte."</string>
+    <string name="untrusted_external_source_warning_summary">"Il tuo dispositivo e i dati personali sono vulnerabili agli attacchi delle app installate da fonti sconosciute. Consentendo di installare app da questa fonte, accetti la responsabilità per qualsiasi danno o perdita di dati che potrebbe verificarsi durante l'utilizzo di queste applicazioni."</string>
+    <string name="user_is_not_allowed_dlg_text">L\'utente corrente non è autorizzato a eseguire questa disinstallazione.</string>
+    <string name="user_is_not_allowed_dlg_title">Non autorizzato</string>
+    <string name="v7_preference_off">ATTIVATO</string>
+    <string name="v7_preference_on">DISATTIVATO</string>
+    <string name="virus_scan_caller_unknown">Sconosciuto</string>
+    <string name="virus_scan_clear">Rimuovi</string>
+    <string name="virus_scan_install">&lt;u&gt;Installa comunque&lt;/u&gt;</string>
+    <string name="virus_scan_is_risk">"Questa app rappresenta un rischio per la sicurezza del tuo dispositivo."</string>
+    <string name="virus_scan_is_virus">Questa app contiene un virus.</string>
+    <string name="virus_title_subtext">"Questa applicazione potrebbe contenere virus: "</string>
+    <string name="waiting_tip">Questo puotrà richiedere un po\' di tempo, ma ne vale la pena</string>
+    <string name="wear_app_channel">Installazione/disinstallazione di un\'app</string>
+    <string name="wear_not_allowed_dlg_text">Le azioni di installazione/disinstallazione non sono supportate su Wear.</string>
+    <string name="wear_not_allowed_dlg_title">Wear OS</string>
 </resources>
