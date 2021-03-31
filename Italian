@@ -1,38 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="accessibility_speakerphone_enabled">Altoparlante attivo</string>
-    <string name="alert_place_outgoing_call_with_redirection">Inoltra chiamata usando %1$s</string>
-    <string name="alert_place_unredirect_outgoing_call">Chiama usando il mio numero di telefono</string>
-    <string name="alert_redirect_outgoing_call_or_not">Scegli come effettuare questa chiamata</string>
-    <string name="alert_redirect_outgoing_call_timeout">"La chiamata non può essere effettuata da %1$s. Prova ad usare un'altra app di inoltro della chiamata o contatta lo sviluppatore per aiuto."</string>
-    <string name="blocked_numbers_butter_bar_title">Lista Blocchi disattivata</string>
-    <string name="cant_call_due_to_no_supported_service">"Impossibile effettuare la chiamata perché non ci sono account che supportano le chiamate di questo tipo."</string>
-    <string name="cant_call_due_to_ongoing_call">"Impossibile effettuare una chiamata a causa della tua chiamata %1$s."</string>
-    <string name="cant_call_due_to_ongoing_calls">"Impossibile effettuare una chiamata. Termina prima le tue %1$s chiamate."</string>
-    <string name="cant_call_due_to_ongoing_unknown_call">"Impossibile effettuare una chiamata a causa di una chiamata in un'altra app."</string>
-    <string name="change_default_call_screening_dialog_affirmative">Imposta come Predefinita</string>
-    <string name="change_default_call_screening_dialog_negative">Annulla</string>
-    <string name="change_default_call_screening_dialog_title">Rendere %s la tua app di screening chiamate predefinita?</string>
-    <string name="change_default_call_screening_warning_message">%s sarà in grado di vedere le informazioni sui chiamanti non nei tuoi contatti e sarà in grado di bloccare queste chiamate. Solo le applicazioni di cui ti fidi dovrebbero essere impostate come app di screening delle chiamate predefinite.</string>
-    <string name="change_default_call_screening_warning_message_for_disable_old_app">%s non sarà più in grado di visualizzare le chiamate.</string>
-    <string name="change_default_dialer_dialog_affirmative">Imposta come Predefinita</string>
-    <string name="developer_title">Menu sviluppatore telecomunicazioni</string>
-    <string name="duplicate_video_call_not_allowed">"Impossibile aggiungere altre chiamate"</string>
-    <string name="notification_channel_call_blocking">Blocco delle chiamate</string>
-    <string name="outgoing_call_not_allowed_no_permission">"Questa app non può effettuare chiamate in uscita senza i permessi richiesti."</string>
-    <string name="phone_settings_call_blocking_txt">Blocco delle chiamate</string>
-    <string name="phone_settings_number_not_in_contact_summary_txt">"Blocca numeri che non sono elencati nei tuoi contatti"</string>
-    <string name="phone_settings_number_not_in_contact_txt">Numeri non presenti nei contatti</string>
-    <string name="phone_settings_payphone_summary_txt">Blocca chiamate da telefoni a pagamento</string>
-    <string name="phone_settings_payphone_txt">Telefoni a pagamento</string>
-    <string name="phone_settings_private_num_summary_txt">"Blocca chi ti chiama con numero privato"</string>
-    <string name="phone_settings_private_num_txt">Privato</string>
-    <string name="phone_settings_unknown_summary_txt">Blocca le chiamate da numeri non identificati</string>
-    <string name="phone_settings_unknown_txt">Sconosciuto</string>
-    <string name="phone_strings_call_blocking_turned_off_notification_text_txt">Il blocco delle chiamate è spento</string>
-    <string name="phone_strings_call_blocking_turned_off_notification_title_txt">Blocco delle chiamate</string>
-    <string name="phone_strings_emergency_call_made_dialog_call_blocking_text_txt">Il blocco delle chiamate è stato disattivato per consentire ai servizi di emergenza di contattarti.</string>
-    <string name="phone_strings_emergency_call_made_dialog_title_txt">Chiamata di emergenza effettuata</string>
-    <string name="respond_via_sms_failure_format">"Impossibile inviare il messaggio a %s."</string>
-    <string name="telecommAppLabel">Gestisci chiamate</string>
+    <string-array name="account_user_gender_name">
+        <item>Maschio</item>
+        <item>Femmina</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>\#</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>Ven</item>
+        <item>G</item>
+        <item>O</item>
+        <item>I</item>
+        <item>G</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>A</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="countries">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Antigua &amp; Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burma</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>Cina</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo, Democratic Republic of the</item>
+        <item>Congo, Republic of the</item>
+        <item>Costa Rica</item>
+        <item>"Cote d'voire"</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Gabon</item>
+        <item>Gambia, The</item>
+        <item>Georgia</item>
+        <item>Ghana</item>
+        <item>Greece</item>
+        <item>Grenada</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Holy See</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Giappone</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Korea, North</item>
+        <item>Korea, South</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>North Korea</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestinian Territories</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Qatar</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor-Leste</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+    <string-array name="feedback_tag_list">
+        <item>Bug</item>
+        <item>Suggerimenti</item>
+        <item>Altro</item>
+    </string-array>
+    <string-array name="subtitle_font_title">
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+    </string-array>
 </resources>
