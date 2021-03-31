@@ -1,226 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="account_settings_check_frequency_values">
-        <item>-1</item>
-        <item>15</item>
-        <item>60</item>
-        <item>240</item>
-        <item>720</item>
-    </string-array>
-    <string-array name="account_settings_check_frequency_values_push">
-        <item>-2</item>
-        <item>-1</item>
-        <item>15</item>
-        <item>60</item>
-        <item>240</item>
-        <item>720</item>
-    </string-array>
-    <string-array name="account_settings_mail_window_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-    </string-array>
-    <string-array name="account_settings_mail_window_values_eas">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>7</item>
-    </string-array>
-    <string-array name="account_settings_mail_window_values_with_default">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>7</item>
-    </string-array>
-    <string-array name="account_settings_message_load_imap_eas_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-    <string-array name="account_settings_message_load_pop3_values">
-        <item>1</item>
-        <item>4</item>
-    </string-array>
-    <string-array name="all_month_str">
-        <item>Gen</item>
-        <item>Feb</item>
-        <item>Mar</item>
-        <item>Apr</item>
-        <item>Maggio</item>
-        <item>Giu</item>
-        <item>Lug</item>
-        <item>Ago</item>
-        <item>Set</item>
-        <item>Ott</item>
-        <item>Nov</item>
-        <item>Dic</item>
-    </string-array>
-    <string-array name="alphabet_chars">
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>Ven</item>
-        <item>G</item>
-        <item>O</item>
-        <item>I</item>
-        <item>G</item>
-        <item>K</item>
-        <item>L</item>
-        <item>M</item>
-        <item>N</item>
-        <item>O</item>
-        <item>P</item>
-        <item>Q</item>
-        <item>R</item>
-        <item>S</item>
-        <item>T</item>
-        <item>U</item>
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>A</item>
-        <item>Z</item>
-        <item>\#</item>
-        <item>∅</item>
-    </string-array>
-    <string-array name="alphabet_chars2">
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>Ven</item>
-        <item>G</item>
-        <item>O</item>
-        <item>I</item>
-        <item>G</item>
-        <item>K</item>
-        <item>L</item>
-        <item>M</item>
-        <item>N</item>
-        <item>O</item>
-        <item>P</item>
-        <item>Q</item>
-        <item>R</item>
-        <item>S</item>
-        <item>T</item>
-        <item>U</item>
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>A</item>
-        <item>Z</item>
-        <item>\#</item>
-    </string-array>
-    <string-array name="calendar_remind_string_array">
-        <item>Tonight</item>
-        <item>domani</item>
-        <item>Fine settimana</item>
-        <item>Next week</item>
-        <item>Mese successivo</item>
-        <item>Scegli una data</item>
-    </string-array>
-    <string-array name="general_preference_text_zoom_summary_array">
-        <item>Testo molto piccolo</item>
-        <item>Piccolo</item>
-        <item>Normale</item>
-        <item>Largo</item>
-        <item>Testo molto grande</item>
-    </string-array>
-    <string-array name="general_preference_text_zoom_values">
-        <item>tiny</item>
-        <item>small</item>
-        <item>normale</item>
-        <item>large</item>
-        <item>huge</item>
-    </string-array>
-    <string-array name="log_file_save_term_values">
-        <item>1</item>
-        <item>3</item>
-        <item>7</item>
-        <item>30</item>
-        <item>-1</item>
-    </string-array>
-    <string-array name="menu_att_mgr_sort_string_array">
-        <item>Predefinito</item>
-        <item>Formato</item>
-        <item>Nome</item>
-        <item>Mittente</item>
-        <item>Date received</item>
-    </string-array>
-    <string-array name="moveto_folder_sections">
-        <item>Sistema</item>
-        <item>Frequently Used</item>
-        <item>All Folders</item>
-    </string-array>
-    <string-array name="prefEntries_autoAdvance">
-        <item>Newer message</item>
-        <item>Older message</item>
-        <item>In arrivo</item>
-    </string-array>
-    <string-array name="prefEntries_contact_add">
-        <item>Tutto</item>
-        <item>Only senders</item>
-    </string-array>
-    <string-array name="prefValues_autoAdvance">
-        <item>newer</item>
-        <item>older</item>
-        <item>list</item>
-    </string-array>
-    <string-array name="signature_normal_string_array">
-        <item>Blog:</item>
-        <item>Site:</item>
-        <item>E-mail:</item>
-        <item>mobile:</item>
-        <item>Telefono:</item>
-        <item>T:</item>
-        <item>www.</item>
-        <item>F:</item>
-        <item>E:</item>
-        <item>E-mail:</item>
-        <item>Tel:</item>
-        <item>Fax:</item>
-        <item>Mail:</item>
-        <item>QQ:</item>
-        <item>MSN:</item>
-    </string-array>
-    <string-array name="signature_normal_string_array_next">
-        <item>Indirizzo:</item>
-        <item>Tel:</item>
-        <item>Nome:</item>
-        <item>E-mail:</item>
-        <item>Mobile:</item>
-        <item>WeChat:</item>
-        <item>Fax:</item>
-        <item>Postal Code:</item>
-    </string-array>
-    <string-array name="signature_special_string_array_next">
-        <item>Thanks,</item>
-        <item>Best Regards</item>
-        <item>Sent from my</item>
-        <item>Original email</item>
-        <item>Sent from my</item>
-        <item>Sent from</item>
-        <item>Da</item>
-        <item>This email</item>
-        <item>Avviso</item>
-        <item>Email Disclaimer</item>
-    </string-array>
-    <string-array name="smtp_host_prefixes">
-        <item>pop3</item>
-        <item>pop</item>
-        <item>imap</item>
-    </string-array>
+    <plurals name="a_hour_ago">
+        <item quantity="one">un\'ora fa</item>
+        <item quantity="other">un\'ora fa</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="one">un\'ora fa</item>
+        <item quantity="other">un\'ora fa</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="one">mezz\'ora fa</item>
+        <item quantity="other">mezz\'ora fa</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="one">Tra 1 ora</item>
+        <item quantity="other">Tra 1 ora</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="one">Tra mezz\'ora</item>
+        <item quantity="other">Tra mezz\'ora</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="one">Subito</item>
+        <item quantity="other">adesso</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 minuto</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="one">Proprio adesso</item>
+        <item quantity="other">ora</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
+    <plurals name="article_num">
+        <item quantity="other">%d articoli</item>
+        <item quantity="one">%d articolo</item>
+    </plurals>
+    <plurals name="feed_article_entrance_title">
+        <item quantity="other">%d articoli su questo argomento</item>
+        <item quantity="one">%d articolo su questo argomento</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="one">mezz\'ora fa</item>
+        <item quantity="other">mezz\'ora fa</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="one">Tra 1 ora</item>
+        <item quantity="other">Tra 1 ora</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="one">Tra mezz\'ora</item>
+        <item quantity="other">Tra mezz\'ora</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="one">Subito</item>
+        <item quantity="other">adesso</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 minuto</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="one">Proprio adesso</item>
+        <item quantity="other">ora</item>
+    </plurals>
+    <plurals name="llks_tools_remote_control_data">
+        <item quantity="other">%s elementi</item>
+        <item quantity="one">%s elemento</item>
+    </plurals>
+    <plurals name="llks_tools_smart_devices_data">
+        <item quantity="other">%s dispositivi</item>
+        <item quantity="one">%s dispositivo</item>
+    </plurals>
+    <plurals name="lockscreen_magazine_subscribe">
+        <item quantity="other">%1$s persone iscritte</item>
+        <item quantity="one">%1$s persona iscritta</item>
+    </plurals>
+    <plurals name="lockscreen_magazine_system_subscribe">
+        <item quantity="other">%1$s sfondi</item>
+        <item quantity="one">%1$s sfondo</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementi selezionati</item>
+        <item quantity="one">%d elemento selezionato</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuove notifiche</item>
+        <item quantity="one">%d nuova notifica</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%s foto</item>
+        <item quantity="one">%s foto</item>
+    </plurals>
+    <plurals name="time_day_ago">
+        <item quantity="other">%d giorni fa</item>
+        <item quantity="one">%d giorno fa</item>
+    </plurals>
+    <plurals name="time_hour_ago">
+        <item quantity="other">%d ore fa</item>
+        <item quantity="one">%d ora fa</item>
+    </plurals>
+    <plurals name="time_minute_ago">
+        <item quantity="other">%d min fa</item>
+        <item quantity="one">%d min fa</item>
+    </plurals>
+    <plurals name="wm_cw_count">
+        <item quantity="other">%d immagini</item>
+        <item quantity="one">%d immagine</item>
+    </plurals>
 </resources>
