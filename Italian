@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Vai alla Home</string>
-    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
-    <string name="abc_action_bar_up_description">Vai verso l\'alto</string>
-    <string name="abc_action_menu_overflow_description">Altre opzioni</string>
-    <string name="abc_action_mode_done">Fatto</string>
-    <string name="abc_activity_chooser_view_see_all">Mostra tutto</string>
-    <string name="abc_activitychooserview_choose_application">Scegli un\'app</string>
-    <string name="abc_capital_off">ATTIVATO</string>
-    <string name="abc_capital_on">DISATTIVATO</string>
-    <string name="abc_search_hint">Ricerca…</string>
-    <string name="abc_searchview_description_clear">Cancella campo</string>
-    <string name="abc_searchview_description_query">Cerca termine</string>
-    <string name="abc_searchview_description_search">Cerca</string>
-    <string name="abc_searchview_description_submit">Avvia ricerca</string>
-    <string name="abc_searchview_description_voice">Ricerca vocale</string>
-    <string name="abc_shareactionprovider_share_with">Condividi con</string>
-    <string name="abc_shareactionprovider_share_with_application">Condividi con %s</string>
-    <string name="abc_toolbar_collapse_description">Riduci</string>
-    <string name="assist_center_title">Usato attualmente</string>
-    <string name="assist_center_traffic_title">Rimanente</string>
-    <string name="assist_key1_title">Utilizzato oggi</string>
-    <string name="assist_key2_title">Questo mese</string>
-    <string name="gb">GB</string>
-    <string name="kb">KB</string>
-    <string name="mb">MB</string>
-    <string name="noti_key1_today_used">Oggi: %1$s</string>
-    <string name="noti_key2_remain">Rimanente:%1$s</string>
-    <string name="noti_key2_used">Utilizzato: %1$s</string>
-    <string name="noti_key3">Dettagli &gt;</string>
-    <string name="search_menu_title">Cerca</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="always_on_disconnected_message">"%1$s è impostato per rimanere connesso per tutto il tempo, ma in questo momento non può connettersi. Il tuo telefono userà una rete pubblica finché non si potrà connettere a %1$s."</string>
+    <string name="always_on_disconnected_message_lockdown">"%1$s è impostato per rimanere connesso per tutto il tempo, ma in questo momento non può connettersi. NOn avrai una connessione disonibile finché la VPN non si connetterà di nuovo."</string>
+    <string name="always_on_disconnected_message_settings_link">Modifica impostazioni VPN</string>
+    <string name="always_on_disconnected_title">"Impossibile collegarsi alla VPN always-on"</string>
+    <string name="configure">Configura</string>
+    <string name="data_received">Ricevuti:</string>
+    <string name="data_transmitted">Inviati:</string>
+    <string name="data_value_format">%1$s byte/%2$s pacchetti</string>
+    <string name="disconnect">Disconnetti</string>
+    <string name="dismiss">Rifiuta</string>
+    <string name="duration">Durata:</string>
+    <string name="legacy_title">VPN connessa</string>
+    <string name="open_app">Apri app</string>
+    <string name="prompt">Richiesta connessione</string>
+    <string name="session">Sessione:</string>
+    <string name="warning">%s vuole impostare una connessione VPN che consentirà di monitorare il traffico. Accetta solo se ti fidi della fonte. &lt;br /&gt; &lt;br /&gt; &lt;img src=vpn_icon /&gt; apparirà in alto sul tuo display quando la VPN risulterà attiva.</string>
 </resources>
