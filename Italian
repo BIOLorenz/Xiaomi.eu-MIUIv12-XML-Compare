@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="auto_clean_size">
-        <item>100MB</item>
-        <item>300MB</item>
-        <item>500MB</item>
-        <item>1GB</item>
-    </string-array>
-    <string-array name="auto_process_mode">
-        <item>Chiedi sempre</item>
-        <item>Cancella</item>
-        <item>Clear and notify</item>
-    </string-array>
-    <string-array name="cache_sort_type">
-        <item>Dimensione</item>
-        <item>Nome</item>
-    </string-array>
-    <string-array name="installed_app_sort_type">
-        <item>Utilizzati di frequente</item>
-        <item>Dimensione</item>
-    </string-array>
-    <string-array name="large_file_sort_type">
-        <item>Dimensione</item>
-        <item>Nome</item>
-    </string-array>
-    <string-array name="uninstalled_app_sort_type">
-        <item>Dimensione</item>
-        <item>Usage frequency</item>
-        <item>Installation time</item>
-    </string-array>
-    <string-array name="wechat_sort">
-        <item>Data</item>
-        <item>Dimensione</item>
-    </string-array>
+    <plurals name="show_hiden_test">
+        <item quantity="other">Ti mancano %1$d tocchi per avviare la diagnostica</item>
+        <item quantity="one">Ti manca %1$d tocco per avviare la diagnostica</item>
+    </plurals>
 </resources>
