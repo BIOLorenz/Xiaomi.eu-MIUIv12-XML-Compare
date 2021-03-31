@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="organized_locales">
-        <item>hk</item>
-        <item>in</item>
-        <item>id</item>
-        <item>my</item>
-        <item>ph</item>
-        <item>sg</item>
-        <item>tw</item>
-        <item>br</item>
-        <item>ru</item>
-        <item>vn</item>
-        <item>tr</item>
-        <item>th</item>
-        <item>ae</item>
-        <item>mm</item>
-        <item>mx</item>
-    </string-array>
-    <string-array name="other_settings_auto_update_entries">
-        <item>Wi-Fi and mobile data</item>
-        <item>Wi-Fi only</item>
-        <item>Spenta</item>
-    </string-array>
-    <string-array name="popular_locales">
-        <item>IN</item>
-        <item>ID</item>
-        <item>MY</item>
-        <item>RU</item>
-        <item>TW</item>
-        <item>HK</item>
-    </string-array>
+    <string name="pager_footer">%1$d di %2$d</string>
+    <string name="tts_pause">.</string>
+    <string name="widget_name">Suggerimenti schermata Home</string>
 </resources>
