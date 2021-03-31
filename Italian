@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="number_dsi">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-    </string-array>
+    <plurals name="show_hiden_test">
+        <item quantity="other">Ti mancano %1$d tocchi per avviare la diagnostica</item>
+        <item quantity="one">Ti manca %1$d tocco per avviare la diagnostica</item>
+    </plurals>
 </resources>
