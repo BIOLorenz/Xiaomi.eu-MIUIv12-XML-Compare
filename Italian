@@ -1,373 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string-array name="account_sync_frequency">
-    <item>Manuale</item>
-    <item>Ogni 15 minuti</item>
-    <item>Ogni ora</item>
-    <item>Ogni 4 ore</item>
-    <item>Ogni 12 ore</item>
-  </string-array>
-  <string-array name="alphabet_table">
-    <item>A</item>
-    <item>B</item>
-    <item>C</item>
-    <item>D</item>
-    <item>E</item>
-    <item>Ven</item>
-    <item>G</item>
-    <item>O</item>
-    <item>I</item>
-    <item>G</item>
-    <item>K</item>
-    <item>L</item>
-    <item>M</item>
-    <item>N</item>
-    <item>O</item>
-    <item>P</item>
-    <item>Q</item>
-    <item>R</item>
-    <item>S</item>
-    <item>T</item>
-    <item>U</item>
-    <item>V</item>
-    <item>W</item>
-    <item>X</item>
-    <item>A</item>
-    <item>Z</item>
-    <item>\#</item>
-  </string-array>
-  <string-array name="alphabet_table_with_starred">
-    <item>!</item>
-    <item>A</item>
-    <item>B</item>
-    <item>C</item>
-    <item>D</item>
-    <item>E</item>
-    <item>Ven</item>
-    <item>G</item>
-    <item>O</item>
-    <item>I</item>
-    <item>G</item>
-    <item>K</item>
-    <item>L</item>
-    <item>M</item>
-    <item>N</item>
-    <item>O</item>
-    <item>P</item>
-    <item>Q</item>
-    <item>R</item>
-    <item>S</item>
-    <item>T</item>
-    <item>U</item>
-    <item>V</item>
-    <item>W</item>
-    <item>X</item>
-    <item>A</item>
-    <item>Z</item>
-    <item>\#</item>
-  </string-array>
-  <string-array name="close_alarm_repeating_labels">
-    <item>Solo epr questa volta</item>
-    <item>Turn off repeated reminder</item>
-  </string-array>
-  <string-array name="default_reminder_later_time_labels">
-    <item>5 minutes</item>
-    <item>10 minuti</item>
-    <item>15 minutes</item>
-    <item>30 minuti</item>
-    <item>1 ora</item>
-  </string-array>
-  <string-array name="delete_repeating_labels">
-    <item>Only this event</item>
-    <item>This and future events</item>
-    <item>Tutti gli eventi</item>
-  </string-array>
-  <string-array name="di_zhi">
-    <item>Jia</item>
-    <item>Yi</item>
-    <item>Bing</item>
-    <item>Ding</item>
-    <item>Wu</item>
-    <item>Jia</item>
-    <item>Ji</item>
-    <item>Geng</item>
-    <item>Ren</item>
-    <item>Gui</item>
-  </string-array>
-  <string-array name="fortune_gender">
-    <item>男</item>
-    <item>Figlia</item>
-  </string-array>
-  <string-array name="open_alarm_repeating_labels">
-    <item>Solo epr questa volta</item>
-    <item>Set repeated reminder</item>
-  </string-array>
-  <string-array name="prefEntries_alerts_popup_new">
-    <item>Spenta</item>
-    <item>For all events</item>
-    <item>For time-sensitive events</item>
-  </string-array>
-  <string-array name="prefEntries_alerts_vibrateWhen">
-    <item>Sempre</item>
-    <item>Only when ringer is silenced</item>
-    <item>Mai</item>
-  </string-array>
-  <string-array name="prefValues_alerts_popup">
-    <item>smart</item>
-    <item>all</item>
-    <item>smart</item>
-  </string-array>
-  <string-array name="prefValues_alerts_vibrateWhen">
-    <item>always</item>
-    <item>silent</item>
-    <item>never</item>
-  </string-array>
-  <string-array name="preferences_default_reminder_later_time_values">
-    <item>300000</item>
-    <item>600000</item>
-    <item>900000</item>
-    <item>1800000</item>
-    <item>3600000</item>
-  </string-array>
-  <string-array name="preferences_default_reminder_values">
-    <item>0</item>
-    <item>5</item>
-    <item>10</item>
-    <item>15</item>
-    <item>30</item>
-    <item>60</item>
-    <item>1440</item>
-    <item>2880</item>
-    <item>10080</item>
-  </string-array>
-  <string-array name="preferences_week_start_day_labels">
-    <item>Region default</item>
-    <item>Sabato</item>
-    <item>Domenica</item>
-    <item>Lunedì</item>
-  </string-array>
-  <string-array name="preferences_week_start_day_values">
-    <item>-1</item>
-    <item>7</item>
-    <item>1</item>
-    <item>2</item>
-  </string-array>
-  <string-array name="repeat_choose_day">
-    <item>1st</item>
-    <item>2°</item>
-    <item>3rd</item>
-    <item>4th</item>
-    <item>5th</item>
-    <item>6th</item>
-    <item>7th</item>
-    <item>8th</item>
-    <item>9th</item>
-    <item>10th</item>
-    <item>11th</item>
-    <item>12th</item>
-    <item>13th</item>
-    <item>14th</item>
-    <item>15th</item>
-    <item>16th</item>
-    <item>17th</item>
-    <item>18th</item>
-    <item>19th</item>
-    <item>20th</item>
-    <item>21st</item>
-    <item>22nd</item>
-    <item>23rd</item>
-    <item>24th</item>
-    <item>25th</item>
-    <item>26th</item>
-    <item>27th</item>
-    <item>28th</item>
-    <item>29th</item>
-    <item>30th</item>
-    <item>31st</item>
-  </string-array>
-  <string-array name="repeat_choose_end">
-    <item>Mai</item>
-    <item>Ora</item>
-    <item>Count</item>
-  </string-array>
-  <string-array name="repeat_choose_month">
-    <item>Gen</item>
-    <item>Feb</item>
-    <item>Mar</item>
-    <item>Apr</item>
-    <item>Maggio</item>
-    <item>Giu</item>
-    <item>Lug</item>
-    <item>Ago</item>
-    <item>Set</item>
-    <item>Ott</item>
-    <item>Nov</item>
-    <item>Dic</item>
-  </string-array>
-  <string-array name="repeat_choose_week_right">
-    <item>Mon - Fri</item>
-    <item>Fine settimana</item>
-    <item>Whole week</item>
-  </string-array>
-  <string-array name="repeat_choose_weekday">
-    <item>Lun</item>
-    <item>Mar</item>
-    <item>Mer</item>
-    <item>Thur</item>
-    <item>Ven</item>
-    <item>Sab</item>
-    <item>Dom</item>
-  </string-array>
-  <string-array name="repeat_countdown">
-    <item>Mai</item>
-    <item>Mensile</item>
-    <item>Annuale</item>
-  </string-array>
-  <string-array name="repeat_frequency_spinner">
-    <item>giorno</item>
-    <item>settimana</item>
-    <item>mese</item>
-    <item>anno</item>
-  </string-array>
-  <string-array name="response_labels1">
-    <item>Errore nella risposta</item>
-    <item>Sì</item>
-    <item>Forse</item>
-    <item>No</item>
-  </string-array>
-  <string-array name="response_labels2">
-    <item>"Don't respond"</item>
-    <item>Accetta</item>
-    <item>Decide later</item>
-    <item>Rifiuta</item>
-  </string-array>
-  <string-array name="tian_gan">
-    <item>Zi</item>
-    <item>Chou</item>
-    <item>Yin</item>
-    <item>Mao</item>
-    <item>Chen</item>
-    <item>Si</item>
-    <item>Wu</item>
-    <item>Wei</item>
-    <item>Shen</item>
-    <item>You</item>
-    <item>Xu</item>
-    <item>Hai</item>
-  </string-array>
-  <string-array name="timezone_labels_v3">
-    <item>Marshall Islands</item>
-    <item>Midway Island</item>
-    <item>Hawaii</item>
-    <item>Alaska</item>
-    <item>Pacific Time</item>
-    <item>Tijuana</item>
-    <item>Arizona</item>
-    <item>Chihuahua</item>
-    <item>Mountain Time</item>
-    <item>Central America</item>
-    <item>Central Time</item>
-    <item>Mexico City</item>
-    <item>Saskatchewan</item>
-    <item>Bogotá</item>
-    <item>Eastern Time</item>
-    <item>Venezuela</item>
-    <item>Atlantic Time (Barbados)</item>
-    <item>Atlantic Time (Canada)</item>
-    <item>Manaus</item>
-    <item>Santiago</item>
-    <item>Newfoundland</item>
-    <item>Brasilia</item>
-    <item>Buenos Aires</item>
-    <item>Greenland</item>
-    <item>Montevideo</item>
-    <item>Mid-Atlantic</item>
-    <item>Azores</item>
-    <item>Cape Verde</item>
-    <item>Casablanca</item>
-    <item>London</item>
-    <item>Dublin</item>
-    <item>Amsterdam</item>
-    <item>Berlin</item>
-    <item>Belgrade</item>
-    <item>Brussels</item>
-    <item>Sarajevo</item>
-    <item>Windhoek</item>
-    <item>W. Africa Time</item>
-    <item>Amman</item>
-    <item>Athens</item>
-    <item>Istanbul</item>
-    <item>Beirut</item>
-    <item>Cairo</item>
-    <item>Helsinki</item>
-    <item>Jerusalem</item>
-    <item>Minsk</item>
-    <item>Harare</item>
-    <item>Baghdad</item>
-    <item>Moscow</item>
-    <item>Kuwait</item>
-    <item>Nairobi</item>
-    <item>Tehran</item>
-    <item>Baku</item>
-    <item>Tbilisi</item>
-    <item>Yerevan</item>
-    <item>Dubai</item>
-    <item>Kabul</item>
-    <item>Karachi</item>
-    <item>"Ural'sk"</item>
-    <item>Yekaterinburg</item>
-    <item>Kolkata</item>
-    <item>Sri Lanka</item>
-    <item>Kathmandu</item>
-    <item>Astana</item>
-    <item>Yangon</item>
-    <item>Krasnoyarsk</item>
-    <item>Bangkok</item>
-    <item>Pechino</item>
-    <item>Chongqing</item>
-    <item>Hong Kong</item>
-    <item>Macau</item>
-    <item>Singapore</item>
-    <item>Irkutsk</item>
-    <item>Kuala Lumpur</item>
-    <item>Perth</item>
-    <item>Taipei</item>
-    <item>Seoul</item>
-    <item>Tokyo</item>
-    <item>Yakutsk</item>
-    <item>Adelaide</item>
-    <item>Darwin</item>
-    <item>Brisbane</item>
-    <item>Hobart</item>
-    <item>Sydney</item>
-    <item>Canberra</item>
-    <item>Vladivostok</item>
-    <item>Guam</item>
-    <item>Magadan</item>
-    <item>Auckland</item>
-    <item>Fiji</item>
-    <item>Tonga</item>
-  </string-array>
-  <string-array name="widget_style_list">
-    <item>Trasparente</item>
-    <item>White background</item>
-  </string-array>
-  <string-array name="year_view_week_header_name">
-    <item>S</item>
-    <item>M</item>
-    <item>T</item>
-    <item>W</item>
-    <item>T</item>
-    <item>Ven</item>
-    <item>S</item>
-  </string-array>
-  <string-array name="year_view_week_header_name_other">
-    <item>7</item>
-    <item>1</item>
-    <item>2</item>
-    <item>3</item>
-    <item>4</item>
-    <item>5</item>
-    <item>6</item>
-  </string-array>
+    <plurals name="Ndays">
+        <item quantity="other">%d giorni</item>
+        <item quantity="one">%d giorno</item>
+    </plurals>
+    <plurals name="Ndays_after">
+        <item quantity="other">%1$d giorni dopo</item>
+        <item quantity="one">%1$d giorno dopo</item>
+    </plurals>
+    <plurals name="Ndays_after_at">
+        <item quantity="other">Tra %1$d giorni alle %2$s</item>
+        <item quantity="one">Tra %1$d giorno alle %2$s</item>
+    </plurals>
+    <plurals name="Ndays_ago">
+        <item quantity="other">%1$d giorni prima</item>
+        <item quantity="one">%1$d giorno prima</item>
+    </plurals>
+    <plurals name="Ndays_ago_at">
+        <item quantity="other">%1$d giorni prima alle %2$s</item>
+        <item quantity="one">%1$d giorno prima alle %2$s</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d ora</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="other">%d settimane prima</item>
+        <item quantity="one">%d settimana prima</item>
+    </plurals>
+    <plurals name="a_hour_ago">
+        <item quantity="one">un\'ora fa</item>
+        <item quantity="other">un\'ora fa</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="one">un\'ora fa</item>
+        <item quantity="other">un\'ora fa</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="one">mezz\'ora fa</item>
+        <item quantity="other">mezz\'ora fa</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="one">Tra 1 ora</item>
+        <item quantity="other">Tra 1 ora</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="one">Tra mezz\'ora</item>
+        <item quantity="other">Tra mezz\'ora</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="one">Subito</item>
+        <item quantity="other">adesso</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 minuto</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="one">Proprio adesso</item>
+        <item quantity="other">ora</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
+    <plurals name="anniversary_day">
+        <item quantity="other">%1$s giorni</item>
+        <item quantity="one">%1$s giorno</item>
+    </plurals>
+    <plurals name="anniversary_notify_before_3_day_title">
+        <item quantity="other">Anniversario: %2$d anni da %1$s tra 3 giorni</item>
+        <item quantity="one">Anniversario: %2$d anno da %1$s tra 3 giorni</item>
+    </plurals>
+    <plurals name="anniversary_notify_title">
+        <item quantity="other">Anniversario: %2$d anni da %1$s</item>
+        <item quantity="one">Anniversario: %2$d anno da %1$s</item>
+    </plurals>
+    <plurals name="anniversary_year">
+        <item quantity="other">%1$s anni</item>
+        <item quantity="one">%1$s anno</item>
+    </plurals>
+    <plurals name="birthday_event_description_days_ago">
+        <item quantity="other">%1$d giorni da</item>
+        <item quantity="one">%1$d giorno da</item>
+    </plurals>
+    <plurals name="birthday_event_description_days_later">
+        <item quantity="other">%1$d giorni a</item>
+        <item quantity="one">%1$d giorni a</item>
+    </plurals>
+    <plurals name="birthday_notification_age_term">
+        <item quantity="other">%1$s anni fa</item>
+        <item quantity="one">%1$s anno fa</item>
+    </plurals>
+    <plurals name="countdown_day">
+        <item quantity="other">- %1$s giorni</item>
+        <item quantity="one">- %1$s giorno</item>
+    </plurals>
+    <plurals name="date_calculate_days_after">
+        <item quantity="other">%1$d giorni dopo</item>
+        <item quantity="one">%1$d giorno dopo</item>
+    </plurals>
+    <plurals name="date_calculate_days_ago">
+        <item quantity="other">%1$d giorni prima</item>
+        <item quantity="one">%1$d giorno prima</item>
+    </plurals>
+    <plurals name="date_calculate_direction_backward">
+        <item quantity="other">%1$d giorni dopo</item>
+        <item quantity="one">%1$d giorno dopo</item>
+    </plurals>
+    <plurals name="date_calculate_direction_forward">
+        <item quantity="other">%1$d giorni prima</item>
+        <item quantity="one">%1$d giorno prima</item>
+    </plurals>
+    <plurals name="edit_date_calculate_days_error_hint">
+        <item quantity="other">Puoi inserire fino a %1$d giorni</item>
+        <item quantity="one">Puoi inserire fino a %1$d giorno</item>
+    </plurals>
+    <plurals name="event_reminders_to_max">
+        <item quantity="other">Puoi impostare fino a %d promemoria</item>
+        <item quantity="one">Puoi impostare fino a %d promemoria</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="one">mezz\'ora fa</item>
+        <item quantity="other">mezz\'ora fa</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="one">Tra 1 ora</item>
+        <item quantity="other">Tra 1 ora</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="one">Tra mezz\'ora</item>
+        <item quantity="other">Tra mezz\'ora</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="one">Subito</item>
+        <item quantity="other">adesso</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 minuto</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="one">Proprio adesso</item>
+        <item quantity="other">ora</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuove notifiche</item>
+        <item quantity="one">%d nuova notifica</item>
+    </plurals>
+    <plurals name="n_attendees">
+        <item quantity="other">%d inviti</item>
+        <item quantity="one">%d invito</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
+    <plurals name="other_all_day_events">
+        <item quantity="other">%d altri eventi</item>
+        <item quantity="one">%d altro evento</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_day">
+        <item quantity="other">" giorni"</item>
+        <item quantity="one">" giorno"</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_hour">
+        <item quantity="other">" ore"</item>
+        <item quantity="one">" ora"</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_minute">
+        <item quantity="other">" minuti"</item>
+        <item quantity="one">" minuto"</item>
+    </plurals>
+    <plurals name="reminder_later_toast">
+        <item quantity="other">Prossimo promemoria tra %1$d minuti</item>
+        <item quantity="one">Prossimo promemoria tra %1$d minuto</item>
+    </plurals>
+    <plurals name="repeat_custom_prompt">
+        <item quantity="other">ogni %1$s su %2$s</item>
+        <item quantity="one">ogni %1$s sun %2$s</item>
+    </plurals>
+    <plurals name="repeat_interval_frequency_day_multiple">
+        <item quantity="other">%1$d giorni</item>
+        <item quantity="one">%1$d giorno</item>
+    </plurals>
+    <plurals name="repeat_interval_frequency_month_multiple">
+        <item quantity="other">%1$d mesi</item>
+        <item quantity="one">%1$d mese</item>
+    </plurals>
+    <plurals name="repeat_interval_frequency_week_multiple">
+        <item quantity="other">%1$d settimane</item>
+        <item quantity="one">%1$d settimana</item>
+    </plurals>
+    <plurals name="repeat_interval_frequency_year_multiple">
+        <item quantity="other">%1$d anni</item>
+        <item quantity="one">%1$d anno</item>
+    </plurals>
+    <plurals name="travel_time_range_hours">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d ora</item>
+    </plurals>
+    <plurals name="travel_time_range_mins">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Settimana %d</item>
+        <item quantity="other">Settimane %d</item>
+    </plurals>
+    <plurals name="work_days">
+        <item quantity="other">%d giorni lavorativi</item>
+        <item quantity="one">%d giorno lavorativo</item>
+    </plurals>
 </resources>
