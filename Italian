@@ -1,265 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="alphabet_table">
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>Ven</item>
-        <item>G</item>
-        <item>O</item>
-        <item>I</item>
-        <item>G</item>
-        <item>K</item>
-        <item>L</item>
-        <item>M</item>
-        <item>N</item>
-        <item>O</item>
-        <item>P</item>
-        <item>Q</item>
-        <item>R</item>
-        <item>S</item>
-        <item>T</item>
-        <item>U</item>
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>A</item>
-        <item>Z</item>
-        <item>\#</item>
-    </string-array>
-    <string-array name="alphabet_table_with_starred">
-        <item>!</item>
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>Ven</item>
-        <item>G</item>
-        <item>O</item>
-        <item>I</item>
-        <item>G</item>
-        <item>K</item>
-        <item>L</item>
-        <item>M</item>
-        <item>N</item>
-        <item>O</item>
-        <item>P</item>
-        <item>Q</item>
-        <item>R</item>
-        <item>S</item>
-        <item>T</item>
-        <item>U</item>
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>A</item>
-        <item>Z</item>
-        <item>\#</item>
-    </string-array>
-    <string-array name="broadcast_locales">
-        <item>AE</item>
-        <item>AG</item>
-        <item>AR</item>
-        <item>BH</item>
-        <item>BO</item>
-        <item>BS</item>
-        <item>BB</item>
-        <item>BZ</item>
-        <item>BR</item>
-        <item>CL</item>
-        <item>CO</item>
-        <item>CR</item>
-        <item>CU</item>
-        <item>DO</item>
-        <item>EC</item>
-        <item>EG</item>
-        <item>GF</item>
-        <item>GD</item>
-        <item>GQ</item>
-        <item>GT</item>
-        <item>GY</item>
-        <item>HT</item>
-        <item>HN</item>
-        <item>IN</item>
-        <item>IL</item>
-        <item>IR</item>
-        <item>JM</item>
-        <item>JO</item>
-        <item>KR</item>
-        <item>KW</item>
-        <item>MX</item>
-        <item>NI</item>
-        <item>OM</item>
-        <item>PA</item>
-        <item>PY</item>
-        <item>PE</item>
-        <item>QA</item>
-        <item>SA</item>
-        <item>SR</item>
-        <item>SV</item>
-        <item>KN</item>
-        <item>LC</item>
-        <item>VC</item>
-        <item>TW</item>
-        <item>TT</item>
-        <item>UY</item>
-        <item>VE</item>
-        <item>PL</item>
-        <item>GR</item>
-        <item>ME</item>
-        <item>CZ</item>
-        <item>HU</item>
-        <item>SK</item>
-        <item>AT</item>
-        <item>HR</item>
-        <item>RS</item>
-        <item>EE</item>
-        <item>ES</item>
-        <item>IT</item>
-        <item>PT</item>
-        <item>FR</item>
-    </string-array>
-    <string-array name="contact_entries">
-        <item>Nome</item>
-        <item>Soprannome</item>
-        <item>Telefono</item>
-        <item>E-mail</item>
-        <item>Società</item>
-        <item>Chat</item>
-        <item>Telefono SIP</item>
-        <item>Compleanno</item>
-        <item>Sito web</item>
-        <item>Indirizzo</item>
-        <item>Nota</item>
-        <item>Relation</item>
-    </string-array>
-    <string-array name="entries_mms_validity_period">
-        <item>Massimo</item>
-        <item>2 days</item>
-    </string-array>
-    <string-array name="entries_mms_validity_period_value">
-        <item>0</item>
-        <item>172800</item>
-    </string-array>
-    <string-array name="entries_sms_validity_period">
-        <item>Non impostato</item>
-        <item>1 ora</item>
-        <item>6 ore</item>
-        <item>12 ore</item>
-        <item>Un giorno</item>
-        <item>Massimo</item>
-    </string-array>
-    <string-array name="entries_sms_validity_period_value">
-        <item>-1</item>
-        <item>60</item>
-        <item>360</item>
-        <item>720</item>
-        <item>1440</item>
-        <item>635040</item>
-    </string-array>
-    <string-array name="message_sending_method_value">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="message_type">
-        <item>RCS</item>
-        <item>SMS/MMS</item>
-    </string-array>
-    <string-array name="passport_alphabet_table">
-        <item>\#</item>
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>Ven</item>
-        <item>G</item>
-        <item>O</item>
-        <item>I</item>
-        <item>G</item>
-        <item>K</item>
-        <item>L</item>
-        <item>M</item>
-        <item>N</item>
-        <item>O</item>
-        <item>P</item>
-        <item>Q</item>
-        <item>R</item>
-        <item>S</item>
-        <item>T</item>
-        <item>U</item>
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>A</item>
-        <item>Z</item>
-    </string-array>
-    <string-array name="prefEntries_vibrateWhen">
-        <item>Sempre</item>
-        <item>Only in Silent mode</item>
-        <item>Mai</item>
-    </string-array>
-    <string-array name="prefValues_vibrateWhen">
-        <item>always</item>
-        <item>silent</item>
-        <item>never</item>
-    </string-array>
-    <string-array name="rcs_fallback_value">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="rcs_ft_fallback">
-        <item>Never ask and always send as SMS Link</item>
-        <item>Never ask and never send as SMS Link</item>
-        <item>Chiedi sempre</item>
-    </string-array>
-    <string-array name="rcs_message_fallback">
-        <item>Never ask and always send as SMS</item>
-        <item>Never ask and never send as SMS</item>
-        <item>Chiedi sempre</item>
-    </string-array>
-    <string-array name="rcs_quality_value">
-        <item>-1</item>
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="resent_via_entries_mms">
-        <item>SMS</item>
-        <item>Messaggi Mi</item>
-    </string-array>
-    <string-array name="resent_via_entries_sms">
-        <item>SMS</item>
-        <item>Messaggi Mi</item>
-    </string-array>
-    <string-array name="select_dialog_items">
-        <item>1 secondo</item>
-        <item>2 seconds</item>
-        <item>3 seconds</item>
-        <item>4 seconds</item>
-        <item>5 seconds</item>
-        <item>6 seconds</item>
-        <item>7 seconds</item>
-        <item>8 seconds</item>
-        <item>9 seconds</item>
-        <item>10 secondi</item>
-        <item>Altro</item>
-    </string-array>
-    <string-array name="switch_sdk">
-        <item>Messaggi Mi</item>
-        <item>CMCC Smart SMS</item>
-    </string-array>
-    <string-array name="switch_sdk_value">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="values_pref_key_voice_report">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
+    <plurals name="a_hour_ago">
+        <item quantity="one">un\'ora fa</item>
+        <item quantity="other">un\'ora fa</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="one">un\'ora fa</item>
+        <item quantity="other">un\'ora fa</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="one">mezz\'ora fa</item>
+        <item quantity="other">mezz\'ora fa</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="one">Tra 1 ora</item>
+        <item quantity="other">Tra 1 ora</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="one">Tra mezz\'ora</item>
+        <item quantity="other">Tra mezz\'ora</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="one">Subito</item>
+        <item quantity="other">adesso</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 minuto</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="one">Proprio adesso</item>
+        <item quantity="other">ora</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
+    <plurals name="batch_delete_confirm_dialog_message">
+        <item quantity="other">Eliminare %1$s messaggi?</item>
+        <item quantity="one">Eliminare %1$s messaggio?</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="other">%d SMS</item>
+        <item quantity="one">%d SMS</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="other">"%d messaggi non sono stati sincronizzati"</item>
+        <item quantity="one">"%d messaggio non è stato sincronizzato"</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Eliminare le %1$s conversazioni selezionate?</item>
+        <item quantity="one">Eliminare questa %1$s conversazione?</item>
+    </plurals>
+    <plurals name="custom_select_title_items_selected">
+        <item quantity="other">%d selezionati</item>
+        <item quantity="one">%d selezionato</item>
+    </plurals>
+    <plurals name="delivery_toast_body_more_plurals">
+        <item quantity="other">Messaggio ricevuto da %1$s ed altre %2$d persone</item>
+        <item quantity="one">Messaggio ricevuto da %1$s ed %2$d altra persona</item>
+    </plurals>
+    <plurals name="group_message_failed_title">
+        <item quantity="other">"Impossibile inviare a %d contatti"</item>
+        <item quantity="one">"Impossibile inviare a %d contatto"</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="one">mezz\'ora fa</item>
+        <item quantity="other">mezz\'ora fa</item>
+    </plurals>
+    <plurals name="hint_search_sms">
+        <item quantity="other">%d SMS</item>
+        <item quantity="one">%d SMS</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="one">Tra 1 ora</item>
+        <item quantity="other">Tra 1 ora</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="one">Tra mezz\'ora</item>
+        <item quantity="other">Tra mezz\'ora</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="one">Subito</item>
+        <item quantity="other">adesso</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 minuto</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="one">Proprio adesso</item>
+        <item quantity="other">ora</item>
+    </plurals>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="other">Contrassegnato come %2$s da %1$d persone</item>
+        <item quantity="one">Contrassegnato come %2$s da %1$d persona</item>
+    </plurals>
+    <plurals name="message_count">
+        <item quantity="other">%1$s messaggi</item>
+        <item quantity="one">%1$s messaggio</item>
+    </plurals>
+    <plurals name="notification_multiple">
+        <item quantity="other">"%s messaggi | "</item>
+        <item quantity="one">"%s messaggio | "</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
+    <plurals name="rcs_group_notification_invitation_receive">
+        <item quantity="other">Hai ricevuto %d inviti a chat di gruppo</item>
+        <item quantity="one">Hai ricevuto %d invito a chat di gruppo</item>
+    </plurals>
+    <plurals name="recipient_count">
+        <item quantity="other">%1$s persone</item>
+        <item quantity="one">%1$s persona</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s risultati per \"%2$s\"</item>
+        <item quantity="one">%1$s risultato per \"%2$s\"</item>
+    </plurals>
+    <plurals name="send_to_count">
+        <item quantity="other">%1$s messaggi inviati</item>
+        <item quantity="one">%1$s messaggio inviato</item>
+    </plurals>
+    <plurals name="slide_audio_duration">
+        <item quantity="other">%d sec</item>
+        <item quantity="one">%d sec</item>
+    </plurals>
+    <plurals name="slide_duration">
+        <item quantity="other">%d sec</item>
+        <item quantity="one">%d sec</item>
+    </plurals>
+    <plurals name="timed_message_expired_title">
+        <item quantity="other">"%d messaggi programmati non sono stati inviati"</item>
+        <item quantity="one">"%d messaggio inviato non è stato programmato"</item>
+    </plurals>
+    <plurals name="timed_message_in_total">
+        <item quantity="other">(%d messaggi)</item>
+        <item quantity="one">(%d messaggio)</item>
+    </plurals>
+    <plurals name="to_count">
+        <item quantity="other">%d destinatari</item>
+        <item quantity="one">%d destinatario</item>
+    </plurals>
 </resources>
