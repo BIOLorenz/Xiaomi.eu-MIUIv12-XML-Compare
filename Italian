@@ -1,162 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string-array name="config_display_no_service_when_sim_unready">
-    <item>DE</item>
-    <item>GB</item>
-    <item>JP</item>
-  </string-array>
-  <string-array name="config_emergency_iso_country_codes">
-    <item>in</item>
-  </string-array>
-  <string-array name="config_globalActionsList">
-    <item>emergency</item>
-    <item>lockdown</item>
-    <item>potenza</item>
-    <item>restart</item>
-    <item>logout</item>
-    <item>bugreport</item>
-  </string-array>
-  <string-array name="config_locationProviderPackageNames">
-    <item>com.google.android.gms</item>
-    <item>com.android.location.fused</item>
-    <item>com.qualcomm.location</item>
-    <item>com.xiaomi.location.fused</item>
-    <item>com.xiaomi.metoknlp</item>
-  </string-array>
-  <string-array name="config_nightDisplayColorTemperatureCoefficients">
-    <item>0.0</item>
-    <item>0.0</item>
-    <item>1.0</item>
-    <item>-0.00000000962353339</item>
-    <item>0.000153045476</item>
-    <item>0.390782778</item>
-    <item>-0.0000000189359041</item>
-    <item>0.000302412211</item>
-    <item>-0.198650895</item>
-  </string-array>
-  <string-array name="config_nightDisplayColorTemperatureCoefficientsNative">
-    <item>0.0</item>
-    <item>0.0</item>
-    <item>1.0</item>
-    <item>-0.00000000962353339</item>
-    <item>0.000153045476</item>
-    <item>0.390782778</item>
-    <item>-0.0000000189359041</item>
-    <item>0.000302412211</item>
-    <item>-0.198650895</item>
-  </string-array>
-  <string-array name="config_statusBarIcons">
-    <item>micphone</item>
-    <item>headset</item>
-    <item>mikey</item>
-    <item>call_record</item>
-    <item>privacy_mode</item>
-    <item>ble_unlock_mode</item>
-    <item>quiet</item>
-    <item>gps</item>
-    <item>missed_call</item>
-    <item>managed_profile</item>
-    <item>ime</item>
-    <item>sync_failing</item>
-    <item>sync_active</item>
-    <item>cast</item>
-    <item>location</item>
-    <item>bluetooth</item>
-    <item>bluetooth_handsfree_battery</item>
-    <item>nfc</item>
-    <item>tty</item>
-    <item>speakerphone</item>
-    <item>zen</item>
-    <item>silenzioso</item>
-    <item>volume</item>
-    <item>wifi</item>
-    <item>wimax</item>
-    <item>cdma_eri</item>
-    <item>data_connection</item>
-    <item>phone_evdo_signal</item>
-    <item>phone_signal</item>
-    <item>battery</item>
-    <item>alarm_clock</item>
-    <item>secure</item>
-    <item>clock</item>
-  </string-array>
-  <string-array name="emailAddressTypes">
-    <item>Home</item>
-    <item>Lavoro</item>
-    <item>Altro</item>
-    <item>Personalizza</item>
-  </string-array>
-  <string-array name="fingerprint_acquired_vendor">
-    <item>Riprova</item>
-    <item></item>
-    <item></item>
-    <item>Cover the fingerprint scanner completely and apply pressure</item>
-    <item></item>
-    <item>Cover the fingerprint scanner completely and apply pressure</item>
-    <item>Cover the fingerprint scanner completely and apply pressure</item>
-    <item></item>
-    <item></item>
-    <item></item>
-    <item></item>
-    <item>Cover the fingerprint scanner completely and apply pressure</item>
-    <item>Cover the fingerprint scanner completely and apply pressure</item>
-    <item>"Too fast! Couldn't recognize fingerprint"</item>
-    <item>Move your finger a bit and try again</item>
-    <item>Lift your finger and put it back on the scanner again</item>
-    <item>Keep your finger on the scanner a bit longer</item>
-    <item></item>
-    <item></item>
-    <item></item>
-    <item></item>
-    <item></item>
-    <item></item>
-    <item></item>
-    <item></item>
-    <item>Sposta leggermente il dito</item>
-    <item>This fingerprint has been added, use a different finger</item>
-  </string-array>
-  <string-array name="imAddressTypes">
-    <item>Home</item>
-    <item>Lavoro</item>
-    <item>Altro</item>
-    <item>Personalizza</item>
-  </string-array>
-  <string-array name="imProtocols">
-    <item>AIM</item>
-    <item>Windows Live</item>
-    <item>Yahoo</item>
-    <item>Skype</item>
-    <item>QQ</item>
-    <item>Google Talk</item>
-    <item>ICQ</item>
-    <item>Jabber</item>
-  </string-array>
-  <string-array name="network_switch_type_name">
-    <item>mobile data</item>
-    <item>Wi-Fi</item>
-    <item>Bluetooth</item>
-    <item>LAN</item>
-    <item>VPN</item>
-  </string-array>
-  <string-array name="organizationTypes">
-    <item>Lavoro</item>
-    <item>Altro</item>
-    <item>Personalizza</item>
-  </string-array>
-  <string-array name="phoneTypes">
-    <item>Home</item>
-    <item>Cellulare</item>
-    <item>Lavoro</item>
-    <item>Fax lavoro</item>
-    <item>Fax casa</item>
-    <item>Cercapersone</item>
-    <item>Altro</item>
-    <item>Personalizza</item>
-  </string-array>
-  <string-array name="postalAddressTypes">
-    <item>Home</item>
-    <item>Lavoro</item>
-    <item>Altro</item>
-    <item>Personalizza</item>
-  </string-array>
+    <plurals name="autofill_picker_some_suggestions">
+        <item quantity="other">%1$s suggerimenti di riempimento automatico</item>
+        <item quantity="one">Un suggerimento di riempimento automatico</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">Cattura screenshot per segnalazione bug in %d secondi.</item>
+        <item quantity="one">Cattura screenshot per segnalazione bug in %d secondo.</item>
+    </plurals>
+    <plurals name="duration_days_relative">
+        <item quantity="other">%d giorni fa</item>
+        <item quantity="one">%d giorno fa</item>
+    </plurals>
+    <plurals name="duration_days_relative_future">
+        <item quantity="other">in %d giorni</item>
+        <item quantity="one">in %d giorno</item>
+    </plurals>
+    <plurals name="duration_days_shortest">
+        <item quantity="other">%dg</item>
+        <item quantity="one">%dg</item>
+    </plurals>
+    <plurals name="duration_days_shortest_future">
+        <item quantity="other">in %dg</item>
+        <item quantity="one">in %dg</item>
+    </plurals>
+    <plurals name="duration_hours_relative">
+        <item quantity="other">%d ore fa</item>
+        <item quantity="one">%d ora fa</item>
+    </plurals>
+    <plurals name="duration_hours_relative_future">
+        <item quantity="other">in %d ore</item>
+        <item quantity="one">in %d ora</item>
+    </plurals>
+    <plurals name="duration_hours_shortest">
+        <item quantity="other">%do</item>
+        <item quantity="one">%do</item>
+    </plurals>
+    <plurals name="duration_hours_shortest_future">
+        <item quantity="other">in %do</item>
+        <item quantity="one">in %do</item>
+    </plurals>
+    <plurals name="duration_minutes_relative">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">%d minuto fa</item>
+    </plurals>
+    <plurals name="duration_minutes_relative_future">
+        <item quantity="other">in %d minuti</item>
+        <item quantity="one">in %d minuto</item>
+    </plurals>
+    <plurals name="duration_minutes_shortest">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="duration_minutes_shortest_future">
+        <item quantity="other">tra %d m</item>
+        <item quantity="one">tra %d m</item>
+    </plurals>
+    <plurals name="duration_years_relative">
+        <item quantity="other">%d anni fà</item>
+        <item quantity="one">%d anno fà</item>
+    </plurals>
+    <plurals name="duration_years_relative_future">
+        <item quantity="other">in %d anni</item>
+        <item quantity="one">in %d anno</item>
+    </plurals>
+    <plurals name="duration_years_shortest">
+        <item quantity="other">%da</item>
+        <item quantity="one">%da</item>
+    </plurals>
+    <plurals name="duration_years_shortest_future">
+        <item quantity="other">in %da</item>
+        <item quantity="one">in %da</item>
+    </plurals>
+    <plurals name="file_count">
+        <item quantity="other">%1$s + %2$d file</item>
+        <item quantity="one">%1$s + %2$d file</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Prova di nuovo tra %d secondi.</item>
+        <item quantity="one">Prova di nuovo tra 1 secondo.</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Ultimi %d giorni</item>
+        <item quantity="one">Ultimo %d giorno</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d di %2$d</item>
+        <item quantity="one">1 corrispondenza</item>
+    </plurals>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Hai ancora %d tentativi a disposizione prima che la SIM venga bloccata.</item>
+        <item quantity="one">Hai ancora %d tentativo a disposizione prima che la SIM venga bloccata.</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Riprova tra %d s.</item>
+        <item quantity="one">Riprova fra 1 s.</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="other"> %1$d selezionati</item>
+        <item quantity="one"> %1$d selezionato</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_warning">
+        <item quantity="other">Certificati autorità installati</item>
+        <item quantity="one">Certificati autorità installati</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Per %d ore</item>
+        <item quantity="one">Per un\'ora</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_short">
+        <item quantity="other">Per %d ore</item>
+        <item quantity="one">Per 1 ora</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary">
+        <item quantity="other">Per %1$d ore (fino alle %2$s)</item>
+        <item quantity="one">Per un\'ora (fino alle %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary_short">
+        <item quantity="other">Per %1$d ore (fino a %2$s)</item>
+        <item quantity="one">Per 1 ora (fino a %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Per %d minuti</item>
+        <item quantity="one">Per un minuto</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_short">
+        <item quantity="other">Per %d minuti</item>
+        <item quantity="one">Per 1 minuto</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary">
+        <item quantity="other">Per %1$d minuti (fino alle %2$s)</item>
+        <item quantity="one">Per un minuto (fino alle %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary_short">
+        <item quantity="other">Per %1$d minuti (fino a %2$s)</item>
+        <item quantity="one">Per 1 minuto (fino a %2$s)</item>
+    </plurals>
 </resources>
