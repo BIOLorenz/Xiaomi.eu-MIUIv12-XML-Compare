@@ -1,84 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="alphabet_table">
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>Ven</item>
-        <item>G</item>
-        <item>O</item>
-        <item>I</item>
-        <item>G</item>
-        <item>K</item>
-        <item>L</item>
-        <item>M</item>
-        <item>N</item>
-        <item>O</item>
-        <item>P</item>
-        <item>Q</item>
-        <item>R</item>
-        <item>S</item>
-        <item>T</item>
-        <item>U</item>
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>A</item>
-        <item>Z</item>
-        <item>\#</item>
-    </string-array>
-    <string-array name="alphabet_table_with_starred">
-        <item>!</item>
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>Ven</item>
-        <item>G</item>
-        <item>O</item>
-        <item>I</item>
-        <item>G</item>
-        <item>K</item>
-        <item>L</item>
-        <item>M</item>
-        <item>N</item>
-        <item>O</item>
-        <item>P</item>
-        <item>Q</item>
-        <item>R</item>
-        <item>S</item>
-        <item>T</item>
-        <item>U</item>
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>A</item>
-        <item>Z</item>
-        <item>\#</item>
-    </string-array>
-    <string-array name="prefEntries_max_bytes_limit">
-        <item>Illimitato</item>
+    <string-array name="auto_clean_size">
         <item>100MB</item>
-        <item>20MB</item>
-        <item>10MB</item>
-        <item>5MB</item>
-        <item>2MB</item>
-        <item>1MB</item>
-        <item>512KB</item>
-        <item>Always wait for Wi-Fi</item>
+        <item>300MB</item>
+        <item>500MB</item>
+        <item>1GB</item>
     </string-array>
-    <string-array name="prefValues_max_bytes_limit">
-        <item>9223372036854775807</item>
-        <item>104857600</item>
-        <item>20971520</item>
-        <item>10485760</item>
-        <item>5242880</item>
-        <item>2097152</item>
-        <item>1048576</item>
-        <item>524288</item>
-        <item>0</item>
+    <string-array name="auto_process_mode">
+        <item>Chiedi sempre</item>
+        <item>Cancella</item>
+        <item>Clear and notify</item>
+    </string-array>
+    <string-array name="cache_sort_type">
+        <item>Dimensione</item>
+        <item>Nome</item>
+    </string-array>
+    <string-array name="installed_app_sort_type">
+        <item>Utilizzati di frequente</item>
+        <item>Dimensione</item>
+    </string-array>
+    <string-array name="large_file_sort_type">
+        <item>Dimensione</item>
+        <item>Nome</item>
+    </string-array>
+    <string-array name="uninstalled_app_sort_type">
+        <item>Dimensione</item>
+        <item>Usage frequency</item>
+        <item>Installation time</item>
+    </string-array>
+    <string-array name="wechat_sort">
+        <item>Data</item>
+        <item>Dimensione</item>
     </string-array>
 </resources>
