@@ -1,56 +1,203 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Vai alla Home</string>
-    <string name="abc_action_bar_up_description">Vai verso l\'alto</string>
-    <string name="abc_action_menu_overflow_description">Altre opzioni</string>
-    <string name="abc_action_mode_done">Fatto</string>
-    <string name="abc_activity_chooser_view_see_all">Mostra tutto</string>
-    <string name="abc_activitychooserview_choose_application">Scegli un\'app</string>
-    <string name="abc_capital_off">ATTIVATO</string>
-    <string name="abc_capital_on">DISATTIVATO</string>
-    <string name="abc_menu_alt_shortcut_label">Alt+</string>
-    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
-    <string name="abc_menu_delete_shortcut_label">elimina</string>
-    <string name="abc_menu_enter_shortcut_label">invio</string>
-    <string name="abc_menu_function_shortcut_label">Funzione+</string>
-    <string name="abc_menu_meta_shortcut_label">Meta+</string>
-    <string name="abc_menu_shift_shortcut_label">Shift+</string>
-    <string name="abc_menu_space_shortcut_label">Spazio</string>
-    <string name="abc_menu_sym_shortcut_label">Sym+</string>
-    <string name="abc_prepend_shortcut_label">Menù+</string>
-    <string name="abc_search_hint">Ricerca…</string>
-    <string name="abc_searchview_description_clear">Cancella campo</string>
-    <string name="abc_searchview_description_query">Cerca termine</string>
-    <string name="abc_searchview_description_search">Cerca</string>
-    <string name="abc_searchview_description_submit">Avvia ricerca</string>
-    <string name="abc_searchview_description_voice">Ricerca vocale</string>
-    <string name="abc_shareactionprovider_share_with">Condividi con</string>
-    <string name="abc_shareactionprovider_share_with_application">Condividi con %s</string>
-    <string name="abc_toolbar_collapse_description">Riduci</string>
-    <string name="brvah_app_name">Raccolta</string>
-    <string name="cancel">Annulla</string>
-    <string name="character_counter_content_description">Limite caratteri superato %1$d di %2$d</string>
-    <string name="character_counter_pattern">%1$d di %2$d</string>
-    <string name="gb_game_macro_action_count">Ripeti</string>
-    <string name="gb_game_macro_action_delay">Ritardo</string>
-    <string name="gb_game_macro_action_macro_rename">Rinomina</string>
-    <string name="gb_game_macro_action_macro_rename_title">Attenzione</string>
-    <string name="gb_game_macro_action_speed">Velocità</string>
-    <string name="gb_game_macro_apply">Applica</string>
-    <string name="gb_game_macro_button_small">Piccolo</string>
-    <string name="gb_game_macro_create_macro">Crea</string>
-    <string name="gb_game_macro_delete">Elimina</string>
-    <string name="gb_game_macro_enable">Spenta</string>
-    <string name="gb_game_macro_preview">Anteprima</string>
-    <string name="gb_game_macro_preview_macro">Anteprima</string>
-    <string name="gb_game_macro_re_record">Riavvia</string>
-    <string name="gb_game_macro_record_action">Tocca per iniziare</string>
-    <string name="gb_game_macro_save">Salva</string>
-    <string name="gb_game_macro_save_exit">Salva</string>
-    <string name="mtrl_chip_close_icon_content_description">Rimuovi %1$s</string>
-    <string name="multiple_times">Velocità</string>
-    <string name="ok">OK</string>
-    <string name="password_toggle_content_description">Mostra password</string>
-    <string name="search_menu_title">Cerca</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
+    <string-array name="alphabet_table">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>Ven</item>
+        <item>G</item>
+        <item>O</item>
+        <item>I</item>
+        <item>G</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>A</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>Ven</item>
+        <item>G</item>
+        <item>O</item>
+        <item>I</item>
+        <item>G</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>A</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="aqi_detail_title">
+        <item>Normale</item>
+        <item>Moderato</item>
+        <item>Unhealthy for sensitive groups</item>
+        <item>Non salutare</item>
+        <item>Very unhealthy</item>
+        <item>Rischiosa</item>
+    </string-array>
+    <string-array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>Normale</item>
+        <item>Satisfactory</item>
+        <item>Moderately polluted</item>
+        <item>Scarsa</item>
+        <item>Very poor</item>
+        <item>Grave</item>
+        <item>Beyond index</item>
+    </string-array>
+    <string-array name="hot_city">
+        <item>Pechino</item>
+        <item>Shanghai</item>
+        <item>Hong Kong</item>
+        <item>Taipei City</item>
+        <item>Jakarta</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+        <item>Moscow</item>
+        <item>Chennai</item>
+        <item>Istanbul</item>
+        <item>Rio de Janeiro</item>
+        <item>Singapore</item>
+        <item>Berlin</item>
+        <item>Roma</item>
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>Chicago</item>
+        <item>Tokyo</item>
+        <item>Paris</item>
+        <item>Bangkok</item>
+        <item>Seoul</item>
+        <item>Kuala Lumpur</item>
+    </string-array>
+    <string-array name="minute_rain_array">
+        <item>Heavy</item>
+        <item>Moderato</item>
+        <item>Leggero</item>
+    </string-array>
+    <string-array name="settings_atmospheric_pressure_unit_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="temperature_setting_unit_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="weather_type">
+        <item>Cancella</item>
+        <item>Nuvoloso</item>
+        <item>Coperto</item>
+        <item>Nebbioso</item>
+        <item>Heavy rainstorm</item>
+        <item>Downpour</item>
+        <item>Rainstorm</item>
+        <item>Thunderstorm</item>
+        <item>Pioggia</item>
+        <item>Heavy rainfall</item>
+        <item>Moderate rain</item>
+        <item>Light rain</item>
+        <item>Rain and snow mixed</item>
+        <item>Blizzard</item>
+        <item>Neve</item>
+        <item>Tormenta di neve</item>
+        <item>Moderate snow</item>
+        <item>Nevischio</item>
+        <item>Strong sandstorm</item>
+        <item>Sand storm</item>
+        <item>Sand</item>
+        <item>Windy</item>
+        <item>Hail</item>
+        <item>Dust</item>
+        <item>Foschia</item>
+        <item>Freezing rain</item>
+        <item></item>
+    </string-array>
+    <string-array name="wind_direction_simple">
+        <item>N</item>
+        <item>NO</item>
+        <item>E</item>
+        <item>S-E</item>
+        <item>S</item>
+        <item>SO</item>
+        <item>W</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="wind_power">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="wind_power_setting_unit_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="wind_unit_replace">
+        <item>Force %1$s</item>
+        <item>%1$s km/h</item>
+        <item>%1$sm/s</item>
+        <item>%1$smph</item>
+        <item>%1$skn</item>
+    </string-array>
 </resources>
