@@ -1,75 +1,289 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Aggiornamenti</string>
-    <string name="battery_islow">&lt;font color=#f37981&gt;Connetti il tuo caricabatterie&lt;/font&gt;</string>
-    <string name="battery_islow_desc">Il livello della batteria è troppo basso per installare l\'aggiornamento in maniera sicura, connetti il tuo caricabatterie e riprova più tardi!</string>
-    <string name="btn_changelog">Novità</string>
-    <string name="btn_download">Scarica (%1$s)</string>
-    <string name="btn_error">Si è verificato un errore, provare di nuovo?</string>
-    <string name="btn_install">Installa</string>
-    <string name="btn_no">Annulla</string>
-    <string name="btn_ok">OK</string>
-    <string name="btn_pause">Pausa</string>
-    <string name="btn_share">Condividi</string>
-    <string name="btn_stop">Interrompi</string>
-    <string name="btn_wrong_md5">MD5 invalido, tocca per eliminare il file</string>
-    <string name="btn_yes">Sì</string>
-    <string name="channel_downloading">Avanzamento download</string>
-    <string name="channel_service">Servizio Aggiornamenti in background</string>
-    <string name="channel_update">Nuova versione disponibile</string>
-    <string name="check_new_version">Ricerca aggiornamenti</string>
-    <string name="chengelog">%1$s</string>
-    <string name="default_filedownloader_notification_content">FileDownloader in esecuzione.</string>
-    <string name="default_filedownloader_notification_title">FileDownloader</string>
-    <string name="dialog_3g_desc">Scaricare l\'aggiornamento con i dati mobili potrebbe comportare consumi elevati.</string>
-    <string name="dialog_3g_title">Attenzione!</string>
-    <string name="dialog_btn_3g">Scarica comunque</string>
-    <string name="dialog_btn_wifi">Passa al Wi-Fi</string>
-    <string name="dialog_stop_desc">Puoi sospendere o annullare il download.</string>
-    <string name="dialog_stop_title">Annullare?</string>
-    <string name="dialog_twrp">La memoria interna è criptata. Dopo che il dispositivo è stato riavviato in recovery, inserisci la password di sblocco.</string>
-    <string name="download_done">Download completato!</string>
-    <string name="download_fail">Errore nel download!</string>
-    <string name="download_fail_desc">Il checksum MD5 non corrisponde</string>
-    <string name="downloading">In download:</string>
-    <string name="downloading_desc">Download in corso, controlla l\'avanzamento nell\'area notifiche.</string>
-    <string name="fetching_data">Ricerca link dell\'aggiornamento, attendere…</string>
-    <string name="install_desc">\"Il dispositivo sarà riavviato in recovery e verrà installato il seguente file: %1$s</string>
-    <string name="install_title">Sei sicuro di voler continuare?</string>
-    <string name="menu_title_current_version_log">Cosa c\'è di nuovo?</string>
-    <string name="menu_title_pick_rom_file">Scegli pacchetto di aggiornamento</string>
-    <string name="menu_title_recovery">Riavvia in recovery</string>
-    <string name="message">%1$s</string>
-    <string name="message_checkbox">Nascondi messaggi futuri dal team di Xiaomi.eu</string>
-    <string name="message_checkbox_device">Non mostrare più</string>
-    <string name="message_title">NOTA!</string>
-    <string name="new_version">Nuova versione trovata!</string>
-    <string name="no_info">Nessuna informazione disponibile.</string>
-    <string name="no_mirror">Tutti i mirror sono attualmente offline, prova più tardi…</string>
-    <string name="no_network">Nessun accesso alla rete.</string>
-    <string name="no_update">Hai già installato l\'ultimo aggiornamento!</string>
-    <string name="no_xioamieu">"Non stai utilizzando una rom MIUI creata dal team xiaomi.eu!
-Nessun aggiornamento sarà disponibile per te!"</string>
-    <string name="notif_cancel">Annulla</string>
-    <string name="notif_install">Installa</string>
-    <string name="notif_new_summary">Premi per ottenere informazioni</string>
-    <string name="notif_new_title">Nuova versione disponibile!</string>
-    <string name="notif_service_summary">Tenere premuto per disabilitare la notifica \"Servizio in background\"!</string>
-    <string name="notif_service_title">L\'app è in esecuzione in background…</string>
-    <string name="notifications_switch">Mostra notifiche</string>
-    <string name="permdesc_cache_filesystem">Consenti all\'app di creare file nella directory /cache.</string>
-    <string name="permdesc_reboot">Consenti all\'app di riavviare il dispositivo.</string>
-    <string name="permlab_cache_filesystem">Accesso alla cache</string>
-    <string name="permlab_reboot">Accesso al riavvio</string>
-    <string name="pick_not_found">Nessun gestore file adatto è stato trovato.</string>
-    <string name="pick_title">Scegli utilizzando:</string>
-    <string name="recovery_desc">Il dispositivo verrà riavviato in modalità recovery ora se non hai familiarità con questa modalità annulla le azioni future. Continuare?</string>
-    <string name="server_error">Il server non risponde, l\'applicazione potrebbe non funzionare correttamente!</string>
-    <string name="share_desc">La MIUI è stata aggiornata alla versione %1$s, controlla le novità: %2$s</string>
-    <string name="share_title">Condividi con</string>
-    <string name="stable">Stabile</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="version">Attualmente installato:</string>
-    <string name="weekly">Settimanale</string>
-    <string name="wifi_recommended">Nessuna connessione Wi-Fi per iniziare il download in modo sicuro!</string>
+    <string-array name="animator_duration_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="app_process_limit_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Use System Selection (Default)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_values">
+        <item>ISO 1000</item>
+        <item>1001</item>
+        <item>1002</item>
+        <item>1003</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Qualcomm® aptX™ TWS+ audio</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Use System Selection (Default)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Qualcomm® aptX™ TWS+ audio</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_values">
+        <item>1000000</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Disabilitato</item>
+        <item>Enabled Filtered</item>
+        <item>Attivato</item>
+        <item>Enabled Headers Filtered</item>
+        <item>Enabled Media Pkts Filtered</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Colori migliorati</item>
+        <item>Natural colors as seen by the eye</item>
+        <item>Colors optimized for digital content</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Vibrant (default)</item>
+        <item>Naturale</item>
+        <item>Normale</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Spenta</item>
+        <item>Show overdraw areas</item>
+        <item>Show areas for Deuteranomaly</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Nessuno</item>
+        <item>Logcat</item>
+        <item>Systrace (Graphics)</item>
+        <item>Call stack on glGetError</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_values">
+        <item>0</item>
+        <item>1</item>
+        <item>systrace</item>
+        <item>error</item>
+    </string-array>
+    <string-array name="hdcp_checking_values">
+        <item>never</item>
+        <item>drm-only</item>
+        <item>always</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Nessuno</item>
+        <item>480p</item>
+        <item>480p (secure)</item>
+        <item>720p</item>
+        <item>720p (secure)</item>
+        <item>1080p</item>
+        <item>1080p (secure)</item>
+        <item>4K</item>
+        <item>4K (secure)</item>
+        <item>4K (upscaled)</item>
+        <item>4K (upscaled, secure)</item>
+        <item>720p, 1080p (dual screen)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Spenta</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Spenta</item>
+        <item>64K per log buffer</item>
+        <item>256K per log buffer</item>
+        <item>1M per log buffer</item>
+        <item>4M per log buffer</item>
+        <item>16M per log buffer</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Spenta</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Spenta</item>
+        <item>All log buffers</item>
+        <item>All but radio log buffers</item>
+        <item>kernel log buffer only</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Spenta</item>
+        <item>Tutto</item>
+        <item>All but radio</item>
+        <item>kernel only</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Spenta</item>
+        <item>Draw non-rectangular clip region in blue</item>
+        <item>Highlight tested drawing commands in green</item>
+    </string-array>
+    <string-array name="simulate_color_space_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Spenta</item>
+        <item>On screen as bars</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="track_frame_time_values">
+        <item>false</item>
+        <item>visual_bars</item>
+        <item>vero</item>
+    </string-array>
+    <string-array name="transition_animation_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Molto lento</item>
+        <item>Lento</item>
+        <item>Normale</item>
+        <item>Veloce</item>
+        <item>Faster</item>
+        <item>Molto veloce</item>
+        <item>Rapid</item>
+        <item>Very rapid</item>
+        <item>Fastest</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>ISO 80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>ISO 200</item>
+        <item>ISO 250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>ISO 400</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Ricarica</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Audio Source</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="usb_configuration_values">
+        <item>smart</item>
+        <item>mtp</item>
+        <item>ptp</item>
+        <item>rndis</item>
+        <item>audio_source</item>
+        <item>midi</item>
+    </string-array>
+    <string-array name="voice_report_phone_number_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scansione…</item>
+        <item>Connessione…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Connesso</item>
+        <item>Sospeso</item>
+        <item>Disconnessione…</item>
+        <item>Disconnesso</item>
+        <item>Fallito</item>
+        <item>Filtro sconosciuti</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scansione…</item>
+        <item>Connecting to %1$s…</item>
+        <item>Authenticating with %1$s…</item>
+        <item>Obtaining IP address from %1$s…</item>
+        <item>Collegato a %1$s</item>
+        <item>Sospeso</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>Disconnesso</item>
+        <item>Fallito</item>
+        <item>Filtro sconosciuti</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="window_animation_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
 </resources>
