@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="fileCount">
-        <item quantity="other">%d elementi</item>
-        <item quantity="one">%d elemento</item>
-    </plurals>
-    <plurals name="first_space_notification_format">
-        <item quantity="other">%d notifiche nel Primo Spazio</item>
-        <item quantity="one">%d notifica nel Primo Spazio</item>
-    </plurals>
-    <plurals name="search_app_count_txt_na">
-        <item quantity="other">Cerca %d app</item>
-        <item quantity="one">Cerca %d app</item>
-    </plurals>
-    <plurals name="second_space_notification_format">
-        <item quantity="other">%d notifiche nel Secondo Spazio</item>
-        <item quantity="one">%d notifica nel Secondo Spazio</item>
-    </plurals>
-    <plurals name="xspace_guide_content">
-        <item quantity="other">Puoi creare &lt;font color=#0D84FF&gt;%d&lt;/font&gt; &lt;font&gt;app clonate&lt;/font&gt;</item>
-        <item quantity="one">Puoi creare &lt;font color=#0D84FF&gt;%d&lt;/font&gt; &lt;font&gt;app clonata&lt;/font&gt;</item>
-    </plurals>
+    <string-array name="organized_locales">
+        <item>hk</item>
+        <item>in</item>
+        <item>id</item>
+        <item>my</item>
+        <item>ph</item>
+        <item>sg</item>
+        <item>tw</item>
+        <item>br</item>
+        <item>ru</item>
+        <item>vn</item>
+        <item>tr</item>
+        <item>th</item>
+        <item>ae</item>
+        <item>mm</item>
+        <item>mx</item>
+    </string-array>
+    <string-array name="other_settings_auto_update_entries">
+        <item>Wi-Fi and mobile data</item>
+        <item>Wi-Fi only</item>
+        <item>Spenta</item>
+    </string-array>
+    <string-array name="popular_locales">
+        <item>IN</item>
+        <item>ID</item>
+        <item>MY</item>
+        <item>RU</item>
+        <item>TW</item>
+        <item>HK</item>
+    </string-array>
 </resources>
