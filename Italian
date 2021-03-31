@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="print_search_result_count_utterance">
-        <item quantity="other">%1$s stampanti trovate</item>
-        <item quantity="one">%1$s stampante trovata</item>
-    </plurals>
-    <plurals name="print_services_recommendation_subtitle">
-        <item quantity="other">Installa per cercare %1$s stampanti</item>
-        <item quantity="one">Installa per cercare %1$s stampante</item>
-    </plurals>
+    <string-array name="color_mode_labels">
+        <item>Black &amp; White</item>
+        <item>Colore</item>
+    </string-array>
+    <string-array name="duplex_mode_labels">
+        <item>Nessuno</item>
+        <item>Long edge</item>
+        <item>Short edge</item>
+    </string-array>
+    <string-array name="orientation_labels">
+        <item>Verticale</item>
+        <item>Orizzontale</item>
+    </string-array>
 </resources>
