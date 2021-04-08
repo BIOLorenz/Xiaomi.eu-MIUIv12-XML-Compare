@@ -59,4 +59,16 @@
         <item>Z</item>
         <item>\#</item>
     </string-array>
+    <string-array name="permissions_desc_v12">
+        <item>Per l\'invio e la ricezione dei file</item>
+        <item>For transferring files using Bluetooth and Wi-Fi</item>
+        <item>For finding available devices nearby using Bluetooth</item>
+        <item>For finding available devices nearby and transferring files using Wi-Fi</item>
+    </string-array>
+    <string-array name="permissions_desc_v12_china">
+        <item>Per l\'invio e la ricezione dei file</item>
+        <item>For transferring files using Bluetooth and Wi-Fi</item>
+        <item>For finding available devices nearby using Bluetooth</item>
+        <item>For finding available devices nearby and transferring files using Wi-Fi</item>
+    </string-array>
 </resources>
