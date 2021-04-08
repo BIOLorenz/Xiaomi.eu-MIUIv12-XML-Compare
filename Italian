@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <strings> 
-    <string name="" value=""/>
-    <string name="" value=""/>
-    <string name="" value=""/>
-    <string name="" value=""/>
+    <string name="" value=""> MMMM</string>
+    <string name="" value=""> MMMM</string>
+    <string name="" value=""> MMM</string>
+    <string name="" value=""> MMM</string>
     <string name="" value=""/>
 </strings>
