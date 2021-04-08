@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<strings>
-    <string name="" value=""/>
-    <string name="" value=""/>
-    <string name="" value=""/>
-    <string name="" value=""/>
-    <string name="" value=""/>
-</strings>
+<resources>
+    <string name="clock_local">Dispositivo</string>
+    <string name="clock_city">Città</string>
+</resources>
