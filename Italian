@@ -59,4 +59,45 @@
         <item>Z</item>
         <item>\#</item>
     </string-array>
+    <string-array name="hd_record_scenes_entries">
+        <item>Musica</item>
+        <item>Voce</item>
+        <item>Interview</item>
+        <item>HD</item>
+    </string-array>
+    <string-array name="interview_record_scenes_entries">
+        <item>Musica</item>
+        <item>Voce</item>
+        <item>Interview</item>
+    </string-array>
+    <string-array name="record_format_entries">
+        <item>AAC</item>
+        <item>MP3</item>
+        <item>WAV</item>
+    </string-array>
+    <string-array name="record_format_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="record_quality_entries">
+        <item>Alta</item>
+        <item>Normale</item>
+        <item>Bassa</item>
+    </string-array>
+    <string-array name="record_quality_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="record_scenes_entries">
+        <item>Musica</item>
+        <item>Voce</item>
+    </string-array>
+    <string-array name="record_scenes_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
 </resources>
