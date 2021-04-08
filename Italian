@@ -1,74 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="alphabet_table">
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>Ven</item>
-        <item>G</item>
-        <item>O</item>
-        <item>I</item>
-        <item>G</item>
-        <item>K</item>
-        <item>L</item>
-        <item>M</item>
-        <item>N</item>
-        <item>O</item>
-        <item>P</item>
-        <item>Q</item>
-        <item>R</item>
-        <item>S</item>
-        <item>T</item>
-        <item>U</item>
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>A</item>
-        <item>Z</item>
-        <item>\#</item>
-    </string-array>
-    <string-array name="alphabet_table_with_starred">
-        <item>!</item>
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>Ven</item>
-        <item>G</item>
-        <item>O</item>
-        <item>I</item>
-        <item>G</item>
-        <item>K</item>
-        <item>L</item>
-        <item>M</item>
-        <item>N</item>
-        <item>O</item>
-        <item>P</item>
-        <item>Q</item>
-        <item>R</item>
-        <item>S</item>
-        <item>T</item>
-        <item>U</item>
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>A</item>
-        <item>Z</item>
-        <item>\#</item>
-    </string-array>
-    <string-array name="permissions_desc_v12">
-        <item>Per l\'invio e la ricezione dei file</item>
-        <item>For transferring files using Bluetooth and Wi-Fi</item>
-        <item>For finding available devices nearby using Bluetooth</item>
-        <item>For finding available devices nearby and transferring files using Wi-Fi</item>
-    </string-array>
-    <string-array name="permissions_desc_v12_china">
-        <item>Per l\'invio e la ricezione dei file</item>
-        <item>For transferring files using Bluetooth and Wi-Fi</item>
-        <item>For finding available devices nearby using Bluetooth</item>
-        <item>For finding available devices nearby and transferring files using Wi-Fi</item>
-    </string-array>
+  <string-array name="dax_profile_values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>8</item>
+  </string-array>
+  <string-array name="scenario_selector_values">
+    <item>4</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
+  <string-array name="sound_effect_values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
 </resources>
