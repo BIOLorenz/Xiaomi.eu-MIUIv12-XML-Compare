@@ -1,70 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="alphabet_table">
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>Ven</item>
-        <item>G</item>
-        <item>O</item>
-        <item>I</item>
-        <item>G</item>
-        <item>K</item>
-        <item>L</item>
-        <item>M</item>
-        <item>N</item>
-        <item>O</item>
-        <item>P</item>
-        <item>Q</item>
-        <item>R</item>
-        <item>S</item>
-        <item>T</item>
-        <item>U</item>
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>A</item>
-        <item>Z</item>
-        <item>\#</item>
+    <string-array name="privacy_dialog_runtime_permission_desc">
+        <item>Per accedere tramite Mi Account</item>
+        <item>For previewing, uploading, downloading, and syncing files</item>
     </string-array>
-    <string-array name="alphabet_table_with_starred">
-        <item>!</item>
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>Ven</item>
-        <item>G</item>
-        <item>O</item>
-        <item>I</item>
-        <item>G</item>
-        <item>K</item>
-        <item>L</item>
-        <item>M</item>
-        <item>N</item>
-        <item>O</item>
-        <item>P</item>
-        <item>Q</item>
-        <item>R</item>
-        <item>S</item>
-        <item>T</item>
-        <item>U</item>
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>A</item>
-        <item>Z</item>
-        <item>\#</item>
-    </string-array>
-    <string-array name="bh_array_switch_unit">
-        <item>GB</item>
-        <item>MB</item>
-    </string-array>
-    <string-array name="preference_dial_pad_touch_tone_entry_values">
-        <item>-1</item>
-        <item>0</item>
+    <string-array name="privacy_dialog_runtime_permission_desc_with_phone_state">
+        <item>Per accedere tramite Mi Account</item>
+        <item>For previewing, uploading, downloading, and syncing files</item>
+        <item>For detecting available updates</item>
     </string-array>
 </resources>
