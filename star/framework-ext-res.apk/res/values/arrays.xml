@@ -85,6 +85,8 @@
         <item>rosemary</item>
         <item>camellian</item>
         <item>davinci</item>
+        <item>biloba</item>
+        <item>willow</item>
     </string-array>
     <string-array name="config_alwaysEnableMms_off_array">
         <item>ch</item>

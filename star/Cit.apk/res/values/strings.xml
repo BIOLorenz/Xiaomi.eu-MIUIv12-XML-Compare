@@ -166,6 +166,8 @@ and reverse plug in the charger"</string>
 Please click the appropriate button according to the number you hear"</string>
     <string name="cit_exit_test_summary">When you exit, all related text data will be erased.</string>
     <string name="cit_exit_test_title">Exit test</string>
+    <string name="cit_external_keyboard_test_summary">Please input characters randomly after connecting the keyboard and observe the test results</string>
+    <string name="cit_external_keyboard_test_title">External keyboard test</string>
     <string name="cit_fail">Fail</string>
     <string name="cit_flash_life_check_summary">Device flash life time estimation</string>
     <string name="cit_flash_life_check_title">Flash life</string>
@@ -251,6 +253,8 @@ Do not turn off the screen during the test"</string>
     <string name="cit_no_sim_check_title">No Sim Card</string>
     <string name="cit_otg_not_supported">"This device doesn't support OTG testing"</string>
     <string name="cit_pass">Pass</string>
+    <string name="cit_pencil_reverse_wireless_charger_summary">Please place the pencil on the right sensing area of the table to start the test</string>
+    <string name="cit_pencil_reverse_wireless_charger_title">Pencil Charge Test</string>
     <string name="cit_pointer_location_title">Touch sensor</string>
     <string name="cit_power_check_summary">The amount of battery charge should be expressed as a percentage below.</string>
     <string name="cit_power_check_title">Battery indicator</string>
