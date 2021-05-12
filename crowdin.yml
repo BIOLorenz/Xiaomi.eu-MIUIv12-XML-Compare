@@ -1,5 +1,3 @@
 files:
-  - source: /cmi/
-    translation: /%language%/%original_path%-it/%original_file_name%
   - source: /star/
     translation: /%language%/%original_path%-it/%original_file_name%
