@@ -615,7 +615,7 @@ Change settings now?"</string>
     <string name="app_list_preference_none">None</string>
     <string name="app_memory_use">Memory use</string>
     <string name="app_mobile">Mobile data</string>
-    <string name="app_name">MiuiSettingsCommonLib</string>
+    <string name="app_name">SplitLib</string>
     <string name="app_name_label">App</string>
     <string name="app_name_na">Data usage</string>
     <string name="app_names_concatenation_template_2">%1$s, %2$s</string>
@@ -650,6 +650,7 @@ Change settings now?"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by">This app can access your accounts. Controlled by %1$s</string>
     <string name="app_settings_link">Additional settings in the app</string>
     <string name="app_switch_key">Recents</string>
+    <string name="app_uninstall_sounds_enable_title">Play sound when uninstalling apps</string>
     <string name="app_usage_cycle">Mobile data usage cycle</string>
     <string name="app_usage_preference">App usage preferences</string>
     <string name="app_version">Version</string>
@@ -1865,7 +1866,11 @@ This affects other apps or conversations that are allowed to bubble."</string>
     <string name="color_game_led_applications_title_summary">Select individual apps that will work with LED light</string>
     <string name="color_game_led_battery_title">Keep on while charging</string>
     <string name="color_game_led_charging_summary">LED light will be turned off when the battery is charged</string>
+    <string name="color_game_led_color_title">Color</string>
     <string name="color_game_led_end_time">End</string>
+    <string name="color_game_led_feature_off">Off</string>
+    <string name="color_game_led_feature_on">On</string>
+    <string name="color_game_led_freq_title">Frequency</string>
     <string name="color_game_led_game_mode_summary">Show effects for games when Game Turbo is on</string>
     <string name="color_game_led_game_mode_title">Use for Game Turbo</string>
     <string name="color_game_led_incall_pulse_title">Use for incoming calls</string>
@@ -2431,6 +2436,7 @@ This setting affects all users of this device."</string>
     <string name="default_calendar_app_title">Calendar app</string>
     <string name="default_contacts_app_title">Contacts app</string>
     <string name="default_digital_assistant_title">Default digital assistant app</string>
+    <string name="default_document_title">Documents</string>
     <string name="default_emergency_app">Emergency app</string>
     <string name="default_for_calls">Default for calls</string>
     <string name="default_for_calls_and_sms">Default for calls &amp; SMS</string>
@@ -2463,7 +2469,7 @@ This setting affects all users of this device."</string>
     <string name="delete_or_keep_legacy_passwords_confirm_msg">Delete this fingerprint?</string>
     <string name="delete_rule">Delete rules</string>
     <string name="delete_saved_network">Delete saved networks</string>
-    <string name="delete_sound_effect">\"Delete\" sound</string>
+    <string name="delete_sound_effect">Play sound when deleting items</string>
     <string name="deleted_apps">Deleted apps</string>
     <string name="deletion_helper_automatic_title">Automatic</string>
     <string name="deletion_helper_manual_title">Manual</string>
@@ -2612,9 +2618,11 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="disable_overlays">Disable HW overlays</string>
     <string name="disable_overlays_summary">Always use GPU for screen compositing</string>
     <string name="disable_power_key_long_press_under_keyguard">Turn off the Power button menu</string>
+    <string name="disable_quick_start">Turn off quick start</string>
     <string name="disable_service_message">Tapping %1$s will stop %2$s.</string>
     <string name="disable_service_title">Stop %1$s?</string>
     <string name="disable_text">Disable</string>
+    <string name="disable_uft">Turn off uft</string>
     <string name="disable_wifi_hotspot_title">Don’t use Wi‑Fi hotspot</string>
     <string name="disable_wifi_hotspot_when_bluetooth_and_ethernet_on">Only share internet via Bluetooth and Ethernet</string>
     <string name="disable_wifi_hotspot_when_bluetooth_on">Only share internet via Bluetooth</string>
@@ -2748,6 +2756,11 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="dock_sounds_enable_summary_on">Play sound when inserting or removing phone from dock</string>
     <string name="dock_sounds_enable_title">Dock insert sound</string>
     <string name="docking_sounds_title">Docking sounds</string>
+    <string name="document_default_status">Select</string>
+    <string name="document_excel_title">Excel</string>
+    <string name="document_pdf_title">PDF</string>
+    <string name="document_powerpoint_title">PowerPoint</string>
+    <string name="document_word_title">Word</string>
     <string name="does_not_exist">App doesn’t exist.</string>
     <string name="domain_url_section_title">Installed apps</string>
     <string name="domain_urls_apps_summary_off">No app opening supported links</string>
@@ -2879,11 +2892,18 @@ You can view generated logs in File Manager."</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary">Track all GNSS constellations and frequencies with no duty cycling</string>
     <string name="enable_gpu_debug_layers">Enable GPU debug layers</string>
     <string name="enable_gpu_debug_layers_summary">Allow loading GPU debug layers for debugging apps</string>
+    <string name="enable_local_backup">Turn on</string>
+    <string name="enable_local_backup_cancel">Cancel</string>
+    <string name="enable_local_backup_message">Turn this feature on to be able to save backups on this device and copy them to your computer or USB storage device. Turn on now?</string>
+    <string name="enable_local_backup_message_intledition">Turn this feature on to be able to save backups on this device and copy them to your computer. Turn on now?</string>
+    <string name="enable_local_backup_ok">OK</string>
+    <string name="enable_local_backup_title">Local backups</string>
     <string name="enable_mms_notification_channel_title">MMS message</string>
     <string name="enable_mms_notification_summary">Tap to allow MMS messaging on %1$s when mobile data is off</string>
     <string name="enable_mobile_data_when_opening_hotspot">Turn on mobile data connection too?</string>
     <string name="enable_opengl_traces_title">Enable OpenGL traces</string>
     <string name="enable_quick_setting">Show in Quick Settings</string>
+    <string name="enable_quick_start">Turn on quick start</string>
     <string name="enable_receiving_mms_notification_title">Incoming MMS message</string>
     <string name="enable_screen_projection_summary">Cast screen contents to an external monitor</string>
     <string name="enable_sending_mms_notification_title">Can’t send MMS message</string>
@@ -2898,6 +2918,7 @@ You can view generated logs in File Manager."</string>
     <string name="enable_terminal_summary">Enable terminal app that offers local shell access</string>
     <string name="enable_terminal_title">Local terminal</string>
     <string name="enable_text">Enable</string>
+    <string name="enable_uft">Turn on uft</string>
     <string name="enable_verbose_vendor_logging">Enable verbose vendor logging</string>
     <string name="enable_verbose_vendor_logging_summary">Include additional device-specific vendor logs in bug reports, which may contain private information, use more battery, and/or use more storage.</string>
     <string name="enable_wifi_display">Wireless display</string>
@@ -3077,10 +3098,11 @@ For more details, contact your organization's admin."</string>
     <string name="face_data_siggesstion_next">Next</string>
     <string name="face_data_siggesstion_next_time">Next (%ds)</string>
     <string name="face_data_suggesstion_first">Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with a similar appearance.</string>
-    <string name="face_data_suggesstion_second">"Make sure all parts of your face aren't covered by objects and are clearly visible. Your face should be well-lit as well."</string>
+    <string name="face_data_suggesstion_second">"Make sure all parts of your face are clearly visible. Don't wear any accessories that might cover your face. Keep your face evenly lit and avoid direct light."</string>
     <string name="face_intro_error_max">You’ve added the maximum number of faces</string>
     <string name="face_intro_error_unknown">Can’t add more faces</string>
     <string name="face_lock_screen_setup_skip_dialog_text">By protecting your phone with a screen lock option, no one will be able to use it if it is lost or stolen. You also need a screen lock option to set up face unlock. To go back, tap Cancel.</string>
+    <string name="face_password_unlock">Face data &amp; screen lock</string>
     <string name="face_unlock">Face unlock</string>
     <string name="face_unlock_be_on_the_screen">Hold the device in front of your face</string>
     <string name="face_unlock_by_notification_screen_on_msg">You can unlock the device using face data whenever the screen lights up for incoming notifications. This may drain the battery faster.</string>
@@ -3172,6 +3194,7 @@ For more details, contact your organization's admin."</string>
     <string name="fingerprint_enable_keyguard_toggle_title">screen lock</string>
     <string name="fingerprint_enroll_button_add">Add another</string>
     <string name="fingerprint_enroll_button_next">Next</string>
+    <string name="fingerprint_face_password_unlock">Fingerprints, face data, and screen lock</string>
     <string name="fingerprint_first_open_screen_password_face_tittle">Face (set Lock screen password first)</string>
     <string name="fingerprint_first_open_screen_password_tittle">Fingerprint (set Lock screen password first)</string>
     <string name="fingerprint_for_keyguard_disabled">Fingerprint has been disabled by security settings.</string>
@@ -3196,6 +3219,7 @@ For more details, contact your organization's admin."</string>
     <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
     <string name="fingerprint_not_recognized">Not recognized</string>
     <string name="fingerprint_others_title">Other</string>
+    <string name="fingerprint_password_unlock">Fingerprints &amp; screen lock</string>
     <string name="fingerprint_payment">Fingerprint payments</string>
     <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
     <string name="fingerprint_swipe_for_notifications_suggestion_title">See notifications quickly</string>
@@ -3235,6 +3259,8 @@ For more details, contact your organization's admin."</string>
     <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_wifi_dialog_message">"The installed app won't be able to connect to the internet using Wi-Fi when this switch is off."</string>
     <string name="firmware_version">Android version</string>
+    <string name="fiveg_sa_switch_summary">Use SA network on secondary SIM (only for testing)</string>
+    <string name="fiveg_sa_vice_switch_title">SA on secondary SIM</string>
     <string name="flash_drive_backup_disable">Connect USB drive first</string>
     <string name="flash_drive_backup_enable">Use a USB drive to back up or restore items</string>
     <string name="flash_drive_backup_restore">USB drive</string>
@@ -3260,56 +3286,56 @@ For more details, contact your organization's admin."</string>
     <string name="fluency_mode_confirm_and_reboot">Reboot now</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
-    <string name="fmt_date_day">dd</string>
+    <string name="fmt_date_day">d</string>
     <string name="fmt_date_long_month">MMMM</string>
-    <string name="fmt_date_long_month_day">MMMM dd</string>
+    <string name="fmt_date_long_month_day">MMMM d</string>
     <string name="fmt_date_long_year_month">MMMM yyyy</string>
-    <string name="fmt_date_long_year_month_day">MMMM dd, yyyy</string>
-    <string name="fmt_date_numeric_day">dd</string>
-    <string name="fmt_date_numeric_month">MM</string>
+    <string name="fmt_date_long_year_month_day">MMMM d, yyyy</string>
+    <string name="fmt_date_numeric_day">d</string>
+    <string name="fmt_date_numeric_month">M</string>
     <string name="fmt_date_numeric_month_day">M/d</string>
     <string name="fmt_date_numeric_year">yyyy</string>
     <string name="fmt_date_numeric_year_month">M/yyyy</string>
     <string name="fmt_date_numeric_year_month_day">M/d/yyyy</string>
-    <string name="fmt_date_short_month">MM</string>
-    <string name="fmt_date_short_month_day">MM/dd</string>
+    <string name="fmt_date_short_month">MMM</string>
+    <string name="fmt_date_short_month_day">MMM d</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
-    <string name="fmt_date_short_year_month_day">MM/dd/yyyy</string>
+    <string name="fmt_date_short_year_month_day">MMM d, yyyy</string>
     <string name="fmt_date_time">D T</string>
-    <string name="fmt_date_time_timezone">zD T</string>
-    <string name="fmt_date_timezone">zD</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
     <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">hh</string>
-    <string name="fmt_time_12hour_minute">hh:mm</string>
-    <string name="fmt_time_12hour_minute_pm">hh:mm a</string>
-    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
-    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
-    <string name="fmt_time_12hour_minute_second_millis_pm">hh:mm:ss.S a</string>
-    <string name="fmt_time_12hour_minute_second_pm">hh:mm:ss a</string>
-    <string name="fmt_time_12hour_pm">hh a</string>
-    <string name="fmt_time_24hour">HH</string>
+    <string name="fmt_time_12hour">"h 'o''clock'"</string>
+    <string name="fmt_time_12hour_minute">h:mm</string>
+    <string name="fmt_time_12hour_minute_pm">h:mm a</string>
+    <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
+    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
+    <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
+    <string name="fmt_time_12hour_pm">ha</string>
+    <string name="fmt_time_24hour">"HH 'o''clock'"</string>
     <string name="fmt_time_24hour_minute">HH:mm</string>
-    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
+    <string name="fmt_time_24hour_minute_second">HH:mm:ss</string>
     <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
-    <string name="fmt_time_millis">S</string>
-    <string name="fmt_time_minute">m</string>
-    <string name="fmt_time_minute_second">m:s</string>
-    <string name="fmt_time_minute_second_millis">m:s.S</string>
-    <string name="fmt_time_second">s</string>
-    <string name="fmt_time_second_millis">s.S</string>
-    <string name="fmt_time_timezone">zT</string>
+    <string name="fmt_time_millis">"S'ms'"</string>
+    <string name="fmt_time_minute">"m'min'"</string>
+    <string name="fmt_time_minute_second">"m'min' s's'"</string>
+    <string name="fmt_time_minute_second_millis">"m'min' s.S's'"</string>
+    <string name="fmt_time_second">"s's'"</string>
+    <string name="fmt_time_second_millis">"s.S's'"</string>
+    <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">DW</string>
-    <string name="fmt_weekday_date_time">DW T</string>
-    <string name="fmt_weekday_date_time_timezone">zDW T</string>
-    <string name="fmt_weekday_date_timezone">zDW</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
-    <string name="fmt_weekday_time_timezone">zW T</string>
-    <string name="fmt_weekday_timezone">zW</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="fold_rule_default">Recommended</string>
     <string name="fold_rule_important">Important</string>
     <string name="fold_rule_unimportant">Unimportant</string>
@@ -3437,7 +3463,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="gadget_picker_title">Choose gadget</string>
     <string name="gadget_toggle_wifi">Updating Wi-Fi settings</string>
     <string name="gadget_wifi">Wi-Fi</string>
-    <string name="gallery_privacy_password_role_instruction">Your private photos will be stored here.</string>
+    <string name="gallery_privacy_password_role_instruction">To view the items you made private, swipe down in \"Albums\".</string>
     <string name="game_booster">Game;Games;Turbo;Gaming;Gaming mode</string>
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Game Controller</string>
@@ -3527,6 +3553,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="gxzw_anim_rhythm">Rhythm</string>
     <string name="gxzw_anim_star">Starlight</string>
     <string name="gxzw_anim_title">Fingerprint animation</string>
+    <string name="gxzw_anim_unlock_effect">%s fingerprint animation</string>
     <string name="gxzw_aod_show_summary">Raise the device or tap the screen to make the fingerprint icon appear. This feature increases system power consumption.</string>
     <string name="gxzw_aod_show_tittle">Show fingerprint icon when the screen is off</string>
     <string name="gxzw_dialog_message">"To be able to use in-screen fingerprint sensor normally, don't use screen protectors. If you think that a screen protector is still necessary, choose among authorized compatible options."</string>
@@ -3579,7 +3606,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="hardware_info">Model &amp; hardware</string>
     <string name="hardware_revision">Hardware version</string>
     <string name="hardware_version">Hardware version</string>
-    <string name="has_screenshot_sound">Screenshot sound</string>
+    <string name="has_screenshot_sound">Play sound when taking screenshots</string>
     <string name="hdcp_checking_dialog_title">Set HDCP checking behavior</string>
     <string name="hdcp_checking_title">HDCP checking</string>
     <string name="hdmi_3d_display_enable_summary">Support 3D games</string>
@@ -3620,6 +3647,8 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="headset_find_tip_title">Attention</string>
     <string name="headset_find_title">Find your earphones</string>
     <string name="headset_find_voice_warning">High volume warning</string>
+    <string name="headset_head_tracking_desc">Adjust surround sound based on head movement</string>
+    <string name="headset_head_tracking_title">Track head movement</string>
     <string name="headset_notification_switch_summary">Show status on the Notification shade widget when earphones are connected</string>
     <string name="headset_notification_switch_title">Notification shade widget</string>
     <string name="headset_remove_message">Unpair device?</string>
@@ -3969,6 +3998,12 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="item_system_app">System apps</string>
     <string name="join_two_items">%1$s and %2$s</string>
     <string name="join_two_unrelated_items">%1$s, %2$s</string>
+    <string name="kddi_nfc_category_title">NFC/Osaifu-keitai</string>
+    <string name="kddi_nfc_disabled_summary">Unavailable because NFC/Osaifu-keitai is turned off</string>
+    <string name="kddi_nfc_quick_toggle_summary">Turn on NFC/Osaifu-keitai functionality</string>
+    <string name="kddi_nfc_quick_toggle_title">NFC/Osaifu-keitai</string>
+    <string name="kddi_nfc_secure_settings_title">Lock while on Lock screen</string>
+    <string name="kddi_nfc_secure_toggle_summary">Keep NFC/Osaifu-keitai on only when the device is unlocked</string>
     <string name="keep_legacy_fingerprint">Keep</string>
     <string name="keep_screen_on">"Don't lock screen"</string>
     <string name="keep_screen_on_summary">"Screen won't go to sleep while charging"</string>
@@ -4175,6 +4210,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="launch_noapp_dialog_replace">Settings</string>
     <string name="launch_notification_center">Notification shade</string>
     <string name="launch_recents">Launch Recents</string>
+    <string name="launch_smarthome">Xiaomi Magic Control</string>
     <string name="launch_voice_assistant">Launch voice assistant</string>
     <string name="launch_wechat_health_code">WeChat health code</string>
     <string name="launch_wechat_health_code_auto_close">WeChat health code shortcut is no longer available. You can switch to a different shortcut.</string>
@@ -4255,6 +4291,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="local_backup_section_summary_new">Back up accounts, app data, system settings, and more</string>
     <string name="local_backup_section_title">Local backups</string>
     <string name="local_backup_section_title_new">On this device</string>
+    <string name="local_backup_usestatus_title">Local backups are off</string>
     <string name="locale_default">Default</string>
     <string name="locale_not_translated">May not be available in some apps</string>
     <string name="locale_remove_menu">Remove</string>
@@ -4400,6 +4437,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="lock_settings_title">Device security</string>
     <string name="lock_settings_with_fingerprint">Lock screen &amp; password</string>
     <string name="lock_setup">Setup is complete.</string>
+    <string name="lock_sound_effect_enable_title">Play sound when locking device</string>
     <string name="lock_sounds_enable_title">Screen locking sounds</string>
     <string name="lockdown_settings_summary">Display power button option that turns off Smart Lock, biometric unlocking, and notifications on the lock screen</string>
     <string name="lockdown_settings_title">Show lockdown option</string>
@@ -4540,6 +4578,7 @@ as your First space PIN."</string>
     <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with the cloud.</string>
     <string name="login_account_dialog_title">Sign in with Mi Account</string>
     <string name="login_account_summary">Manage accounts, cloud services, payments, and more</string>
+    <string name="login_account_summary_temp">Manage accounts, cloud services, and more</string>
     <string name="login_action">Sign in</string>
     <string name="long_press_back_key">Long press the Back button</string>
     <string name="long_press_buttom_key">Long press Home on the Lock screen</string>
@@ -4559,7 +4598,10 @@ as your First space PIN."</string>
     <string name="low_label">Low</string>
     <string name="low_storage_summary">Storage is low. %1$s used - %2$s free</string>
     <string name="macaddr_label">MAC addr:</string>
+    <string name="magic_list_empty_text">No apps compatible with this feature now</string>
+    <string name="magic_list_empty_text_pad">No apps compatible with this feature now</string>
     <string name="magic_window_name">Parallel windows</string>
+    <string name="magic_window_name_pad">Optimize apps for landscape view</string>
     <string name="mah">%d mAh</string>
     <string name="main_netcheck_summary">Test connection for networking issues</string>
     <string name="main_running_process_description">Main process in use.</string>
@@ -4757,6 +4799,7 @@ You can't reverse this action."</string>
     <string name="mi_transfer">Mi Mover</string>
     <string name="mi_upi_settings">Mi Pay Account</string>
     <string name="micloud_service_summary">Sync the list of apps, back up system settings and Home screen layout</string>
+    <string name="micloud_service_summary_temp">Sync photos, videos, contacts, and more</string>
     <string name="micloud_service_title">Xiaomi Cloud</string>
     <string name="middle_function_key">Central area</string>
     <string name="midnight">Night</string>
@@ -5309,6 +5352,8 @@ Select your operating system:"</string>
     <string name="nfc_disabled_summary">Unavailable because NFC is turned off</string>
     <string name="nfc_disclaimer_content">NFC exchanges data between this device and other nearby devices or targets, such as payment terminals, access readers, and interactive ads or tags.</string>
     <string name="nfc_disclaimer_title">Turn on NFC</string>
+    <string name="nfc_dnd_mode_summary">Respond to NFC tags with a limited amount of NDEF tags</string>
+    <string name="nfc_dnd_mode_title">NFC DND</string>
     <string name="nfc_how_it_works_content">Set up a payment app. Then just hold the back of your phone up to any terminal with the contactless symbol.</string>
     <string name="nfc_how_it_works_got_it">Got it</string>
     <string name="nfc_how_it_works_title">Paying at the terminal</string>
@@ -5686,6 +5731,36 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
     <string name="owner_info_settings_title">Lock screen signature</string>
     <string name="owner_space">First space</string>
     <string name="packages_subtitle">Included packages</string>
+    <string name="pad_backup_summary">Back up and restore items on this device</string>
+    <string name="pad_backup_title">Mobile device</string>
+    <string name="pad_computer_backup_summary">Back up and restore items using a computer</string>
+    <string name="pad_flash_drive_backup_enable">Use a USB drive to back up or restore items</string>
+    <string name="pad_how_backup_content">"You can save backups locally or to the cloud. Local backups can be stored on your mobile device, computer, or USB drive.
+
+Mobile device
+Save your system settings, accounts, app data, and other items in a separate file stored on your device (MIUI-backup-AllBackup). Note: Performing a factory reset will delete such backups permanently. Remember to copy backups to your computer.
+
+Computer
+Create a backup on this device, then go to MIUI-backup-AllBackup and copy the backup to your computer via USB cable.
+
+USB drive
+Save your system settings, accounts, app data, and other items to a USB drive.
+
+Xiaomi Cloud
+Sync your contacts, photos, videos, the list of your apps, system settings, and Home screen layout with the cloud."</string>
+    <string name="pad_how_restore_backup_content">"Here's how you can restore items that were backed up using different methods:
+
+Mobile device
+Tap \"Mobile device\" find the option to restore items and select the backup to continue.
+
+Computer
+Copy the backup from your computer to MIUI-backup-AllBackup via USB cable and restore items from your mobile device.
+
+USB drive
+Copy the backup from your USB drive to MIUI-backup-AllBackup and select the option to restore items from a USB drive to continue.
+
+Xiaomi Cloud
+Open Xiaomi Cloud and restore items from there."</string>
     <string name="page_layout_1">Sunday, August 16</string>
     <string name="page_layout_10">Settings</string>
     <string name="page_layout_11">Weather</string>
@@ -5778,6 +5853,7 @@ Read and agree to %s before using this service."</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="password_turned_off_text">Password has been turned off</string>
     <string name="password_turned_on_text">Password has been turned on</string>
+    <string name="password_unlock">Screen lock</string>
     <string name="password_unlock_title">Screen lock</string>
     <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -6361,6 +6437,7 @@ Restart your device and try again."</string>
     <string name="reset_network_final_desc">"Reset all network settings now? This might take several seconds. You won't be able to undo this action."</string>
     <string name="reset_network_final_desc_esim">Reset all network settings and erase downloaded SIMs? You can’t undo this action.</string>
     <string name="reset_network_title">Reset Wi-Fi, mobile networks, and Bluetooth</string>
+    <string name="reset_network_title_noSim">Reset Wi-Fi and Bluetooth</string>
     <string name="reset_network_wifi">Wi-Fi</string>
     <string name="reset_remove_data_hint">All the items listed above will be erased permanently. Back up all important items to your computer or Xiaomi Cloud before you continue.</string>
     <string name="reset_second_space_passwd">Reset Second space password</string>
@@ -7145,6 +7222,11 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="settings_backup">Back up settings</string>
     <string name="settings_backup_summary">Back up my settings</string>
     <string name="settings_button">Settings</string>
+    <string name="settings_charging_at_fast_speed">Charging fast</string>
+    <string name="settings_charging_at_normal_speed">Charging</string>
+    <string name="settings_charging_at_top_speed">Charging at top speed</string>
+    <string name="settings_charging_fully_charged">Fully charged</string>
+    <string name="settings_charging_not_charging">Not charging</string>
     <string name="settings_forbidden_message">This setting is restricted</string>
     <string name="settings_label">Settings</string>
     <string name="settings_label_launcher">Settings</string>
@@ -7199,6 +7281,17 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="shared_data_title">Shared data</string>
     <string name="sharing_remote_bugreport_dialog_message">This bug report is being shared with your IT admin. Contact them for more details.</string>
     <string name="short_summary_font_size">Make text larger or smaller</string>
+    <string name="shoulder_key_game_light_settings">Animations</string>
+    <string name="shoulder_key_settings">Shoulder buttons</string>
+    <string name="shoulder_key_settings_title">Shoulder buttons</string>
+    <string name="shoulder_key_sound_settings">Sound effects</string>
+    <string name="shoulder_key_sound_switch_title">Sound effects</string>
+    <string name="shoulder_key_sound_text_bullet">Bullet</string>
+    <string name="shoulder_key_sound_text_current">Future</string>
+    <string name="shoulder_key_sound_text_sword">Sword</string>
+    <string name="shoulder_key_sound_text_wind">Engine</string>
+    <string name="shoulder_key_switch_status_close">Off</string>
+    <string name="shoulder_key_switch_status_open">On</string>
     <string name="show_all_anrs">Show background ANRs</string>
     <string name="show_all_anrs_summary">Show \"App not responding\" dialog for background apps</string>
     <string name="show_all_apps">Show full device usage</string>
@@ -7411,6 +7504,7 @@ Double tap to open Recents."</string>
     <string name="sms_received_sound_dialog_title">Select sound for received messages</string>
     <string name="sms_received_sound_title">Message received</string>
     <string name="snooze_options_title">Allow notification snoozing</string>
+    <string name="softbank_apn_lock_toast">APN is locked. Cannot edit.</string>
     <string name="software_version">Software version</string>
     <string name="solar_term_autumn_begins">Autumn begins</string>
     <string name="solar_term_autumn_equinox">Autumn equinox</string>
@@ -7471,6 +7565,7 @@ For sharing your location with emergency contacts
 If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to turn off or not use Emergency SOS in such cases.
 Before using our services, read and agree to our %s."</string>
     <string name="sos_privacy_dialog_title">Terms and Conditions</string>
+    <string name="sos_privacy_policy">Privacy Policy</string>
     <string name="sound_assist_summary">Customize your sound settings</string>
     <string name="sound_assist_title">Sound assistant</string>
     <string name="sound_category_call_ringtone_vibrate_title">Ringtone &amp; notification sounds</string>
@@ -7817,6 +7912,28 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="style_and_wallpaper_settings_title">Styles &amp; wallpapers</string>
     <string name="style_suggestion_summary">Try different styles, wallpapers, and more</string>
     <string name="style_suggestion_title">Customize your phone</string>
+    <string name="stylus_ota_check_failed_battery">"Couldn't check. The battery of your stylus is running low."</string>
+    <string name="stylus_ota_check_failed_info">"Couldn't check firmware version. Attach your stylus again."</string>
+    <string name="stylus_ota_check_update">Check for updates</string>
+    <string name="stylus_ota_completed">Updated successfully</string>
+    <string name="stylus_ota_completed_tip">Updated firmware successfully. Attach the stylus to pair.</string>
+    <string name="stylus_ota_current_firmware_version">Firmware version</string>
+    <string name="stylus_ota_demands">"Keep Bluetooth on throughout the update. Make sure the battery doesn't go below %1$s."</string>
+    <string name="stylus_ota_download_failed">"Couldn't download firmware"</string>
+    <string name="stylus_ota_downloading_firmware">Downloading firmware</string>
+    <string name="stylus_ota_firmware_info">Firmware</string>
+    <string name="stylus_ota_firmware_update">Update firmware</string>
+    <string name="stylus_ota_hardware_version">Hardware version</string>
+    <string name="stylus_ota_hava_new_version">"New version: "</string>
+    <string name="stylus_ota_latest">Up to date</string>
+    <string name="stylus_ota_model">Model</string>
+    <string name="stylus_ota_net_error">"Couldn't check for updates. Connect to the network and try again."</string>
+    <string name="stylus_ota_new_version">Update</string>
+    <string name="stylus_ota_serial_number">Serial number</string>
+    <string name="stylus_ota_timeout_failed">Session timed out</string>
+    <string name="stylus_ota_update">Update</string>
+    <string name="stylus_ota_update_failed">"Couldn't update firmware"</string>
+    <string name="stylus_ota_updating">Updating</string>
     <string name="subscreen_title">Rear display</string>
     <string name="subscription_available">Available</string>
     <string name="sudFontSecondary">google-sans</string>
@@ -7855,10 +7972,15 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="sunday_shortest">Sun</string>
     <string name="sunlight_mode">Sunlight mode</string>
     <string name="sunlight_mode_summary">Adjust brightness to strong ambient light when automatic brightness is off</string>
+    <string name="sunlight_mode_summary_new">Adjust brightness to strong ambient light to prevent the screen from going too dark. A small sun icon will appear at the top of the screen when ambient light is strong.</string>
     <string name="supl_not_set">&lt;Not set></string>
     <string name="supplicant_state_label">Supplicant state:</string>
     <string name="support_summary">Help articles, phone &amp; chat, getting started</string>
     <string name="sure_sync_now">Sync items now?</string>
+    <string name="surround_sound_all_desc">Enhance the depth of sound reproduction for earphones and speakers</string>
+    <string name="surround_sound_only_headset_desc">Enhance the depth of sound reproduction for earphones</string>
+    <string name="surround_sound_only_speaker_desc">Enhance the depth of sound reproduction for speakers</string>
+    <string name="surround_sound_title">Surround sound</string>
     <string name="swipe_direction_ltr">Swipe right to dismiss, left to show menu</string>
     <string name="swipe_direction_rtl">Swipe left to dismiss, right to show menu</string>
     <string name="swipe_direction_title">Swipe actions</string>
@@ -7868,12 +7990,12 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="swipe_up_to_switch_apps_title">2-button navigation</string>
     <string name="switchNetworkToast">Connecting to mobile networks may generate additional fees</string>
     <string name="switch_access_service_on">Switch Access</string>
-    <string name="switch_bootup_sound">Boot audio</string>
+    <string name="switch_bootup_sound">Play audio at startup</string>
     <string name="switch_headset_anti_lost">Missing earphone alert</string>
     <string name="switch_headset_anti_lost_title">Missing earphone alert</string>
     <string name="switch_off_text">Off</string>
     <string name="switch_on_text">On</string>
-    <string name="switch_power_sound">Charging sound</string>
+    <string name="switch_power_sound">Play sound when charger is connected</string>
     <string name="switch_screen_button_order">Mirror buttons</string>
     <string name="switch_screen_button_order_desc">Mirror Back and Menu buttons</string>
     <string name="switch_select_to_speak_on">Select to Speak</string>
@@ -8286,6 +8408,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
     <string name="unlock_set_unlock_pin_title">PIN</string>
     <string name="unlock_set_unlock_summary">Set a screen lock</string>
     <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings > Security.</string>
+    <string name="unlock_sound_effect_enable_title">Play sound when unlocking device</string>
     <string name="unlock_type_category_title">Recognition method</string>
     <string name="unlogin_account_summary">All Mi services. One Mi Account.</string>
     <string name="unlogin_account_title">Sign in to Mi Account</string>
@@ -8626,7 +8749,7 @@ Tap the plus to add words."</string>
     <string name="vibrate_when_ringing_option_always_vibrate">Always vibrate</string>
     <string name="vibrate_when_ringing_option_never_vibrate">Never vibrate</string>
     <string name="vibrate_when_ringing_option_ramping_ringer">Vibrate first then ring gradually</string>
-    <string name="vibrate_when_ringing_title">Vibrate for calls</string>
+    <string name="vibrate_when_ringing_title">Vibrate while ringing</string>
     <string name="video_calling_settings_title">Carrier video calling</string>
     <string name="video_tool_box_title">Video toolbox</string>
     <string name="view_saved_network">To view, choose saved network</string>
@@ -8691,6 +8814,9 @@ Tap the plus to add words."</string>
     <string name="voice_service_preference_section_title">Voice input services</string>
     <string name="voicemail_number_not_set">&lt;Not set></string>
     <string name="voip_assistant_settings">VoIP assistant</string>
+    <string name="voip_assistant_settings_off">Off</string>
+    <string name="voip_assistant_settings_on">On</string>
+    <string name="voip_assistant_settings_summary">Record VoIP calls and use voiceprint optimization</string>
     <string name="volte_5G_limited_text">"This also turns off your 5G connection.
 During a voice call, you can’t use the internet and some apps may not work."</string>
     <string name="volte_5G_limited_title">Turn off VoLTE?</string>

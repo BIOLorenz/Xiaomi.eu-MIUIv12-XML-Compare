@@ -1153,6 +1153,7 @@ Selection"</string>
     <string name="fdn_with_label">Fixed Dialing Numbers (%s)</string>
     <string name="fire_type_description">Fire</string>
     <string name="fiveg_bearer_status1">5G bearer status :</string>
+    <string name="fiveg_carrier_aggregation_title">5G carrier aggregation</string>
     <string name="fiveg_endc_available1">NR ENDC available :</string>
     <string name="fiveg_endc_status1">Endc Status :</string>
     <string name="fiveg_hosted_mode_summary">Select best network automatically to save battery</string>
@@ -1170,6 +1171,7 @@ Selection"</string>
     <string name="fiveg_sa_switch_open_dialog_content">5G connection might be unstable in standalone mode, which might affect telephony services. Turn on SA mode anyway?</string>
     <string name="fiveg_sa_switch_open_dialog_title">Attention</string>
     <string name="fiveg_sa_switch_summary">Allow connecting to 5G networks in standalone mode</string>
+    <string name="fiveg_sa_switch_title">Use SA network</string>
     <string name="fiveg_sa_switch_warning_toast">Reboot your device to apply changes</string>
     <string name="fiveg_sa_vice_switch_title">SA on secondary SIM</string>
     <string name="fiveg_signal_strength1">5G Signal strength :</string>
@@ -1418,6 +1420,7 @@ Switch to the new provider anyway?"</string>
     <string name="labelNwService">Network service settings</string>
     <string name="label_available">Available networks</string>
     <string name="label_ndp">SIM network unlock PIN</string>
+    <string name="label_ndp_nck">SIM network unlock NCK</string>
     <string name="label_phoneid">Perso Locked for</string>
     <string name="label_puk2_code">Type PUK2 code</string>
     <string name="lable_all_incoming">All incoming calls</string>
@@ -1497,6 +1500,8 @@ Emergency calls are only possible in areas with cellular coverage."</string>
     <string name="menu_delete">Delete contact</string>
     <string name="menu_dial">Dial contact</string>
     <string name="menu_edit">Edit contact</string>
+    <string name="menu_new_display_open">用新窗口打开</string>
+    <string name="menu_pc_open">用电脑程序打开</string>
     <string name="messageCFB">Number when busy</string>
     <string name="messageCFNRc">Number when unreachable</string>
     <string name="messageCFNRy">Number when unanswered</string>
@@ -1579,14 +1584,17 @@ Emergency calls are only possible in areas with cellular coverage."</string>
     <string name="mobile_data_status_roaming_turned_on_subtext">Data roaming is turned on</string>
     <string name="mobile_data_status_roaming_with_plan_subtext">Currently roaming, data plan is active</string>
     <string name="mobile_data_status_roaming_without_plan_subtext">Currently roaming, need data plan</string>
-    <string name="mobile_intelligent_connection_title">Smart mobile network connectivity</string>
+    <string name="mobile_geo_location_config_summary">Mark locations where network signal abnormalities occur to improve call quality</string>
+    <string name="mobile_geo_location_config_title">Fixed-point network optimization</string>
+    <string name="mobile_intelligent_connection_title">Mobile network optimization</string>
+    <string name="mobile_network_dual_card_optimizationmobile_title">Dual SIM &amp; mobile networks</string>
     <string name="mobile_network_settings_class">com.android.settings.network.telephony.MobileNetworkActivity</string>
     <string name="mobile_network_settings_not_available">Mobile network settings are not available for this user</string>
     <string name="mobile_network_settings_package">com.android.settings</string>
     <string name="mobile_networks">Mobile network settings</string>
     <string name="mobile_property">Mobile network properties</string>
-    <string name="mobile_special_network_optimization_config_summary">When the network is abnormal, try to repair automatically</string>
-    <string name="mobile_special_network_optimization_config_title">Special Network Optimization</string>
+    <string name="mobile_special_network_optimization_config_summary">Improve call quality by adapting to different scenes automatically</string>
+    <string name="mobile_special_network_optimization_config_title">Adapt to different scenes</string>
     <string name="mock_location_app">Select mock location app</string>
     <string name="mock_location_app_not_set">No mock location app set</string>
     <string name="mock_location_app_set">Mock location app: %1$s</string>
@@ -1771,6 +1779,8 @@ Using preferred network instead."</string>
     <string name="no_mobile_data">Mobile data is not available</string>
     <string name="no_mobile_data_roaming">Data roaming is not available</string>
     <string name="no_rtt_when_roaming">Note: RTT is not available while roaming</string>
+    <string name="no_unlock_chance_hint">"You have no retry times.
+Please contact your operators"</string>
     <string name="no_vm_number">Missing voicemail number</string>
     <string name="no_vm_number_msg">No voicemail number is stored on the SIM card.</string>
     <string name="no_voip">"SIP calling isn't supported"</string>
@@ -2200,6 +2210,9 @@ UT Interface: %5$s"</string>
     <string name="reject_via_sms">Quick responses</string>
     <string name="reject_via_sms_summary">Show buttons for ending call and sending SMS</string>
     <string name="reject_via_sms_title">Quick responses</string>
+    <string name="relay_call_answered_by_other_devices">This call was answered on another device.</string>
+    <string name="relay_call_released_due_to_connect_lost">Connection was lost. Continue with the call on your other device.</string>
+    <string name="relay_connection_service_label">Built-in RELAY calling</string>
     <string name="remaining_length_format">%1$s left</string>
     <string name="remove">Remove</string>
     <string name="remove_sip_account">Remove account</string>
@@ -2369,14 +2382,17 @@ UT Interface: %5$s"</string>
     <string name="sim_contact_number">Number</string>
     <string name="sim_description_default">SIM card, slot: %s</string>
     <string name="sim_description_emergency_calls">Emergency calling only</string>
+    <string name="sim_fiveg_network_title">SIM %1$s (%2$s)</string>
     <string name="sim_is_not_ready">SIM card is not ready</string>
     <string name="sim_label_emergency_calls">Emergency calls</string>
+    <string name="sim_me_lock_disabled">Simlock is disabled.</string>
     <string name="sim_ndp_dismiss_text">Dismiss</string>
     <string name="sim_ndp_unlock_text">Unlock</string>
     <string name="sim_roaming_settings_summary">Connect to mobile data networks while roaming</string>
     <string name="sim_roaming_settings_title">Mi Roaming</string>
     <string name="sim_selection_required_pref">Selection required</string>
     <string name="sim_service_setting">Mi SIM &amp; Mi Roaming</string>
+    <string name="simmelock_name">SIM ME Lock</string>
     <string name="simulate_color_space">Simulate color space</string>
     <string name="singleContactImportedMsg">Imported contact</string>
     <string name="single_emergency_number_title">Emergency number</string>
@@ -2486,6 +2502,7 @@ UT Interface: %5$s"</string>
     <string name="stock_quotes_disable">Stock Quotes disabled</string>
     <string name="stock_quotes_enable">Stock Quotes enabled</string>
     <string name="storage_category">Storage</string>
+    <string name="strPasswordLengthIncorrect">4-16 numbers!</string>
     <string name="strict_mode">Strict mode enabled</string>
     <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
     <string name="sum_call_barring_disabled">Off</string>
@@ -2726,6 +2743,7 @@ Next period starts in %2$d days (%3$s)"</string>
     <string name="unfold_speaker_pref_summary">Unfold the device during a call to turn on speaker</string>
     <string name="unfold_speaker_pref_title">Unfold to use speaker</string>
     <string name="unknown">Unknown</string>
+    <string name="unlock_chances_left">Retries Left:</string>
     <string name="unlock_failed">Network unlock request unsuccessful.</string>
     <string name="unlock_success">SIM Network unlock successful.</string>
     <string name="updating_fdn_contact">Updating fixed dialing number…</string>

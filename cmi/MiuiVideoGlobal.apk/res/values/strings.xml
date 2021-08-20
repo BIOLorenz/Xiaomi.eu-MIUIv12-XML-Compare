@@ -116,6 +116,7 @@
     <string name="auto_play_next_off">Autoplay is off</string>
     <string name="auto_play_next_on">Autoplay is on</string>
     <string name="back_to_mainpage">Discover</string>
+    <string name="background_playback_enabled">Background playback is on</string>
     <string name="before_yestoday">2 days ago</string>
     <string name="bind_sign_in_title">Add Mi Account</string>
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
@@ -463,6 +464,7 @@ Send this code to the supervisor."</string>
     <string name="failed_dup_secure_phone_number">This phone number is already associated with another Mi Account</string>
     <string name="failed_to_fetch_data">"Couldn't load info."</string>
     <string name="failure">"Couldn't download"</string>
+    <string name="favor_movie">Movies</string>
     <string name="favor_online_video">Videos</string>
     <string name="favor_playlist">Playlists</string>
     <string name="favorite">Favorites</string>
@@ -613,10 +615,8 @@ Send this code to the supervisor."</string>
     <string name="galleryplus_orientation_lock">Locked orientation successfully</string>
     <string name="galleryplus_orientation_unlock">Screen orientation is unlocked</string>
     <string name="galleryplus_permission_content">Give Mi Video the required permissions to be able to use this feature.</string>
-    <string name="galleryplus_permission_content2">"To be able to use this feature, go to Settings > Apps > Mi Video > App permissions and allow Mi Video to do the following:
-
-1. Access storage
-2. Access device ID"</string>
+    <string name="galleryplus_permission_content_opt">Mi Video needs permissions to work normally. Clear all app data in the Settings and open the app again.</string>
+    <string name="galleryplus_permission_content_xms">Mi Video needs permissions to work normally. Go to Settings and give Mi Video the required permissions.</string>
     <string name="galleryplus_permission_open_settings">Settings</string>
     <string name="galleryplus_permission_refuse">No thanks</string>
     <string name="galleryplus_permission_retry">Permissions</string>
@@ -729,6 +729,7 @@ for videos"</string>
     <string name="live_tv_title">Live TV</string>
     <string name="loading">Just a sec…</string>
     <string name="local_play_tip">Playing local video</string>
+    <string name="local_push_setting_power_tag">Notifications about local videos</string>
     <string name="local_push_title">Popular today</string>
     <string name="local_video_create_a_new_playlist">New playlist</string>
     <string name="local_video_date">Date</string>
@@ -754,6 +755,9 @@ for videos"</string>
     <string name="logo_neverthink">Curated by Neverthink.tv</string>
     <string name="logout">Sign out</string>
     <string name="logout_account">Sign out</string>
+    <string name="long_video_no_more_content">"That's all for now"</string>
+    <string name="long_video_watch_on">Watch on</string>
+    <string name="long_video_you_may_also_like">You may also like</string>
     <string name="lp_base_folder">SD card</string>
     <string name="lp_play_mode_list_loop">Loop all</string>
     <string name="lp_play_mode_pause">Play one</string>
@@ -1033,6 +1037,7 @@ for videos"</string>
     <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Recent subscriptions</string>
     <string name="order_recently_updated">Recently updated</string>
+    <string name="out_of_memory_background_playback_is_suspended">Paused background playback due to insufficient memory</string>
     <string name="ovp_alert_dialog_download_install_task">Downloading HD plug-in…</string>
     <string name="ovp_buffering_video_netplay_label_v5">Buffering…</string>
     <string name="ovp_category">Categories</string>
@@ -1652,6 +1657,7 @@ Increase the security of your account."</string>
     <string name="type_issue">Issue</string>
     <string name="type_suggestion">Suggestion</string>
     <string name="ugc_no_net">"Couldn't connect to the network. Check your network settings and try again."</string>
+    <string name="ui_common_title_back">Back</string>
     <string name="ui_log_tip">Tap this area to hide, press and hold to clear old logs. Drag logs manually.</string>
     <string name="unknow">Unknown</string>
     <string name="unknown_error_info">Unknown error</string>
@@ -1696,14 +1702,20 @@ Increase the security of your account."</string>
     <string name="video_download_fail">"Couldn't download video"</string>
     <string name="video_download_fail_hint">"Couldn't download"</string>
     <string name="video_download_floating_guide">Download videos for free</string>
+    <string name="video_download_folder_title">Mi Video downloads</string>
     <string name="video_download_forbidden">"Can't download from this website"</string>
+    <string name="video_download_login_guide">Sign in to %s to be able to download videos</string>
     <string name="video_download_network_error">Network error</string>
     <string name="video_download_play_video_guide">First, play the video.</string>
-    <string name="video_download_play_video_guide2">Then tap the button to download.</string>
+    <string name="video_download_play_video_guide2">Tap the button after it lights up to start downloading.</string>
+    <string name="video_download_play_video_step1">Step %1$d</string>
+    <string name="video_download_play_video_step2">Step %2$d</string>
     <string name="video_download_site_search">URL</string>
     <string name="video_download_source">Web download</string>
     <string name="video_download_start">Downloading…</string>
     <string name="video_download_storage_error">Not enough storage space</string>
+    <string name="video_download_title">Download videos</string>
+    <string name="video_download_youtube_copyright_forbidden">"Can't download YouTube videos due to copyright restrictions"</string>
     <string name="video_downloading">Downloading…</string>
     <string name="video_live_over">This session is over</string>
     <string name="video_noyet_download_tip">This video is still being downloaded</string>
