@@ -2499,6 +2499,7 @@ to respond"</string>
     <string name="mark_time_setting_dialog_title">Report number</string>
     <string name="mark_time_text">%d</string>
     <string name="marked_by_user">"You marked it as "</string>
+    <string name="marketSdkVersion">3.2.9</string>
     <string name="megabyteShort">MB</string>
     <string name="megabyte_per_second">MB/s</string>
     <string name="memory_check_content">Freed %s</string>
@@ -5352,6 +5353,9 @@ Try upscaling resolution!"</string>
     <string name="write_clipboard_tip_content">This permission allows apps to save items to the clipboard. Spam messages may affect your normal use of the clipboard.</string>
     <string name="write_clipboard_tip_title">Saving items to the clipboard</string>
     <string name="wrong_password">Incorrect password</string>
+    <string name="xiaomi_market_sdk_update_dialog_cancel">Not now</string>
+    <string name="xiaomi_market_sdk_update_dialog_ok">Update</string>
+    <string name="xiaomi_market_sdk_update_dialog_title">An update is available</string>
     <string name="xiaomi_privacy_protection_measures">Privacy protection measures</string>
     <string name="xspace_warning_dialog_button">Got it</string>
     <string name="xspace_warning_dialog_message">Due to the restrictions introduced in Android %d, all dual apps will only be able to access the photos and videos generated and saved within the corresponding dual app itself.</string>
