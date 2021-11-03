@@ -734,6 +734,7 @@ You can also track express delivery on the official websites of delivery compani
     <string name="app_sports_title">Sports</string>
     <string name="app_sports_title_all_leagues">All matches</string>
     <string name="app_sports_title_tip">Match related data provided by a third party</string>
+    <string name="app_stock_info_desc">说明</string>
     <string name="app_stock_more_add_stock">Add</string>
     <string name="app_stock_name_cyb">GEM</string>
     <string name="app_stock_name_hszs">Hang Sen</string>
@@ -881,6 +882,7 @@ You can also track express delivery on the official websites of delivery compani
     <string name="btn_back">Back</string>
     <string name="btn_more">More</string>
     <string name="bus_code">Public transport</string>
+    <string name="calc_convert">Convert</string>
     <string name="calc_currency">Currency</string>
     <string name="calc_name">Scientific</string>
     <string name="calc_num">Financial characters</string>

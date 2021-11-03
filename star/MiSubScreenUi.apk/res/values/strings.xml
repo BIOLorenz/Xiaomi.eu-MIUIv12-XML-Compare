@@ -37,12 +37,14 @@
     <string name="animatable_view_tag">animatable_view_tag</string>
     <string name="aod_component">Always-on display</string>
     <string name="aod_dual_togother">HH:mm</string>
-    <string name="aod_lock_screen_date">EE M/d</string>
-    <string name="aod_lock_screen_date_signature">M/d</string>
-    <string name="aod_lock_screen_date_v">"EE
-M/d"</string>
-    <string name="aod_show_date_and_time">Date and time</string>
-    <string name="aod_signature_12">aa hh:mm</string>
+    <string name="aod_hours_12">hh</string>
+    <string name="aod_hours_24">HH</string>
+    <string name="aod_lock_screen_date">EEE MM/dd</string>
+    <string name="aod_lock_screen_date_signature">MM/dd</string>
+    <string name="aod_lock_screen_date_v">"EEE
+MM/dd"</string>
+    <string name="aod_show_date_and_time">Time</string>
+    <string name="aod_signature_12">hh:mm aa</string>
     <string name="aod_signature_horizontal_12">hh:mm</string>
     <string name="app_name">Rear display</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
@@ -137,8 +139,17 @@ M/d"</string>
     <string name="color_change_with_time_description">Change text color automatically throughout the day</string>
     <string name="color_change_with_time_title">Change colors automatically</string>
     <string name="component_battery">Battery</string>
-    <string name="component_date_time">Date and time</string>
+    <string name="component_date_time">Time</string>
     <string name="component_notification">Notifications</string>
+    <string name="contentDescripton_back">Back</string>
+    <string name="contentDescripton_horizontal_center">Horizontal layout. Center aligned.</string>
+    <string name="contentDescripton_horizontal_left">Horizontal layout. Left aligned.</string>
+    <string name="contentDescripton_horizontal_right">Horizontal layout. Right aligned.</string>
+    <string name="contentDescripton_increase">More</string>
+    <string name="contentDescripton_reduce">Less</string>
+    <string name="contentDescripton_vertical_center">Vertical layout. Center aligned.</string>
+    <string name="contentDescripton_vertical_left">Vertical layout. Left aligned.</string>
+    <string name="contentDescripton_vertical_right">Vertical layout. Right aligned.</string>
     <string name="copy">Copy</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -412,8 +423,6 @@ M/d"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_to_image_community">Find more on Mi Community</string>
     <string name="subscreen_could_edit_pic">Drag images to scale, press and hold to delete</string>
-    <string name="subscreen_nightmode_summary">开启后，22:00-7:00自动关闭背屏</string>
-    <string name="subscreen_nightmode_title">夜间勿扰模式</string>
     <string name="subscreen_other">Other</string>
     <string name="subscreen_other_dialog_cancel">Cancel</string>
     <string name="subscreen_other_dialog_confirm">Turn on</string>

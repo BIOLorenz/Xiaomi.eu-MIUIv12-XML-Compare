@@ -703,9 +703,9 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC_V3</item>
-        <item>LHDC_V2</item>
-        <item>LHDC_V1</item>
+        <item>LHDC V3/V4</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
         <item>Enable optional codecs</item>
         <item>Disable optional codecs</item>
     </string-array>
@@ -718,9 +718,9 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC_V3</item>
-        <item>LHDC_V2</item>
-        <item>LHDC_V1</item>
+        <item>LHDC V3/V4</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
         <item>Enable optional codecs</item>
         <item>Disable optional codecs</item>
     </string-array>
@@ -1992,6 +1992,7 @@
     <array name="default_dialer_package" />
     <string-array name="default_email_package">
         <item>mx_telcel:com.google.android.gm</item>
+        <item>jp_sb:com.google.android.gm</item>
     </string-array>
     <string-array name="default_gallery_package">
         <item>mx_telcel:com.google.android.apps.photos</item>
@@ -2000,6 +2001,7 @@
     <string-array name="default_mms_package">
         <item>mx_telcel:com.google.android.apps.messaging</item>
         <item>jp_kd:com.kddi.android.cmail</item>
+        <item>jp_sb:jp.softbank.mb.plusmessage</item>
     </string-array>
     <array name="default_music_package" />
     <string-array name="default_video_package">
@@ -3869,6 +3871,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>psyche</item>
         <item>evergo</item>
         <item>evergreen</item>
+        <item>poussin</item>
     </string-array>
     <string-array name="support_speaker_auto_clean_device_list">
         <item>willow</item>

@@ -147,9 +147,7 @@
     <string-array name="allowlist_hide_entry_in_battery_usage">
         <item>com.google.android.gms.persistent</item>
     </string-array>
-    <string-array name="allowlist_hide_summary_in_battery_usage">
-        <item>com.google.android.googlequicksearchbox</item>
-    </string-array>
+    <array name="allowlist_hide_summary_in_battery_usage" />
     <string-array name="alphabet_table">
         <item>A</item>
         <item>B</item>
@@ -486,6 +484,49 @@
         <item>60</item>
         <item>90</item>
     </string-array>
+    <string-array name="ba_disable_timeout">
+        <item>@string/short_time</item>
+        <item>@string/long_time</item>
+        <item>@string/always_on</item>
+    </string-array>
+    <string-array name="ba_disable_timeout_value">
+        <item>short_time</item>
+        <item>long_time</item>
+        <item>always_on</item>
+    </string-array>
+    <string-array name="ba_security_settings_entries">
+        <item>@string/ba_low_security_level</item>
+        <item>@string/ba_mid_security_level</item>
+        <item>@string/ba_high_security_level</item>
+    </string-array>
+    <string-array name="ba_security_settings_summaries">
+        <item>@string/ba_low_security_level_summary</item>
+        <item>@string/ba_mid_security_level_summary</item>
+        <item>@string/ba_high_security_level_summary</item>
+    </string-array>
+    <string-array name="ba_security_settings_values">
+        <item>0</item>
+        <item>4</item>
+        <item>16</item>
+    </string-array>
+    <array name="background_style1">
+        <item>@drawable/rounded_ripple</item>
+    </array>
+    <array name="background_style2">
+        <item>@drawable/left_rounded_ripple</item>
+        <item>@drawable/right_rounded_ripple</item>
+    </array>
+    <array name="background_style3">
+        <item>@drawable/left_rounded_ripple</item>
+        <item>@drawable/square_ripple</item>
+        <item>@drawable/right_rounded_ripple</item>
+    </array>
+    <array name="background_style4">
+        <item>@drawable/left_rounded_ripple</item>
+        <item>@drawable/square_ripple</item>
+        <item>@drawable/square_ripple</item>
+        <item>@drawable/right_rounded_ripple</item>
+    </array>
     <string-array name="battery_indicator_style_entries">
         <item>Graphical</item>
         <item>Percentage (in the icon)</item>
@@ -566,6 +607,7 @@
         <item>3</item>
         <item>3</item>
     </integer-array>
+    <array name="bcast_channel_selection" />
     <string-array name="bearer_entries">
         <item>Unspecified</item>
         <item>LTE</item>
@@ -1833,6 +1875,11 @@
     <string-array name="code_change_values">
         <item>0</item>
     </string-array>
+    <string-array name="color_game_led_freq_values">
+        <item>1000</item>
+        <item>1500</item>
+        <item>2500</item>
+    </string-array>
     <string-array name="color_mode_descriptions">
         <item>Enhanced colors</item>
         <item>Natural colors as seen by the eye</item>
@@ -2017,6 +2064,8 @@
     <string-array name="defalut_browser_package">
         <item>mx_telcel:com.android.chrome</item>
         <item>es_vodafone:com.android.chrome</item>
+        <item>VF:com.mi.globalbrowser</item>
+        <item>OR:com.mi.globalbrowser</item>
     </string-array>
     <array name="default_camera_package" />
     <array name="default_dialer_package" />
@@ -2651,6 +2700,14 @@
         <item>@drawable/clickbottom01</item>
         <item>@drawable/clickbottom01</item>
     </array>
+    <string-array name="long_press_entries_left_TWS_K77s">
+        <item>@string/miheadset_key_config_call_ai</item>
+        <item>@string/miheadset_play_pause</item>
+    </string-array>
+    <string-array name="long_press_entries_right_TWS_K77s">
+        <item>@string/miheadset_key_config_call_ai</item>
+        <item>@string/miheadset_play_pause</item>
+    </string-array>
     <string-array name="long_press_timeout_selector_list_titles">
         <item>Short</item>
         <item>Medium</item>
@@ -2938,12 +2995,6 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="notification_style_values">
         <item>0</item>
         <item>1</item>
-    </string-array>
-    <string-array name="one_handed_timeout_title">
-        <item>@string/screensaver_settings_summary_never</item>
-        <item>@string/one_handed_timeout_short</item>
-        <item>@string/one_handed_timeout_medium</item>
-        <item>@string/one_handed_timeout_long</item>
     </string-array>
     <string-array name="one_handed_timeout_values">
         <item>0</item>
@@ -3682,7 +3733,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>256 KB per log buffer</item>
         <item>1 MB per log buffer</item>
         <item>4 MB per log buffer</item>
-        <item>16 MB per log buffer</item>
+        <item>8 MB per log buffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Off</item>
@@ -3690,7 +3741,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>256 KB</item>
         <item>1 MB</item>
         <item>4 MB</item>
-        <item>16 MB</item>
+        <item>8 MB</item>
     </string-array>
     <string-array name="select_logd_size_values">
         <item>32768</item>
@@ -3910,6 +3961,17 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>mars</item>
         <item>agate</item>
         <item>vili</item>
+        <item>amber</item>
+        <item>odin</item>
+        <item>pissarro</item>
+        <item>pissarropro</item>
+        <item>pissarroin</item>
+        <item>pissarroinpro</item>
+        <item>zeus</item>
+        <item>cupid</item>
+        <item>psyche</item>
+        <item>poussin</item>
+        <item>ingres</item>
     </string-array>
     <string-array name="support_speaker_auto_clean_device_list">
         <item>willow</item>

@@ -75,6 +75,7 @@
     <string name="application_cannot_open_alipay_health_code">"Couldn't open Alipay health code"</string>
     <string name="application_cannot_open_alipay_payment_code">"Couldn't open Alipay payment code"</string>
     <string name="application_cannot_open_alipay_scanner">"Couldn't open Alipay scanner"</string>
+    <string name="application_cannot_open_au_pay">Install au PAY first</string>
     <string name="application_cannot_open_weixin_health_code">"Couldn't open WeChat health code"</string>
     <string name="application_cannot_open_weixin_payment_code">"Couldn't open WeChat payment code"</string>
     <string name="application_cannot_open_weixin_scanner">"Couldn't open WeChat scanner"</string>
@@ -482,6 +483,9 @@
     <string name="global_actions_reboot">Reboot</string>
     <string name="global_actions_shutdown">Power off</string>
     <string name="global_actions_silent_mode">Silent mode</string>
+    <string name="global_pad">My tablet</string>
+    <string name="global_pc">My laptop</string>
+    <string name="global_phone">My phone</string>
     <string name="glockenspiel">Glockenspiel</string>
     <string name="glorious">Glory</string>
     <string name="greenandblue">Rainbow</string>
@@ -517,7 +521,9 @@
     <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
     <string name="lockscreen_access_pattern_detected">Pattern completed</string>
     <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <string name="lockscreen_carrier_customized">Limited service</string>
     <string name="lollipop">Lollipop</string>
+    <string name="magic_window_toast">App Multiplier enabled.</string>
     <string name="makewishes">Birthday wish</string>
     <string name="maml_component_customization_title">Settings</string>
     <string name="martix">Matrix</string>
@@ -622,6 +628,11 @@
     <string name="redmi_note_5">Redmi Note 5</string>
     <string name="redmi_note_7">Redmi Note 7</string>
     <string name="redmi_note_7_pro">Redmi Note 7 Pro</string>
+    <string name="relaunch_dialog_alwaysUsePrompt">Remember my choice</string>
+    <string name="relaunch_dialog_button_cancel">Cancel</string>
+    <string name="relaunch_dialog_button_confirm">OK</string>
+    <string name="relaunch_dialog_message">"Can't adjust window size while you're using the app. You can restart the app to adjust window size, but the app data generated during this session will be lost. Restart anyway?"</string>
+    <string name="relaunch_dialog_title">Restart \"%s\"?</string>
     <string name="remain">Remaining: %s</string>
     <string name="replace">Replace</string>
     <string name="resolver_app_recommend_flag">Recommend</string>
@@ -777,11 +788,13 @@
     <string name="vivo_phone">vivo</string>
     <string name="wallpaper_group_black_white_title">Black and white</string>
     <string name="wallpaper_group_color_move_title">Liquid colors</string>
+    <string name="wallpaper_group_concerto_title">Concerto</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
     <string name="wallpaper_group_dynamic_nebula_title">Dynamic nebula</string>
     <string name="wallpaper_group_geometric_subtitle">Rutger Paulusse</string>
     <string name="wallpaper_group_geometric_title">Geometry</string>
     <string name="wallpaper_group_minimalist_scenery_title">Minimalism</string>
+    <string name="wallpaper_group_molten_glass_title">Molten glass</string>
     <string name="wallpaper_group_more_system_wallpaper_title">More system wallpapers</string>
     <string name="wallpaper_group_natural_texture_subtitle">Tom Hegen and others</string>
     <string name="wallpaper_group_natural_texture_title">Nature patterns</string>
@@ -789,6 +802,8 @@
     <string name="wallpaper_group_red_mars_title">Mars</string>
     <string name="wallpaper_group_sgn_mountain_title">Mount Siguniang</string>
     <string name="waterdrop_preview">Droplets</string>
+    <string name="wave_path_1">M120,40 A80,80,0,0,1,120,200 A80,80,0,0,1,120,40</string>
+    <string name="wave_path_2">M120,0 A120,120,0,0,1,120,240 A120,120,0,0,1,120,0</string>
     <string name="wifi_assistant_wifi_no_internet">This Wi-Fi network has no access to the internet</string>
     <string name="wifi_assistant_wifi_no_internet_detail">Tap to view details</string>
     <string name="windchime">Wind chimes</string>
