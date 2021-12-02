@@ -1510,6 +1510,7 @@ MMMM d"</string>
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_collect">Collections</string>
     <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
@@ -2249,6 +2250,8 @@ be monitored"</string>
     <string name="status_bar_clock_date_time_format_12">h:mm aa, E, MMM d</string>
     <string name="status_bar_clock_date_weekday_format">EEE, MMM d</string>
     <string name="status_bar_clock_date_weekday_format_12">EEE, MMM d</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 MMM d"</string>
     <string name="status_bar_date_format_12">"E
@@ -2663,8 +2666,6 @@ Wi‑Fi Address (BSSID)
     <string name="wifi_status_no_internet">No internet</string>
     <string name="wifi_status_sign_in_required">Sign in required</string>
     <string name="wifi_unmetered_label">Unmetered</string>
-    <string name="wifi_unsaved_network_linking">SSID Bridging ‑ Auto Connection</string>
-    <string name="wifi_unsaved_network_linking_summary">Enable auto connection attempts to a new WPA/WPA2‑PSK 5GHz SSID with current connected WPA/WPA2‑PSK 2GHz SSID credentials on SSID and BSSID partial match</string>
     <string name="wifi_verbose_logging">Turn on Wi-Fi verbose logging</string>
     <string name="wifi_verbose_logging_summary">Increase Wi-Fi logging level (show per SSID RSSI in Wi-Fi picker)</string>
     <string name="wifi_wapi_as_certificate">AS certificate</string>
@@ -2676,8 +2677,6 @@ Make sure your certificates are valid."</string>
 Looks like credential storage isn't enabled."</string>
     <string name="wifi_wapi_psk_type">Password type</string>
     <string name="wifi_wapi_user_certificate">User certificate</string>
-    <string name="wifi_whitelist_roaming">SSID Bridging ‑ Fast Handover</string>
-    <string name="wifi_whitelist_roaming_summary">Enable roaming between different SSID WPA/WPA2‑PSK APs with same gateway MAC address</string>
     <string name="window_animation_scale_title">Window animation scale</string>
     <string name="wireless_change_to_ac_charging">Switched to wired charging</string>
     <string name="wireless_charge_current">Charging</string>

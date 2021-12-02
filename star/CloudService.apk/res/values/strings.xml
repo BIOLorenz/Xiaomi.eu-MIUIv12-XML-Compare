@@ -179,8 +179,10 @@
     <string name="dialog_add_shortcut_content">Add a Home screen shortcut for Xiaomi Cloud to be able to manage your cloud storage more efficiently.</string>
     <string name="dialog_add_shortcut_title">Add shortcut</string>
     <string name="dialog_storage_full_title">Cloud storage is full</string>
-    <string name="dialog_storage_low_content">Upgrade your cloud storage plan to be able to sync items normally.</string>
+    <string name="dialog_storage_low_content">Upgrade your storage plan to continue syncing items.</string>
     <string name="dialog_storage_low_title">Insufficient cloud storage</string>
+    <string name="dialog_storage_upgrade_later">No thanks</string>
+    <string name="dialog_storage_upgrade_now">Upgrade</string>
     <string name="dialog_title_prompt">Attention</string>
     <string name="do_not_merge">Cancel</string>
     <string name="early_morning">Morning</string>
@@ -674,6 +676,7 @@
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_collect">Collections</string>
     <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
