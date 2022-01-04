@@ -232,7 +232,6 @@
     <string name="close_alarm">Turn off</string>
     <string name="cold_dews">寒露</string>
     <string name="cold_dews_tradition">寒露</string>
-    <string name="com.crashlytics.android.build_id">00000000000000000000000000000000</string>
     <string name="common_google_play_services_enable_button">Enable</string>
     <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
     <string name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -789,6 +788,7 @@
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_indexer_collect">Collections</string>
     <string name="miuix_indexer_selected">Selected %s</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
@@ -1246,6 +1246,7 @@ You can also add reminders so you don't miss anything important."</string>
     <string name="talk_back_read_date">%1$s (%2$s according to lunar calendar).</string>
     <string name="talk_back_setting">Settings</string>
     <string name="talk_back_tab_switch">Switch between views</string>
+    <string name="talk_back_tab_switch_language">Select Calendar language</string>
     <string name="talkback_bengali">Bengali</string>
     <string name="talkback_english">English</string>
     <string name="talkback_gujarati">Gujarati</string>
